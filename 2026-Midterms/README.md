@@ -10,15 +10,15 @@ Questions:
 
 
 
-
-
-
-
-
-
-
-
-
 The objective of this is to give candidates WAR scores. WAR is made up of Senate WAR, House WAR, and Governor WAR based on a candidate's modeled impact across all races.
 
 An important consideration is that H2H persuassion depends on the opposing candidate, as does turnout to an extent. It may be necessary to express WAR as a shared attribute of both candidates. 
+
+Given the baseline model, here are analysis questions:
+
+Which states had the highest residual? Is there a way of estimating how much random noise there would be in the residual?
+
+What are the coefficients?
+Can we create a map of the senate map using the baseline model?
+New map maker class.
+

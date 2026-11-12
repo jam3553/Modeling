@@ -18,6 +18,8 @@ from pathlib import Path
 
 import pandas as pd
 
+from county_utils import county_key, strip_county_suffix
+
 NAME_TO_ABBR = {
     "Alabama": "AL", "Alaska": "AK", "Arkansas": "AR", "Colorado": "CO", "Delaware": "DE",
     "Georgia": "GA", "Idaho": "ID", "Illinois": "IL", "Iowa": "IA", "Kansas": "KS",
@@ -37,9 +39,14 @@ if __name__ == "__main__":
     raw = raw.dropna(subset=["state"])
     raw = raw[raw["state"] != "AK"]  # see module docstring
 
-    raw["county_key"] = (
-        raw["county_name"].str.replace(r"\s+(County|Parish)$", "", regex=True).str.lower().str.strip()
-    )
+    # This source (unlike NBC's 2026 data and Census) appends "city" to
+    # EVERY Virginia independent city uniformly, not just the ones whose
+    # bare name would collide with a same-named county (Fairfax, Franklin,
+    # Richmond, Roanoke). county_utils.strip_county_suffix normalizes this
+    # to the Census/NBC convention (strip unless it collides) -- see that
+    # module's docstring.
+    county_name = strip_county_suffix(raw["county_name"], raw["state"])
+    raw["county_key"] = county_key(county_name)
 
     out = pd.DataFrame(
         {

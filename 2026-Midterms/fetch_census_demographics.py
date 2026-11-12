@@ -38,6 +38,8 @@ from pathlib import Path
 import pandas as pd
 import requests
 
+from county_utils import county_key, strip_county_suffix
+
 KEY = Path(__file__).parent.joinpath(".census_api_key").read_text().strip()
 ACS_YEAR = 2023
 
@@ -103,45 +105,19 @@ def fetch_county_level(state_abbr: str, fips: str) -> pd.DataFrame:
     # Louisiana", or "Anchorage Municipality, Alaska" -- county-equivalent
     # naming is NOT uniform across states (Louisiana parishes, Alaska
     # boroughs/census areas/municipalities). rsplit on the LAST comma
-    # strips the trailing ", <state>" regardless of what precedes it
-    # (fixing a bug from the 5-state version of this script, which used a
-    # "County,"-only regex that silently failed to strip anything for LA
-    # and AK). The suffix-word regex below then strips the
-    # county-equivalent type word itself, so e.g. "Baker County" ->
-    # "Baker", for consistency with the bare county_name convention
-    # established in data/raw/*_senate_2026.csv.
+    # strips the trailing ", <state>" regardless of what precedes it.
+    # The shared suffix-stripping/collision logic lives in county_utils.py
+    # -- see that module's docstring for why (it was duplicated into a
+    # second ingestion script once, which is exactly what it's meant to
+    # prevent going forward).
     name_no_state = df["NAME"].str.rsplit(", ", n=1).str[0]
-    # "city" (lowercase, by Census convention) marks Virginia's
-    # independent cities -- e.g. "Suffolk city", "Virginia Beach city" --
-    # which are legally separate from any county, not a naming variant of
-    # one. Missed in an earlier version of this script: those rows kept
-    # their "city" suffix, so they silently failed to match the election
-    # data's bare "Suffolk" / "Virginia Beach" when merging (caught by
-    # load_real_counties_with_census()'s loud "no Census match" check).
-    was_city = name_no_state.str.endswith(" city")
-    county_name = name_no_state.str.replace(
-        r"\s+(County|Parish|Borough|Census Area|Municipality|City and Borough|city)$", "", regex=True
-    )
-
-    # A handful of VA independent cities share a bare name with a
-    # DIFFERENT county (Fairfax city vs. Fairfax County, plus Franklin,
-    # Richmond, Roanoke) -- stripping "city" from all of them collides
-    # two genuinely different places onto the same county_key. The
-    # election source disambiguates exactly this case by keeping " city"
-    # on the city (bare "Fairfax" = the county, "Fairfax city" = the
-    # city); restore that suffix wherever stripping it created a
-    # same-state collision, rather than hardcoding the 4 known names
-    # (Census or future states could add more).
-    # (this function is called once per state, so a plain duplicate check
-    # within county_name is already scoped correctly -- no need to also
-    # compare state_abbr)
-    collided = county_name.duplicated(keep=False)
-    county_name = county_name.mask(collided & was_city, county_name + " city")
+    state_col = pd.Series(state_abbr, index=name_no_state.index)
+    county_name = strip_county_suffix(name_no_state, state_col)
 
     out = _derive_demographics(df)
     out.insert(0, "state", state_abbr)
     out.insert(1, "county_name", county_name)
-    out.insert(2, "county_key", county_name.str.lower().str.strip())
+    out.insert(2, "county_key", county_key(county_name))
     return out
 
 

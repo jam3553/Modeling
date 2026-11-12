@@ -388,8 +388,16 @@ def simulate_demographics_for_real_counties(real_counties_with_census: pd.DataFr
         row = _simulate_outcome(state_swing_deviations[state], RELIGIOSITY[state], demographics, n_2024, n_2026, reference_votes)
         row["state"] = state
         row["county_id"] = f"{state}-{county['county_name']}"
-        row["is_coalition_independent"] = 0
-        row["excluded_multiparty_split"] = 0
+        # Pass through the REAL flags when the input frame has them (e.g.
+        # from real_counties.load_real_county_skeleton(), which now knows
+        # about NE/SD/ID's coalition independents and MT's split race --
+        # see real_counties.py). Default to 0 only when the column is
+        # genuinely absent (e.g. load_all_class2_states_county_frame()'s
+        # simulated-vote-total frame, which has no election-outcome flags
+        # at all). Previously this unconditionally wrote 0, silently
+        # discarding those real flags whenever they were present -- a bug.
+        row["is_coalition_independent"] = int(county["is_coalition_independent"]) if "is_coalition_independent" in county else 0
+        row["excluded_multiparty_split"] = int(county["excluded_multiparty_split"]) if "excluded_multiparty_split" in county else 0
         rows.append(row)
 
     return pd.DataFrame(rows)

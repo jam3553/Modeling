@@ -22,54 +22,16 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+from candidate import Candidate, Party
+
 DATA_DIR = Path(__file__).parent / "data" / "raw"
 
-# Real-world party labels are messy and inconsistent across states (fusion
-# tickets, state-specific party names, write-ins coded as "N/A"). We only
-# need to know, for each row, whether it's the Democratic-coalition
-# candidate, the Republican candidate, or neither -- everything else
-# (Libertarian, Green, independents not aligned with either major party,
-# write-ins) is excluded from the two-party vote total.
-DEM_PARTY_LABELS = {
-    "democrat",
-    "democratic",
-    "democrat, working families",
-    "democratic-farmer-labor",
-    "d",
-    "dem",
-}
-REP_PARTY_LABELS = {
-    "republican",
-    "r",
-    "gop",
-}
-
-# THEORY note tying back to the model spec discussion: this is where the
-# "Osborne flag" / "Montana-split" logic from the model spec actually has
-# to live for real data -- it can't be done from the party LABEL alone,
-# because in these races the coalition candidate and a minor independent
-# share the exact same party string ("ind" or "other"). Confirmed against
-# real 2026 results (checked via web search + the raw party-label dump,
-# not assumed):
-#   NE: no Democrat on the ballot (withdrew after primary). Dan Osborn
-#       (labeled "other" by the source, not even "ind") is the de facto
-#       opposition candidate -- the project's original prototype case.
-#   SD: no Democrat on the ballot. Brian Bengs (SD's 2022 Democratic
-#       Senate nominee) is running as "ind" -- same pattern as NE.
-#   ID: no Democrat on the ballot (withdrew in July). TWO independents
-#       ran: Todd Achilles (33.5%, well-funded, clearly the main
-#       challenger) is the coalition candidate; Natalie Fleming (6.9%, no
-#       FEC filings, a repeat minor candidate) is NOT -- same "ind" party
-#       label, different coalition status, hence the candidate-name-level
-#       override below rather than a party-string-level one.
-# Each entry's votes get added to the Democratic-coalition numerator as if
-# they were "D" -- see is_coalition_independent in load_real_county_skeleton.
-COALITION_INDEPENDENTS = {
-    ("NE", "dan osborn"),
-    ("SD", "brian bengs"),
-    ("ID", "todd achilles"),
-}
-
+# THEORY note tying back to the model spec discussion: candidate.py's
+# Candidate.effective_party is where the "Osborne flag" logic from the
+# model spec actually has to live for real data -- it can't be done from
+# the party LABEL alone (see that module's docstring: Idaho's coalition
+# candidate and a minor independent share the identical "ind" label).
+#
 #   MT: HAS a real Democrat (Alani Bankhead, stayed on the ballot) AND a
 #       competing independent (Seth Bodnar, backed by some national
 #       Democratic figures) splitting the anti-Republican vote -- this is
@@ -80,18 +42,9 @@ COALITION_INDEPENDENTS = {
 #       candidates competing for the same voters) than in a clean two-way
 #       race, so per the original design decision this race is flagged
 #       for exclusion from the main regression by default, not combined.
+# This is a RACE-level fact (which election had a spoiler-split), not a
+# per-candidate one, so it stays here rather than moving into Candidate.
 EXCLUDED_MULTIPARTY_STATES = {"MT"}
-
-
-def _classify_party(state: str, candidate_name: str, raw_party: str) -> str:
-    if (state, str(candidate_name).strip().lower()) in COALITION_INDEPENDENTS:
-        return "D"
-    key = str(raw_party).strip().lower()
-    if key in DEM_PARTY_LABELS:
-        return "D"
-    if key in REP_PARTY_LABELS:
-        return "R"
-    return "OTHER"
 
 
 def load_state_file(path: Path) -> pd.DataFrame:
@@ -99,7 +52,8 @@ def load_state_file(path: Path) -> pd.DataFrame:
     df = pd.read_csv(path)
     df["state"] = state
     df["party_class"] = [
-        _classify_party(state, name, party) for name, party in zip(df["candidate_name"], df["party"])
+        Candidate(name=name, state=state, raw_party=Party.from_label(party)).effective_party.value
+        for name, party in zip(df["candidate_name"], df["party"])
     ]
     return df
 
@@ -134,7 +88,7 @@ def load_real_county_skeleton(data_dir: Path = DATA_DIR) -> pd.DataFrame:
                 unrecognized = sorted(raw.loc[raw["state"] == state, "party"].unique())
                 raise ValueError(
                     f"{state}: no votes classified as '{required}' -- a party label probably "
-                    f"isn't in DEM_PARTY_LABELS/REP_PARTY_LABELS. Raw labels seen: {unrecognized}"
+                    f"isn't recognized by candidate.Party.from_label(). Raw labels seen: {unrecognized}"
                 )
 
     major_party_only = raw.loc[raw["party_class"].isin(["D", "R"])]
@@ -160,16 +114,22 @@ def load_real_county_skeleton(data_dir: Path = DATA_DIR) -> pd.DataFrame:
 
     # is_coalition_independent: every county in NE/SD/ID is flagged, since
     # the "D" numerator there is actually an independent's votes (Osborn/
-    # Bengs/Achilles -- see COALITION_INDEPENDENTS above), not a real
-    # Democrat's. excluded_multiparty_split: every county in MT is
+    # Bengs/Achilles -- see candidate.Candidate's coalition overrides), not
+    # a real Democrat's. excluded_multiparty_split: every county in MT is
     # flagged, so fit_baseline_model's existing filter
     # (df["excluded_multiparty_split"] == 0) drops it by default, per the
     # original Montana-split design decision -- see EXCLUDED_MULTIPARTY_STATES.
-    coalition_states = {state for state, _ in COALITION_INDEPENDENTS}
-    pivoted["is_coalition_independent"] = pivoted["state"].isin(coalition_states).astype(int)
+    pivoted["is_coalition_independent"] = pivoted["state"].isin(Candidate.coalition_states()).astype(int)
     pivoted["excluded_multiparty_split"] = pivoted["state"].isin(EXCLUDED_MULTIPARTY_STATES).astype(int)
 
     return pivoted
+
+
+# States whose 2026 Senate results are reported by town/city, not county --
+# Census demographics are county-keyed, so these can't merge yet (see
+# pipeline_walkthrough.md and class_architecture.md Section 10 for the fix:
+# a Census county-subdivision crosswalk, not yet implemented).
+TOWN_BASED_STATES = {"ME", "MA", "NH", "RI"}
 
 
 def load_real_counties_with_census(data_dir: Path = DATA_DIR) -> pd.DataFrame:
@@ -179,15 +139,70 @@ def load_real_counties_with_census(data_dir: Path = DATA_DIR) -> pd.DataFrame:
     "county_key"] rather than county_name (see the capitalization note
     above). Raises if any county fails to match -- silently dropping
     unmatched counties would quietly shrink the sample without anyone
-    noticing.
+    noticing. Excludes TOWN_BASED_STATES before merging, since those
+    would always fail to match for a structural reason, not a data bug.
     """
     skeleton = load_real_county_skeleton(data_dir)
+    skeleton = skeleton[~skeleton["state"].isin(TOWN_BASED_STATES)]
     census = pd.read_csv(data_dir / "census_demographics.csv")
 
     merged = skeleton.merge(census.drop(columns=["county_name"]), on=["state", "county_key"], how="left")
     unmatched = merged[merged["pct_college"].isna()]
     if len(unmatched):
         raise ValueError(f"{len(unmatched)} counties had no Census match:\n{unmatched[['state', 'county_name']]}")
+
+    return merged
+
+
+def load_real_swing_table(data_dir: Path = DATA_DIR) -> pd.DataFrame:
+    """
+    The REAL model table: load_real_counties_with_census() merged with
+    build_pres_2024_county.py's output, with dem_swing and swing_weight
+    actually computed from observed 2024/2026 results -- not simulated.
+
+    This is the first point in the project where the outcome itself is
+    real rather than drawn from TRUE_COEFS (see pipeline_walkthrough.md
+    Section 5, which noted this had never happened yet). Only covers the
+    states where real 2026 results are on file AND county-level 2024 data
+    exists -- currently the states with a *_senate_2026.csv minus
+    TOWN_BASED_STATES (Alaska was never fetched for 2026 in the first
+    place, so it's absent here without needing a separate exclusion).
+    """
+    from baseline_model import compute_swing_weight
+
+    real = load_real_counties_with_census(data_dir)
+    pres2024 = pd.read_csv(data_dir / "pres_2024_county.csv")
+
+    merged = real.merge(
+        pres2024[["state", "county_key", "total_two_party_votes_2024", "dem_share_2024"]],
+        on=["state", "county_key"],
+        how="left",
+    )
+    unmatched = merged[merged["dem_share_2024"].isna()]
+    if len(unmatched):
+        raise ValueError(f"{len(unmatched)} counties had no 2024 presidential match:\n{unmatched[['state', 'county_name']]}")
+    merged["total_two_party_votes_2024"] = merged["total_two_party_votes_2024"].astype(int)
+
+    merged["dem_share_2026"] = merged["dem_votes"] / merged["total_two_party_votes"]
+    merged["dem_swing"] = merged["dem_share_2026"] - merged["dem_share_2024"]
+    merged["swing_weight"] = compute_swing_weight(merged["total_two_party_votes_2024"], merged["total_two_party_votes"])
+
+    religiosity = pd.read_csv(data_dir / "state_religiosity.csv").rename(columns={"pct_highly_religious": "religiosity"})
+    merged = merged.merge(religiosity, on="state", how="left")
+
+    # A handful of tiny-population counties (e.g. Kenedy County, TX, pop.
+    # 52) have no reliable Census estimate for one or more demographic
+    # variables. Dropping them here (rather than leaving it to statsmodels'
+    # default missing='drop' during fitting) matters specifically because
+    # cluster-robust SEs need `groups` to be the same length as the
+    # fitted design matrix -- a silent patsy-level drop desyncs the two
+    # and fails with an opaque numpy error, not a clear one.
+    demographic_cols = ["pct_college", "pct_black", "pct_hispanic", "pct_asian", "median_age", "median_income_k"]
+    before = len(merged)
+    merged = merged.dropna(subset=demographic_cols)
+    dropped = before - len(merged)
+    if dropped:
+        print(f"Dropped {dropped} county row(s) with missing Census estimates (expected: tiny-population counties like Kenedy, TX, pop. 52)")
 
     return merged
 
