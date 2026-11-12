@@ -1,0 +1,436 @@
+county_name,candidate_name,party,votes
+Aitkin,Michele Tafoya,Republican,5689
+Aitkin,Peggy Flanagan,Democratic-Farmer-Labor,2964
+Aitkin,Marisa Simonetti,Independent,180
+Aitkin,Rebecca Whiting,Libertarian,112
+Aitkin,WRITE-IN,Write-in,8
+Anoka,Peggy Flanagan,Democratic-Farmer-Labor,90026
+Anoka,Michele Tafoya,Republican,86553
+Anoka,Marisa Simonetti,Independent,2860
+Anoka,Rebecca Whiting,Libertarian,2283
+Anoka,WRITE-IN,Write-in,226
+Becker,Michele Tafoya,Republican,10671
+Becker,Peggy Flanagan,Democratic-Farmer-Labor,5548
+Becker,Marisa Simonetti,Independent,302
+Becker,Rebecca Whiting,Libertarian,226
+Becker,WRITE-IN,Write-in,14
+Beltrami,Michele Tafoya,Republican,9881
+Beltrami,Peggy Flanagan,Democratic-Farmer-Labor,9670
+Beltrami,Rebecca Whiting,Libertarian,315
+Beltrami,Marisa Simonetti,Independent,286
+Beltrami,WRITE-IN,Write-in,21
+Benton,Michele Tafoya,Republican,11954
+Benton,Peggy Flanagan,Democratic-Farmer-Labor,6105
+Benton,Marisa Simonetti,Independent,300
+Benton,Rebecca Whiting,Libertarian,285
+Benton,WRITE-IN,Write-in,14
+Big Stone,Michele Tafoya,Republican,1520
+Big Stone,Peggy Flanagan,Democratic-Farmer-Labor,816
+Big Stone,Marisa Simonetti,Independent,45
+Big Stone,Rebecca Whiting,Libertarian,23
+Big Stone,WRITE-IN,Write-in,2
+Blue Earth,Peggy Flanagan,Democratic-Farmer-Labor,15455
+Blue Earth,Michele Tafoya,Republican,13372
+Blue Earth,Marisa Simonetti,Independent,541
+Blue Earth,Rebecca Whiting,Libertarian,376
+Blue Earth,WRITE-IN,Write-in,29
+Brown,Michele Tafoya,Republican,7568
+Brown,Peggy Flanagan,Democratic-Farmer-Labor,3808
+Brown,Marisa Simonetti,Independent,225
+Brown,Rebecca Whiting,Libertarian,141
+Brown,WRITE-IN,Write-in,13
+Carlton,Peggy Flanagan,Democratic-Farmer-Labor,8764
+Carlton,Michele Tafoya,Republican,8058
+Carlton,Marisa Simonetti,Independent,392
+Carlton,Rebecca Whiting,Libertarian,243
+Carlton,WRITE-IN,Write-in,13
+Carver,Michele Tafoya,Republican,32259
+Carver,Peggy Flanagan,Democratic-Farmer-Labor,27941
+Carver,Marisa Simonetti,Independent,751
+Carver,Rebecca Whiting,Libertarian,597
+Carver,WRITE-IN,Write-in,87
+Cass,Michele Tafoya,Republican,10857
+Cass,Peggy Flanagan,Democratic-Farmer-Labor,5343
+Cass,Marisa Simonetti,Independent,233
+Cass,Rebecca Whiting,Libertarian,152
+Cass,WRITE-IN,Write-in,18
+Chippewa,Michele Tafoya,Republican,3233
+Chippewa,Peggy Flanagan,Democratic-Farmer-Labor,1690
+Chippewa,Marisa Simonetti,Independent,90
+Chippewa,Rebecca Whiting,Libertarian,56
+Chippewa,WRITE-IN,Write-in,4
+Chisago,Michele Tafoya,Republican,18255
+Chisago,Peggy Flanagan,Democratic-Farmer-Labor,10100
+Chisago,Marisa Simonetti,Independent,500
+Chisago,Rebecca Whiting,Libertarian,422
+Chisago,WRITE-IN,Write-in,22
+Clay,Peggy Flanagan,Democratic-Farmer-Labor,14469
+Clay,Michele Tafoya,Republican,11467
+Clay,Marisa Simonetti,Independent,454
+Clay,Rebecca Whiting,Libertarian,352
+Clay,WRITE-IN,Write-in,27
+Clearwater,Michele Tafoya,Republican,2822
+Clearwater,Peggy Flanagan,Democratic-Farmer-Labor,1035
+Clearwater,Marisa Simonetti,Independent,69
+Clearwater,Rebecca Whiting,Libertarian,47
+Clearwater,WRITE-IN,Write-in,2
+Cook,Peggy Flanagan,Democratic-Farmer-Labor,2330
+Cook,Michele Tafoya,Republican,969
+Cook,Rebecca Whiting,Libertarian,40
+Cook,Marisa Simonetti,Independent,37
+Cook,WRITE-IN,Write-in,1
+Cottonwood,Michele Tafoya,Republican,3229
+Cottonwood,Peggy Flanagan,Democratic-Farmer-Labor,1423
+Cottonwood,Marisa Simonetti,Independent,101
+Cottonwood,Rebecca Whiting,Libertarian,56
+Cottonwood,WRITE-IN,Write-in,4
+Crow Wing,Michele Tafoya,Republican,22464
+Crow Wing,Peggy Flanagan,Democratic-Farmer-Labor,12070
+Crow Wing,Marisa Simonetti,Independent,575
+Crow Wing,Rebecca Whiting,Libertarian,431
+Crow Wing,WRITE-IN,Write-in,29
+Dakota,Peggy Flanagan,Democratic-Farmer-Labor,132809
+Dakota,Michele Tafoya,Republican,92314
+Dakota,Marisa Simonetti,Independent,3220
+Dakota,Rebecca Whiting,Libertarian,2414
+Dakota,WRITE-IN,Write-in,327
+Dodge,Michele Tafoya,Republican,6434
+Dodge,Peggy Flanagan,Democratic-Farmer-Labor,3557
+Dodge,Marisa Simonetti,Independent,213
+Dodge,Rebecca Whiting,Libertarian,134
+Dodge,WRITE-IN,Write-in,6
+Douglas,Michele Tafoya,Republican,14063
+Douglas,Peggy Flanagan,Democratic-Farmer-Labor,6720
+Douglas,Marisa Simonetti,Independent,327
+Douglas,Rebecca Whiting,Libertarian,275
+Douglas,WRITE-IN,Write-in,12
+Faribault,Michele Tafoya,Republican,4133
+Faribault,Peggy Flanagan,Democratic-Farmer-Labor,2017
+Faribault,Marisa Simonetti,Independent,171
+Faribault,Rebecca Whiting,Libertarian,96
+Faribault,WRITE-IN,Write-in,2
+Fillmore,Michele Tafoya,Republican,5931
+Fillmore,Peggy Flanagan,Democratic-Farmer-Labor,3893
+Fillmore,Marisa Simonetti,Independent,194
+Fillmore,Rebecca Whiting,Libertarian,154
+Fillmore,WRITE-IN,Write-in,11
+Freeborn,Michele Tafoya,Republican,7392
+Freeborn,Peggy Flanagan,Democratic-Farmer-Labor,5622
+Freeborn,Marisa Simonetti,Independent,235
+Freeborn,Rebecca Whiting,Libertarian,133
+Freeborn,WRITE-IN,Write-in,13
+Goodhue,Michele Tafoya,Republican,13570
+Goodhue,Peggy Flanagan,Democratic-Farmer-Labor,10073
+Goodhue,Marisa Simonetti,Independent,428
+Goodhue,Rebecca Whiting,Libertarian,352
+Goodhue,WRITE-IN,Write-in,23
+Grant,Michele Tafoya,Republican,1953
+Grant,Peggy Flanagan,Democratic-Farmer-Labor,1002
+Grant,Marisa Simonetti,Independent,54
+Grant,Rebecca Whiting,Libertarian,46
+Grant,WRITE-IN,Write-in,1
+Hennepin,Peggy Flanagan,Democratic-Farmer-Labor,477416
+Hennepin,Michele Tafoya,Republican,172527
+Hennepin,Marisa Simonetti,Independent,7494
+Hennepin,Rebecca Whiting,Libertarian,5930
+Hennepin,WRITE-IN,Write-in,870
+Houston,Michele Tafoya,Republican,4981
+Houston,Peggy Flanagan,Democratic-Farmer-Labor,4012
+Houston,Marisa Simonetti,Independent,166
+Houston,Rebecca Whiting,Libertarian,121
+Houston,WRITE-IN,Write-in,5
+Hubbard,Michele Tafoya,Republican,7329
+Hubbard,Peggy Flanagan,Democratic-Farmer-Labor,4045
+Hubbard,Rebecca Whiting,Libertarian,225
+Hubbard,Marisa Simonetti,Independent,181
+Hubbard,WRITE-IN,Write-in,9
+Isanti,Michele Tafoya,Republican,13751
+Isanti,Peggy Flanagan,Democratic-Farmer-Labor,6327
+Isanti,Rebecca Whiting,Libertarian,366
+Isanti,Marisa Simonetti,Independent,360
+Isanti,WRITE-IN,Write-in,22
+Itasca,Michele Tafoya,Republican,12232
+Itasca,Peggy Flanagan,Democratic-Farmer-Labor,8940
+Itasca,Marisa Simonetti,Independent,409
+Itasca,Rebecca Whiting,Libertarian,310
+Itasca,WRITE-IN,Write-in,28
+Jackson,Michele Tafoya,Republican,3327
+Jackson,Peggy Flanagan,Democratic-Farmer-Labor,1352
+Jackson,Marisa Simonetti,Independent,121
+Jackson,Rebecca Whiting,Libertarian,62
+Jackson,WRITE-IN,Write-in,2
+Kanabec,Michele Tafoya,Republican,5049
+Kanabec,Peggy Flanagan,Democratic-Farmer-Labor,2295
+Kanabec,Marisa Simonetti,Independent,134
+Kanabec,Rebecca Whiting,Libertarian,106
+Kanabec,WRITE-IN,Write-in,8
+Kandiyohi,Michele Tafoya,Republican,12130
+Kandiyohi,Peggy Flanagan,Democratic-Farmer-Labor,6879
+Kandiyohi,Marisa Simonetti,Independent,278
+Kandiyohi,Rebecca Whiting,Libertarian,208
+Kandiyohi,WRITE-IN,Write-in,26
+Kittson,Michele Tafoya,Republican,1177
+Kittson,Peggy Flanagan,Democratic-Farmer-Labor,809
+Kittson,Marisa Simonetti,Independent,29
+Kittson,Rebecca Whiting,Libertarian,29
+Kittson,WRITE-IN,Write-in,4
+Koochiching,Michele Tafoya,Republican,3253
+Koochiching,Peggy Flanagan,Democratic-Farmer-Labor,2030
+Koochiching,Marisa Simonetti,Independent,101
+Koochiching,Rebecca Whiting,Libertarian,58
+Koochiching,WRITE-IN,Write-in,4
+Lac Qui Parle,Michele Tafoya,Republican,2136
+Lac Qui Parle,Peggy Flanagan,Democratic-Farmer-Labor,1139
+Lac Qui Parle,Marisa Simonetti,Independent,80
+Lac Qui Parle,Rebecca Whiting,Libertarian,30
+Lac Qui Parle,WRITE-IN,Write-in,7
+Lake,Peggy Flanagan,Democratic-Farmer-Labor,3235
+Lake,Michele Tafoya,Republican,2565
+Lake,Marisa Simonetti,Independent,91
+Lake,Rebecca Whiting,Libertarian,79
+Lake,WRITE-IN,Write-in,5
+Lake Of The Woods,Michele Tafoya,Republican,1317
+Lake Of The Woods,Peggy Flanagan,Democratic-Farmer-Labor,487
+Lake Of The Woods,Marisa Simonetti,Independent,28
+Lake Of The Woods,Rebecca Whiting,Libertarian,28
+Lake Of The Woods,WRITE-IN,Write-in,2
+Le Sueur,Michele Tafoya,Republican,9285
+Le Sueur,Peggy Flanagan,Democratic-Farmer-Labor,4572
+Le Sueur,Marisa Simonetti,Independent,289
+Le Sueur,Rebecca Whiting,Libertarian,191
+Le Sueur,WRITE-IN,Write-in,27
+Lincoln,Michele Tafoya,Republican,1638
+Lincoln,Peggy Flanagan,Democratic-Farmer-Labor,795
+Lincoln,Marisa Simonetti,Independent,56
+Lincoln,Rebecca Whiting,Libertarian,41
+Lincoln,WRITE-IN,Write-in,5
+Lyon,Michele Tafoya,Republican,6438
+Lyon,Peggy Flanagan,Democratic-Farmer-Labor,3667
+Lyon,Marisa Simonetti,Independent,195
+Lyon,Rebecca Whiting,Libertarian,114
+Lyon,WRITE-IN,Write-in,13
+Mahnomen,Michele Tafoya,Republican,1009
+Mahnomen,Peggy Flanagan,Democratic-Farmer-Labor,895
+Mahnomen,Marisa Simonetti,Independent,42
+Mahnomen,Rebecca Whiting,Libertarian,16
+Mahnomen,WRITE-IN,Write-in,3
+Marshall,Michele Tafoya,Republican,3130
+Marshall,Peggy Flanagan,Democratic-Farmer-Labor,1080
+Marshall,Marisa Simonetti,Independent,58
+Marshall,Rebecca Whiting,Libertarian,49
+Marshall,WRITE-IN,Write-in,2
+Martin,Michele Tafoya,Republican,5841
+Martin,Peggy Flanagan,Democratic-Farmer-Labor,2476
+Martin,Marisa Simonetti,Independent,187
+Martin,Rebecca Whiting,Libertarian,141
+Martin,WRITE-IN,Write-in,9
+Mcleod,Michele Tafoya,Republican,11332
+Mcleod,Peggy Flanagan,Democratic-Farmer-Labor,5357
+Mcleod,Marisa Simonetti,Independent,335
+Mcleod,Rebecca Whiting,Libertarian,209
+Mcleod,WRITE-IN,Write-in,38
+Meeker,Michele Tafoya,Republican,7855
+Meeker,Peggy Flanagan,Democratic-Farmer-Labor,3112
+Meeker,Marisa Simonetti,Independent,218
+Meeker,Rebecca Whiting,Libertarian,159
+Meeker,WRITE-IN,Write-in,17
+Mille Lacs,Michele Tafoya,Republican,8044
+Mille Lacs,Peggy Flanagan,Democratic-Farmer-Labor,3576
+Mille Lacs,Marisa Simonetti,Independent,229
+Mille Lacs,Rebecca Whiting,Libertarian,182
+Mille Lacs,WRITE-IN,Write-in,17
+Morrison,Michele Tafoya,Republican,12366
+Morrison,Peggy Flanagan,Democratic-Farmer-Labor,3451
+Morrison,Marisa Simonetti,Independent,279
+Morrison,Rebecca Whiting,Libertarian,214
+Morrison,WRITE-IN,Write-in,20
+Mower,Michele Tafoya,Republican,7605
+Mower,Peggy Flanagan,Democratic-Farmer-Labor,7522
+Mower,Marisa Simonetti,Independent,337
+Mower,Rebecca Whiting,Libertarian,256
+Mower,WRITE-IN,Write-in,12
+Murray,Michele Tafoya,Republican,2751
+Murray,Peggy Flanagan,Democratic-Farmer-Labor,1111
+Murray,Marisa Simonetti,Independent,61
+Murray,Rebecca Whiting,Libertarian,55
+Murray,WRITE-IN,Write-in,4
+Nicollet,Peggy Flanagan,Democratic-Farmer-Labor,8243
+Nicollet,Michele Tafoya,Republican,7828
+Nicollet,Marisa Simonetti,Independent,317
+Nicollet,Rebecca Whiting,Libertarian,207
+Nicollet,WRITE-IN,Write-in,11
+Nobles,Michele Tafoya,Republican,3908
+Nobles,Peggy Flanagan,Democratic-Farmer-Labor,2515
+Nobles,Marisa Simonetti,Independent,110
+Nobles,Rebecca Whiting,Libertarian,85
+Nobles,WRITE-IN,Write-in,5
+Norman,Michele Tafoya,Republican,1488
+Norman,Peggy Flanagan,Democratic-Farmer-Labor,1035
+Norman,Marisa Simonetti,Independent,67
+Norman,Rebecca Whiting,Libertarian,47
+Norman,WRITE-IN,Write-in,3
+Olmsted,Peggy Flanagan,Democratic-Farmer-Labor,45906
+Olmsted,Michele Tafoya,Republican,31012
+Olmsted,Marisa Simonetti,Independent,1041
+Olmsted,Rebecca Whiting,Libertarian,887
+Olmsted,WRITE-IN,Write-in,79
+Otter Tail,Michele Tafoya,Republican,20086
+Otter Tail,Peggy Flanagan,Democratic-Farmer-Labor,10075
+Otter Tail,Marisa Simonetti,Independent,469
+Otter Tail,Rebecca Whiting,Libertarian,402
+Otter Tail,WRITE-IN,Write-in,14
+Pennington,Michele Tafoya,Republican,3336
+Pennington,Peggy Flanagan,Democratic-Farmer-Labor,1970
+Pennington,Marisa Simonetti,Independent,82
+Pennington,Rebecca Whiting,Libertarian,70
+Pennington,WRITE-IN,Write-in,3
+Pine,Michele Tafoya,Republican,8889
+Pine,Peggy Flanagan,Democratic-Farmer-Labor,4659
+Pine,Marisa Simonetti,Independent,282
+Pine,Rebecca Whiting,Libertarian,194
+Pine,WRITE-IN,Write-in,16
+Pipestone,Michele Tafoya,Republican,2859
+Pipestone,Peggy Flanagan,Democratic-Farmer-Labor,1060
+Pipestone,Marisa Simonetti,Independent,98
+Pipestone,Rebecca Whiting,Libertarian,45
+Pipestone,WRITE-IN,Write-in,6
+Polk,Michele Tafoya,Republican,7403
+Polk,Peggy Flanagan,Democratic-Farmer-Labor,4156
+Polk,Rebecca Whiting,Libertarian,193
+Polk,Marisa Simonetti,Independent,176
+Polk,WRITE-IN,Write-in,6
+Pope,Michele Tafoya,Republican,3881
+Pope,Peggy Flanagan,Democratic-Farmer-Labor,1994
+Pope,Marisa Simonetti,Independent,101
+Pope,Rebecca Whiting,Libertarian,88
+Pope,WRITE-IN,Write-in,7
+Ramsey,Peggy Flanagan,Democratic-Farmer-Labor,185997
+Ramsey,Michele Tafoya,Republican,57335
+Ramsey,Marisa Simonetti,Independent,3248
+Ramsey,Rebecca Whiting,Libertarian,2791
+Ramsey,WRITE-IN,Write-in,399
+Red Lake,Michele Tafoya,Republican,1206
+Red Lake,Peggy Flanagan,Democratic-Farmer-Labor,607
+Red Lake,Marisa Simonetti,Independent,39
+Red Lake,Rebecca Whiting,Libertarian,37
+Red Lake,WRITE-IN,Write-in,3
+Redwood,Michele Tafoya,Republican,4629
+Redwood,Peggy Flanagan,Democratic-Farmer-Labor,1868
+Redwood,Marisa Simonetti,Independent,121
+Redwood,Rebecca Whiting,Libertarian,85
+Redwood,WRITE-IN,Write-in,13
+Renville,Michele Tafoya,Republican,4383
+Renville,Peggy Flanagan,Democratic-Farmer-Labor,1841
+Renville,Marisa Simonetti,Independent,124
+Renville,Rebecca Whiting,Libertarian,74
+Renville,WRITE-IN,Write-in,6
+Rice,Peggy Flanagan,Democratic-Farmer-Labor,15686
+Rice,Michele Tafoya,Republican,14643
+Rice,Marisa Simonetti,Independent,475
+Rice,Rebecca Whiting,Libertarian,373
+Rice,WRITE-IN,Write-in,28
+Rock,Michele Tafoya,Republican,2910
+Rock,Peggy Flanagan,Democratic-Farmer-Labor,1399
+Rock,Marisa Simonetti,Independent,76
+Rock,Rebecca Whiting,Libertarian,58
+Rock,WRITE-IN,Write-in,4
+Roseau,Michele Tafoya,Republican,4762
+Roseau,Peggy Flanagan,Democratic-Farmer-Labor,1672
+Roseau,Marisa Simonetti,Independent,95
+Roseau,Rebecca Whiting,Libertarian,77
+Roseau,WRITE-IN,Write-in,9
+Scott,Michele Tafoya,Republican,40991
+Scott,Peggy Flanagan,Democratic-Farmer-Labor,36693
+Scott,Marisa Simonetti,Independent,1152
+Scott,Rebecca Whiting,Libertarian,904
+Scott,WRITE-IN,Write-in,85
+Sherburne,Michele Tafoya,Republican,30178
+Sherburne,Peggy Flanagan,Democratic-Farmer-Labor,15649
+Sherburne,Marisa Simonetti,Independent,717
+Sherburne,Rebecca Whiting,Libertarian,653
+Sherburne,WRITE-IN,Write-in,32
+Sibley,Michele Tafoya,Republican,4995
+Sibley,Peggy Flanagan,Democratic-Farmer-Labor,1970
+Sibley,Marisa Simonetti,Independent,149
+Sibley,Rebecca Whiting,Libertarian,102
+Sibley,WRITE-IN,Write-in,12
+St. Louis,Peggy Flanagan,Democratic-Farmer-Labor,59589
+St. Louis,Michele Tafoya,Republican,37254
+St. Louis,Marisa Simonetti,Independent,1865
+St. Louis,Rebecca Whiting,Libertarian,1304
+St. Louis,WRITE-IN,Write-in,89
+Stearns,Michele Tafoya,Republican,43723
+Stearns,Peggy Flanagan,Democratic-Farmer-Labor,28945
+Stearns,Marisa Simonetti,Independent,1090
+Stearns,Rebecca Whiting,Libertarian,862
+Stearns,WRITE-IN,Write-in,56
+Steele,Michele Tafoya,Republican,10379
+Steele,Peggy Flanagan,Democratic-Farmer-Labor,7021
+Steele,Marisa Simonetti,Independent,358
+Steele,Rebecca Whiting,Libertarian,275
+Steele,WRITE-IN,Write-in,16
+Stevens,Michele Tafoya,Republican,2690
+Stevens,Peggy Flanagan,Democratic-Farmer-Labor,1562
+Stevens,Marisa Simonetti,Independent,77
+Stevens,Rebecca Whiting,Libertarian,63
+Stevens,WRITE-IN,Write-in,4
+Swift,Michele Tafoya,Republican,2924
+Swift,Peggy Flanagan,Democratic-Farmer-Labor,1418
+Swift,Marisa Simonetti,Independent,111
+Swift,Rebecca Whiting,Libertarian,49
+Swift,WRITE-IN,Write-in,10
+Todd,Michele Tafoya,Republican,8102
+Todd,Peggy Flanagan,Democratic-Farmer-Labor,2696
+Todd,Marisa Simonetti,Independent,210
+Todd,Rebecca Whiting,Libertarian,184
+Todd,WRITE-IN,Write-in,8
+Traverse,Michele Tafoya,Republican,1001
+Traverse,Peggy Flanagan,Democratic-Farmer-Labor,492
+Traverse,Marisa Simonetti,Independent,31
+Traverse,Rebecca Whiting,Libertarian,10
+Traverse,WRITE-IN,Write-in,1
+Wabasha,Michele Tafoya,Republican,6816
+Wabasha,Peggy Flanagan,Democratic-Farmer-Labor,4040
+Wabasha,Marisa Simonetti,Independent,200
+Wabasha,Rebecca Whiting,Libertarian,149
+Wabasha,WRITE-IN,Write-in,9
+Wadena,Michele Tafoya,Republican,4700
+Wadena,Peggy Flanagan,Democratic-Farmer-Labor,1554
+Wadena,Marisa Simonetti,Independent,134
+Wadena,Rebecca Whiting,Libertarian,74
+Wadena,WRITE-IN,Write-in,5
+Waseca,Michele Tafoya,Republican,5297
+Waseca,Peggy Flanagan,Democratic-Farmer-Labor,2805
+Waseca,Marisa Simonetti,Independent,177
+Waseca,Rebecca Whiting,Libertarian,113
+Waseca,WRITE-IN,Write-in,11
+Washington,Peggy Flanagan,Democratic-Farmer-Labor,81779
+Washington,Michele Tafoya,Republican,63846
+Washington,Marisa Simonetti,Independent,1992
+Washington,Rebecca Whiting,Libertarian,1673
+Washington,WRITE-IN,Write-in,211
+Watonwan,Michele Tafoya,Republican,2385
+Watonwan,Peggy Flanagan,Democratic-Farmer-Labor,1537
+Watonwan,Marisa Simonetti,Independent,82
+Watonwan,Rebecca Whiting,Libertarian,45
+Watonwan,WRITE-IN,Write-in,3
+Wilkin,Michele Tafoya,Republican,1694
+Wilkin,Peggy Flanagan,Democratic-Farmer-Labor,775
+Wilkin,Marisa Simonetti,Independent,53
+Wilkin,Rebecca Whiting,Libertarian,37
+Wilkin,WRITE-IN,Write-in,1
+Winona,Peggy Flanagan,Democratic-Farmer-Labor,11616
+Winona,Michele Tafoya,Republican,10639
+Winona,Marisa Simonetti,Independent,354
+Winona,Rebecca Whiting,Libertarian,292
+Winona,WRITE-IN,Write-in,17
+Wright,Michele Tafoya,Republican,46518
+Wright,Peggy Flanagan,Democratic-Farmer-Labor,26926
+Wright,Marisa Simonetti,Independent,1259
+Wright,Rebecca Whiting,Libertarian,980
+Wright,WRITE-IN,Write-in,72
+Yellow Medicine,Michele Tafoya,Republican,3098
+Yellow Medicine,Peggy Flanagan,Democratic-Farmer-Labor,1328
+Yellow Medicine,Marisa Simonetti,Independent,91
+Yellow Medicine,Rebecca Whiting,Libertarian,51
+Yellow Medicine,WRITE-IN,Write-in,4

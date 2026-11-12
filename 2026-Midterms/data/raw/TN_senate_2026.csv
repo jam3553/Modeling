@@ -1,0 +1,951 @@
+county_name,candidate_name,party,votes
+Anderson,Bill Hagerty,gop,13663
+Anderson,Marquita Bradshaw,dem,9521
+Anderson,Robert Jones,ind,154
+Anderson,Andrew Gerena,ind,96
+Anderson,Tharon Chandler,ind,85
+Anderson,Jeremy Hearn,ind,58
+Anderson,James Macon III,ind,41
+Anderson,Catherine Whitson,ind,28
+Anderson,David Sutman Jr.,ind,26
+Anderson,Yoshi Matthews,ind,16
+Bedford,Bill Hagerty,gop,8745
+Bedford,Marquita Bradshaw,dem,3726
+Bedford,Robert Jones,ind,64
+Bedford,Tharon Chandler,ind,48
+Bedford,Andrew Gerena,ind,40
+Bedford,Catherine Whitson,ind,31
+Bedford,Jeremy Hearn,ind,27
+Bedford,James Macon III,ind,22
+Bedford,David Sutman Jr.,ind,20
+Bedford,Yoshi Matthews,ind,16
+Benton,Bill Hagerty,gop,3509
+Benton,Marquita Bradshaw,dem,1065
+Benton,Robert Jones,ind,27
+Benton,Tharon Chandler,ind,23
+Benton,Jeremy Hearn,ind,18
+Benton,David Sutman Jr.,ind,12
+Benton,Catherine Whitson,ind,9
+Benton,Andrew Gerena,ind,5
+Benton,James Macon III,ind,4
+Benton,Yoshi Matthews,ind,3
+Bledsoe,Bill Hagerty,gop,2940
+Bledsoe,Marquita Bradshaw,dem,806
+Bledsoe,Tharon Chandler,ind,16
+Bledsoe,Robert Jones,ind,13
+Bledsoe,Jeremy Hearn,ind,10
+Bledsoe,James Macon III,ind,9
+Bledsoe,David Sutman Jr.,ind,8
+Bledsoe,Andrew Gerena,ind,6
+Bledsoe,Catherine Whitson,ind,6
+Bledsoe,Yoshi Matthews,ind,2
+Blount,Bill Hagerty,gop,29702
+Blount,Marquita Bradshaw,dem,14475
+Blount,Robert Jones,ind,218
+Blount,Tharon Chandler,ind,185
+Blount,Andrew Gerena,ind,151
+Blount,Jeremy Hearn,ind,147
+Blount,Catherine Whitson,ind,74
+Blount,James Macon III,ind,71
+Blount,Yoshi Matthews,ind,32
+Blount,David Sutman Jr.,ind,32
+Bradley,Bill Hagerty,gop,20127
+Bradley,Marquita Bradshaw,dem,7926
+Bradley,Robert Jones,ind,122
+Bradley,Tharon Chandler,ind,115
+Bradley,Catherine Whitson,ind,107
+Bradley,Andrew Gerena,ind,82
+Bradley,Jeremy Hearn,ind,66
+Bradley,David Sutman Jr.,ind,63
+Bradley,Yoshi Matthews,ind,42
+Bradley,James Macon III,ind,26
+Campbell,Bill Hagerty,gop,6351
+Campbell,Marquita Bradshaw,dem,1813
+Campbell,Robert Jones,ind,63
+Campbell,Jeremy Hearn,ind,38
+Campbell,Tharon Chandler,ind,33
+Campbell,James Macon III,ind,21
+Campbell,Andrew Gerena,ind,18
+Campbell,Catherine Whitson,ind,17
+Campbell,David Sutman Jr.,ind,11
+Campbell,Yoshi Matthews,ind,4
+Cannon,Bill Hagerty,gop,3098
+Cannon,Marquita Bradshaw,dem,993
+Cannon,Robert Jones,ind,29
+Cannon,Tharon Chandler,ind,20
+Cannon,Andrew Gerena,ind,18
+Cannon,Jeremy Hearn,ind,13
+Cannon,Catherine Whitson,ind,11
+Cannon,James Macon III,ind,8
+Cannon,David Sutman Jr.,ind,5
+Cannon,Yoshi Matthews,ind,3
+Carroll,Bill Hagerty,gop,5236
+Carroll,Marquita Bradshaw,dem,1662
+Carroll,Tharon Chandler,ind,37
+Carroll,Jeremy Hearn,ind,23
+Carroll,Andrew Gerena,ind,19
+Carroll,David Sutman Jr.,ind,19
+Carroll,Robert Jones,ind,18
+Carroll,Catherine Whitson,ind,16
+Carroll,Yoshi Matthews,ind,11
+Carroll,James Macon III,ind,8
+Carter,Bill Hagerty,gop,10933
+Carter,Marquita Bradshaw,dem,3611
+Carter,Robert Jones,ind,118
+Carter,Tharon Chandler,ind,78
+Carter,Andrew Gerena,ind,68
+Carter,Catherine Whitson,ind,67
+Carter,Jeremy Hearn,ind,47
+Carter,David Sutman Jr.,ind,26
+Carter,Yoshi Matthews,ind,25
+Carter,James Macon III,ind,15
+Cheatham,Bill Hagerty,gop,8724
+Cheatham,Marquita Bradshaw,dem,4929
+Cheatham,Robert Jones,ind,64
+Cheatham,Tharon Chandler,ind,62
+Cheatham,Jeremy Hearn,ind,54
+Cheatham,Andrew Gerena,ind,35
+Cheatham,Catherine Whitson,ind,27
+Cheatham,Yoshi Matthews,ind,19
+Cheatham,David Sutman Jr.,ind,18
+Cheatham,James Macon III,ind,17
+Chester,Bill Hagerty,gop,3433
+Chester,Marquita Bradshaw,dem,1014
+Chester,Robert Jones,ind,16
+Chester,Tharon Chandler,ind,15
+Chester,Jeremy Hearn,ind,15
+Chester,Catherine Whitson,ind,15
+Chester,Andrew Gerena,ind,14
+Chester,Yoshi Matthews,ind,8
+Chester,David Sutman Jr.,ind,8
+Chester,James Macon III,ind,3
+Claiborne,Bill Hagerty,gop,6916
+Claiborne,Marquita Bradshaw,dem,1646
+Claiborne,Robert Jones,ind,58
+Claiborne,Tharon Chandler,ind,34
+Claiborne,Catherine Whitson,ind,32
+Claiborne,David Sutman Jr.,ind,24
+Claiborne,Andrew Gerena,ind,20
+Claiborne,Jeremy Hearn,ind,19
+Claiborne,James Macon III,ind,15
+Claiborne,Yoshi Matthews,ind,13
+Clay,Bill Hagerty,gop,1544
+Clay,Marquita Bradshaw,dem,444
+Clay,Tharon Chandler,ind,12
+Clay,Andrew Gerena,ind,12
+Clay,Robert Jones,ind,8
+Clay,Catherine Whitson,ind,6
+Clay,Jeremy Hearn,ind,4
+Clay,James Macon III,ind,4
+Clay,Yoshi Matthews,ind,3
+Clay,David Sutman Jr.,ind,2
+Cocke,Bill Hagerty,gop,7111
+Cocke,Marquita Bradshaw,dem,1940
+Cocke,Catherine Whitson,ind,49
+Cocke,Robert Jones,ind,39
+Cocke,Tharon Chandler,ind,37
+Cocke,Andrew Gerena,ind,36
+Cocke,Jeremy Hearn,ind,24
+Cocke,David Sutman Jr.,ind,22
+Cocke,James Macon III,ind,12
+Cocke,Yoshi Matthews,ind,9
+Coffee,Bill Hagerty,gop,10544
+Coffee,Marquita Bradshaw,dem,4569
+Coffee,Robert Jones,ind,98
+Coffee,Tharon Chandler,ind,75
+Coffee,Catherine Whitson,ind,41
+Coffee,Jeremy Hearn,ind,40
+Coffee,Andrew Gerena,ind,38
+Coffee,Yoshi Matthews,ind,36
+Coffee,David Sutman Jr.,ind,24
+Coffee,James Macon III,ind,22
+Crockett,Bill Hagerty,gop,2484
+Crockett,Marquita Bradshaw,dem,991
+Crockett,Jeremy Hearn,ind,18
+Crockett,Tharon Chandler,ind,16
+Crockett,Robert Jones,ind,14
+Crockett,Catherine Whitson,ind,11
+Crockett,James Macon III,ind,7
+Crockett,Andrew Gerena,ind,5
+Crockett,David Sutman Jr.,ind,5
+Crockett,Yoshi Matthews,ind,1
+Cumberland,Bill Hagerty,gop,17907
+Cumberland,Marquita Bradshaw,dem,5314
+Cumberland,Tharon Chandler,ind,94
+Cumberland,Robert Jones,ind,69
+Cumberland,Andrew Gerena,ind,68
+Cumberland,Catherine Whitson,ind,66
+Cumberland,Jeremy Hearn,ind,42
+Cumberland,David Sutman Jr.,ind,35
+Cumberland,James Macon III,ind,24
+Cumberland,Yoshi Matthews,ind,20
+Davidson,Marquita Bradshaw,dem,158305
+Davidson,Bill Hagerty,gop,59248
+Davidson,Robert Jones,ind,866
+Davidson,Tharon Chandler,ind,671
+Davidson,Andrew Gerena,ind,497
+Davidson,Catherine Whitson,ind,448
+Davidson,Jeremy Hearn,ind,412
+Davidson,Yoshi Matthews,ind,324
+Davidson,David Sutman Jr.,ind,251
+Davidson,James Macon III,ind,205
+Decatur,Bill Hagerty,gop,2612
+Decatur,Marquita Bradshaw,dem,645
+Decatur,Tharon Chandler,ind,12
+Decatur,Andrew Gerena,ind,12
+Decatur,Robert Jones,ind,11
+Decatur,Jeremy Hearn,ind,8
+Decatur,David Sutman Jr.,ind,5
+Decatur,Catherine Whitson,ind,5
+Decatur,James Macon III,ind,3
+Decatur,Yoshi Matthews,ind,3
+DeKalb,Bill Hagerty,gop,3859
+DeKalb,Marquita Bradshaw,dem,1286
+DeKalb,Catherine Whitson,ind,19
+DeKalb,Tharon Chandler,ind,16
+DeKalb,Jeremy Hearn,ind,14
+DeKalb,Robert Jones,ind,14
+DeKalb,Andrew Gerena,ind,13
+DeKalb,James Macon III,ind,10
+DeKalb,Yoshi Matthews,ind,8
+DeKalb,David Sutman Jr.,ind,8
+Dickson,Bill Hagerty,gop,10410
+Dickson,Marquita Bradshaw,dem,4960
+Dickson,Robert Jones,ind,89
+Dickson,Tharon Chandler,ind,86
+Dickson,Andrew Gerena,ind,51
+Dickson,Jeremy Hearn,ind,51
+Dickson,Catherine Whitson,ind,31
+Dickson,David Sutman Jr.,ind,28
+Dickson,Yoshi Matthews,ind,22
+Dickson,James Macon III,ind,16
+Dyer,Bill Hagerty,gop,6397
+Dyer,Marquita Bradshaw,dem,2012
+Dyer,Robert Jones,ind,52
+Dyer,Tharon Chandler,ind,40
+Dyer,Jeremy Hearn,ind,23
+Dyer,Catherine Whitson,ind,18
+Dyer,Andrew Gerena,ind,17
+Dyer,James Macon III,ind,16
+Dyer,Yoshi Matthews,ind,14
+Dyer,David Sutman Jr.,ind,12
+Fayette,Bill Hagerty,gop,11122
+Fayette,Marquita Bradshaw,dem,5529
+Fayette,Robert Jones,ind,56
+Fayette,Tharon Chandler,ind,52
+Fayette,Andrew Gerena,ind,48
+Fayette,Jeremy Hearn,ind,31
+Fayette,Catherine Whitson,ind,31
+Fayette,James Macon III,ind,30
+Fayette,David Sutman Jr.,ind,27
+Fayette,Yoshi Matthews,ind,15
+Fentress,Bill Hagerty,gop,4646
+Fentress,Marquita Bradshaw,dem,916
+Fentress,Robert Jones,ind,24
+Fentress,Tharon Chandler,ind,19
+Fentress,Andrew Gerena,ind,18
+Fentress,David Sutman Jr.,ind,16
+Fentress,Catherine Whitson,ind,10
+Fentress,Yoshi Matthews,ind,9
+Fentress,James Macon III,ind,6
+Fentress,Jeremy Hearn,ind,5
+Franklin,Bill Hagerty,gop,8485
+Franklin,Marquita Bradshaw,dem,3550
+Franklin,Robert Jones,ind,92
+Franklin,Tharon Chandler,ind,56
+Franklin,Andrew Gerena,ind,36
+Franklin,Catherine Whitson,ind,32
+Franklin,Jeremy Hearn,ind,26
+Franklin,David Sutman Jr.,ind,18
+Franklin,James Macon III,ind,14
+Franklin,Yoshi Matthews,ind,8
+Gibson,Bill Hagerty,gop,8618
+Gibson,Marquita Bradshaw,dem,3754
+Gibson,Robert Jones,ind,54
+Gibson,Catherine Whitson,ind,47
+Gibson,Andrew Gerena,ind,43
+Gibson,Jeremy Hearn,ind,43
+Gibson,Tharon Chandler,ind,42
+Gibson,David Sutman Jr.,ind,23
+Gibson,Yoshi Matthews,ind,19
+Gibson,James Macon III,ind,14
+Giles,Bill Hagerty,gop,5987
+Giles,Marquita Bradshaw,dem,2226
+Giles,Robert Jones,ind,54
+Giles,Tharon Chandler,ind,36
+Giles,Catherine Whitson,ind,23
+Giles,Andrew Gerena,ind,22
+Giles,Jeremy Hearn,ind,19
+Giles,David Sutman Jr.,ind,15
+Giles,James Macon III,ind,11
+Giles,Yoshi Matthews,ind,8
+Grainger,Bill Hagerty,gop,5172
+Grainger,Marquita Bradshaw,dem,1228
+Grainger,Tharon Chandler,ind,33
+Grainger,Andrew Gerena,ind,20
+Grainger,Robert Jones,ind,18
+Grainger,Jeremy Hearn,ind,17
+Grainger,Catherine Whitson,ind,17
+Grainger,James Macon III,ind,11
+Grainger,David Sutman Jr.,ind,7
+Grainger,Yoshi Matthews,ind,2
+Greene,Bill Hagerty,gop,14597
+Greene,Marquita Bradshaw,dem,4275
+Greene,Robert Jones,ind,130
+Greene,Tharon Chandler,ind,90
+Greene,Catherine Whitson,ind,83
+Greene,Andrew Gerena,ind,58
+Greene,Jeremy Hearn,ind,53
+Greene,David Sutman Jr.,ind,35
+Greene,Yoshi Matthews,ind,25
+Greene,James Macon III,ind,20
+Grundy,Bill Hagerty,gop,2610
+Grundy,Marquita Bradshaw,dem,780
+Grundy,Robert Jones,ind,33
+Grundy,Tharon Chandler,ind,19
+Grundy,Catherine Whitson,ind,11
+Grundy,Andrew Gerena,ind,10
+Grundy,Jeremy Hearn,ind,9
+Grundy,David Sutman Jr.,ind,9
+Grundy,James Macon III,ind,7
+Grundy,Yoshi Matthews,ind,4
+Hamblen,Bill Hagerty,gop,10563
+Hamblen,Marquita Bradshaw,dem,4478
+Hamblen,Robert Jones,ind,62
+Hamblen,Tharon Chandler,ind,54
+Hamblen,Andrew Gerena,ind,54
+Hamblen,Jeremy Hearn,ind,40
+Hamblen,Catherine Whitson,ind,34
+Hamblen,Yoshi Matthews,ind,16
+Hamblen,James Macon III,ind,15
+Hamblen,David Sutman Jr.,ind,14
+Hamilton,Marquita Bradshaw,dem,62609
+Hamilton,Bill Hagerty,gop,59388
+Hamilton,Robert Jones,ind,422
+Hamilton,Tharon Chandler,ind,359
+Hamilton,Catherine Whitson,ind,348
+Hamilton,Andrew Gerena,ind,335
+Hamilton,Jeremy Hearn,ind,272
+Hamilton,Yoshi Matthews,ind,235
+Hamilton,David Sutman Jr.,ind,159
+Hamilton,James Macon III,ind,125
+Hancock,Bill Hagerty,gop,1226
+Hancock,Marquita Bradshaw,dem,260
+Hancock,Andrew Gerena,ind,10
+Hancock,Robert Jones,ind,10
+Hancock,Tharon Chandler,ind,9
+Hancock,Catherine Whitson,ind,3
+Hancock,Jeremy Hearn,ind,2
+Hancock,James Macon III,ind,2
+Hancock,Yoshi Matthews,ind,1
+Hancock,David Sutman Jr.,ind,0
+Hardeman,Bill Hagerty,gop,3566
+Hardeman,Marquita Bradshaw,dem,2965
+Hardeman,Robert Jones,ind,31
+Hardeman,Andrew Gerena,ind,23
+Hardeman,Tharon Chandler,ind,18
+Hardeman,Jeremy Hearn,ind,18
+Hardeman,James Macon III,ind,15
+Hardeman,David Sutman Jr.,ind,13
+Hardeman,Catherine Whitson,ind,11
+Hardeman,Yoshi Matthews,ind,5
+Hardin,Bill Hagerty,gop,5968
+Hardin,Marquita Bradshaw,dem,1299
+Hardin,Robert Jones,ind,51
+Hardin,Jeremy Hearn,ind,27
+Hardin,Tharon Chandler,ind,25
+Hardin,Andrew Gerena,ind,19
+Hardin,Catherine Whitson,ind,17
+Hardin,James Macon III,ind,7
+Hardin,David Sutman Jr.,ind,7
+Hardin,Yoshi Matthews,ind,6
+Hawkins,Bill Hagerty,gop,11428
+Hawkins,Marquita Bradshaw,dem,3069
+Hawkins,Robert Jones,ind,83
+Hawkins,Catherine Whitson,ind,63
+Hawkins,Tharon Chandler,ind,58
+Hawkins,Andrew Gerena,ind,55
+Hawkins,Jeremy Hearn,ind,35
+Hawkins,David Sutman Jr.,ind,31
+Hawkins,James Macon III,ind,18
+Hawkins,Yoshi Matthews,ind,18
+Haywood,Marquita Bradshaw,dem,2741
+Haywood,Bill Hagerty,gop,1924
+Haywood,Robert Jones,ind,27
+Haywood,Andrew Gerena,ind,22
+Haywood,Jeremy Hearn,ind,15
+Haywood,Tharon Chandler,ind,10
+Haywood,James Macon III,ind,8
+Haywood,David Sutman Jr.,ind,4
+Haywood,Yoshi Matthews,ind,3
+Haywood,Catherine Whitson,ind,1
+Henderson,Bill Hagerty,gop,5455
+Henderson,Marquita Bradshaw,dem,1416
+Henderson,Robert Jones,ind,29
+Henderson,Tharon Chandler,ind,24
+Henderson,Jeremy Hearn,ind,23
+Henderson,Catherine Whitson,ind,19
+Henderson,Yoshi Matthews,ind,15
+Henderson,Andrew Gerena,ind,12
+Henderson,James Macon III,ind,5
+Henderson,David Sutman Jr.,ind,5
+Henry,Bill Hagerty,gop,6689
+Henry,Marquita Bradshaw,dem,2428
+Henry,Robert Jones,ind,46
+Henry,Tharon Chandler,ind,43
+Henry,Catherine Whitson,ind,33
+Henry,Jeremy Hearn,ind,27
+Henry,David Sutman Jr.,ind,27
+Henry,Andrew Gerena,ind,26
+Henry,Yoshi Matthews,ind,17
+Henry,James Macon III,ind,7
+Hickman,Bill Hagerty,gop,4718
+Hickman,Marquita Bradshaw,dem,1599
+Hickman,Robert Jones,ind,35
+Hickman,Tharon Chandler,ind,33
+Hickman,Catherine Whitson,ind,32
+Hickman,Jeremy Hearn,ind,20
+Hickman,James Macon III,ind,17
+Hickman,Yoshi Matthews,ind,13
+Hickman,Andrew Gerena,ind,12
+Hickman,David Sutman Jr.,ind,6
+Houston,Bill Hagerty,gop,1667
+Houston,Marquita Bradshaw,dem,610
+Houston,Tharon Chandler,ind,16
+Houston,Catherine Whitson,ind,13
+Houston,Robert Jones,ind,11
+Houston,Jeremy Hearn,ind,7
+Houston,Andrew Gerena,ind,6
+Houston,David Sutman Jr.,ind,5
+Houston,Yoshi Matthews,ind,3
+Houston,James Macon III,ind,1
+Humphreys,Bill Hagerty,gop,3625
+Humphreys,Marquita Bradshaw,dem,1467
+Humphreys,Robert Jones,ind,43
+Humphreys,Tharon Chandler,ind,17
+Humphreys,Andrew Gerena,ind,17
+Humphreys,Jeremy Hearn,ind,12
+Humphreys,James Macon III,ind,12
+Humphreys,Catherine Whitson,ind,10
+Humphreys,Yoshi Matthews,ind,6
+Humphreys,David Sutman Jr.,ind,3
+Jackson,Bill Hagerty,gop,2457
+Jackson,Marquita Bradshaw,dem,792
+Jackson,Robert Jones,ind,17
+Jackson,Andrew Gerena,ind,13
+Jackson,Tharon Chandler,ind,12
+Jackson,Jeremy Hearn,ind,12
+Jackson,Catherine Whitson,ind,9
+Jackson,David Sutman Jr.,ind,8
+Jackson,Yoshi Matthews,ind,7
+Jackson,James Macon III,ind,4
+Jefferson,Bill Hagerty,gop,11475
+Jefferson,Marquita Bradshaw,dem,3657
+Jefferson,Robert Jones,ind,80
+Jefferson,Tharon Chandler,ind,60
+Jefferson,Andrew Gerena,ind,54
+Jefferson,Jeremy Hearn,ind,50
+Jefferson,Catherine Whitson,ind,43
+Jefferson,David Sutman Jr.,ind,33
+Jefferson,Yoshi Matthews,ind,24
+Jefferson,James Macon III,ind,21
+Johnson,Bill Hagerty,gop,3934
+Johnson,Marquita Bradshaw,dem,961
+Johnson,Tharon Chandler,ind,27
+Johnson,Robert Jones,ind,21
+Johnson,Andrew Gerena,ind,18
+Johnson,Jeremy Hearn,ind,15
+Johnson,Catherine Whitson,ind,13
+Johnson,Yoshi Matthews,ind,5
+Johnson,James Macon III,ind,2
+Johnson,David Sutman Jr.,ind,2
+Knox,Bill Hagerty,gop,78503
+Knox,Marquita Bradshaw,dem,75557
+Knox,Robert Jones,ind,488
+Knox,Tharon Chandler,ind,382
+Knox,Andrew Gerena,ind,360
+Knox,Catherine Whitson,ind,264
+Knox,Yoshi Matthews,ind,215
+Knox,Jeremy Hearn,ind,205
+Knox,David Sutman Jr.,ind,176
+Knox,James Macon III,ind,120
+Lake,Bill Hagerty,gop,757
+Lake,Marquita Bradshaw,dem,319
+Lake,Jeremy Hearn,ind,12
+Lake,Robert Jones,ind,7
+Lake,David Sutman Jr.,ind,7
+Lake,Catherine Whitson,ind,5
+Lake,Tharon Chandler,ind,3
+Lake,Andrew Gerena,ind,3
+Lake,Yoshi Matthews,ind,2
+Lake,James Macon III,ind,0
+Lauderdale,Bill Hagerty,gop,3216
+Lauderdale,Marquita Bradshaw,dem,1968
+Lauderdale,Robert Jones,ind,29
+Lauderdale,Andrew Gerena,ind,24
+Lauderdale,Jeremy Hearn,ind,15
+Lauderdale,Tharon Chandler,ind,12
+Lauderdale,Yoshi Matthews,ind,9
+Lauderdale,David Sutman Jr.,ind,9
+Lauderdale,James Macon III,ind,6
+Lauderdale,Catherine Whitson,ind,5
+Lawrence,Bill Hagerty,gop,9041
+Lawrence,Marquita Bradshaw,dem,2371
+Lawrence,Tharon Chandler,ind,177
+Lawrence,Robert Jones,ind,76
+Lawrence,Catherine Whitson,ind,34
+Lawrence,Jeremy Hearn,ind,31
+Lawrence,Andrew Gerena,ind,30
+Lawrence,Yoshi Matthews,ind,19
+Lawrence,David Sutman Jr.,ind,17
+Lawrence,James Macon III,ind,12
+Lewis,Bill Hagerty,gop,2814
+Lewis,Marquita Bradshaw,dem,866
+Lewis,Tharon Chandler,ind,25
+Lewis,Robert Jones,ind,20
+Lewis,Jeremy Hearn,ind,11
+Lewis,James Macon III,ind,7
+Lewis,Yoshi Matthews,ind,4
+Lewis,Catherine Whitson,ind,4
+Lewis,Andrew Gerena,ind,3
+Lewis,David Sutman Jr.,ind,3
+Lincoln,Bill Hagerty,gop,7511
+Lincoln,Marquita Bradshaw,dem,2273
+Lincoln,Tharon Chandler,ind,36
+Lincoln,Robert Jones,ind,32
+Lincoln,Catherine Whitson,ind,26
+Lincoln,Jeremy Hearn,ind,25
+Lincoln,Andrew Gerena,ind,21
+Lincoln,David Sutman Jr.,ind,13
+Lincoln,James Macon III,ind,11
+Lincoln,Yoshi Matthews,ind,11
+Loudon,Bill Hagerty,gop,17014
+Loudon,Marquita Bradshaw,dem,6459
+Loudon,Robert Jones,ind,79
+Loudon,Tharon Chandler,ind,75
+Loudon,Andrew Gerena,ind,57
+Loudon,Jeremy Hearn,ind,51
+Loudon,Catherine Whitson,ind,49
+Loudon,David Sutman Jr.,ind,25
+Loudon,Yoshi Matthews,ind,21
+Loudon,James Macon III,ind,13
+Macon,Bill Hagerty,gop,4262
+Macon,Marquita Bradshaw,dem,1023
+Macon,Robert Jones,ind,34
+Macon,Tharon Chandler,ind,20
+Macon,Andrew Gerena,ind,14
+Macon,Jeremy Hearn,ind,14
+Macon,James Macon III,ind,11
+Macon,David Sutman Jr.,ind,10
+Macon,Catherine Whitson,ind,10
+Macon,Yoshi Matthews,ind,5
+Madison,Bill Hagerty,gop,13954
+Madison,Marquita Bradshaw,dem,12708
+Madison,Robert Jones,ind,114
+Madison,Tharon Chandler,ind,83
+Madison,Andrew Gerena,ind,81
+Madison,Jeremy Hearn,ind,74
+Madison,Catherine Whitson,ind,54
+Madison,David Sutman Jr.,ind,50
+Madison,Yoshi Matthews,ind,40
+Madison,James Macon III,ind,37
+Marion,Bill Hagerty,gop,5801
+Marion,Marquita Bradshaw,dem,2453
+Marion,Robert Jones,ind,70
+Marion,Tharon Chandler,ind,39
+Marion,Jeremy Hearn,ind,36
+Marion,Andrew Gerena,ind,25
+Marion,Catherine Whitson,ind,18
+Marion,James Macon III,ind,13
+Marion,Yoshi Matthews,ind,5
+Marion,David Sutman Jr.,ind,5
+Marshall,Bill Hagerty,gop,7071
+Marshall,Marquita Bradshaw,dem,2796
+Marshall,Robert Jones,ind,56
+Marshall,Tharon Chandler,ind,48
+Marshall,Jeremy Hearn,ind,33
+Marshall,Catherine Whitson,ind,27
+Marshall,Andrew Gerena,ind,22
+Marshall,Yoshi Matthews,ind,17
+Marshall,David Sutman Jr.,ind,17
+Marshall,James Macon III,ind,11
+Maury,Bill Hagerty,gop,23036
+Maury,Marquita Bradshaw,dem,12059
+Maury,Robert Jones,ind,164
+Maury,Tharon Chandler,ind,146
+Maury,Andrew Gerena,ind,76
+Maury,Catherine Whitson,ind,65
+Maury,Jeremy Hearn,ind,61
+Maury,Yoshi Matthews,ind,46
+Maury,James Macon III,ind,36
+Maury,David Sutman Jr.,ind,36
+McMinn,Bill Hagerty,gop,10286
+McMinn,Marquita Bradshaw,dem,3384
+McMinn,Robert Jones,ind,92
+McMinn,Jeremy Hearn,ind,82
+McMinn,Tharon Chandler,ind,59
+McMinn,Andrew Gerena,ind,42
+McMinn,James Macon III,ind,34
+McMinn,Catherine Whitson,ind,26
+McMinn,David Sutman Jr.,ind,21
+McMinn,Yoshi Matthews,ind,9
+McNairy,Bill Hagerty,gop,5608
+McNairy,Marquita Bradshaw,dem,1361
+McNairy,Tharon Chandler,ind,44
+McNairy,Robert Jones,ind,43
+McNairy,Jeremy Hearn,ind,33
+McNairy,Catherine Whitson,ind,33
+McNairy,Andrew Gerena,ind,18
+McNairy,Yoshi Matthews,ind,16
+McNairy,James Macon III,ind,11
+McNairy,David Sutman Jr.,ind,11
+Meigs,Bill Hagerty,gop,2794
+Meigs,Marquita Bradshaw,dem,789
+Meigs,Robert Jones,ind,15
+Meigs,Andrew Gerena,ind,13
+Meigs,David Sutman Jr.,ind,10
+Meigs,Tharon Chandler,ind,9
+Meigs,Catherine Whitson,ind,8
+Meigs,Jeremy Hearn,ind,6
+Meigs,Yoshi Matthews,ind,5
+Meigs,James Macon III,ind,2
+Monroe,Bill Hagerty,gop,10225
+Monroe,Marquita Bradshaw,dem,2945
+Monroe,Robert Jones,ind,108
+Monroe,Tharon Chandler,ind,61
+Monroe,Jeremy Hearn,ind,54
+Monroe,Andrew Gerena,ind,31
+Monroe,Catherine Whitson,ind,30
+Monroe,James Macon III,ind,26
+Monroe,David Sutman Jr.,ind,14
+Monroe,Yoshi Matthews,ind,8
+Montgomery,Marquita Bradshaw,dem,27373
+Montgomery,Bill Hagerty,gop,27311
+Montgomery,Tharon Chandler,ind,241
+Montgomery,Robert Jones,ind,216
+Montgomery,Andrew Gerena,ind,211
+Montgomery,Catherine Whitson,ind,170
+Montgomery,Jeremy Hearn,ind,129
+Montgomery,Yoshi Matthews,ind,126
+Montgomery,David Sutman Jr.,ind,100
+Montgomery,James Macon III,ind,77
+Moore,Bill Hagerty,gop,1791
+Moore,Marquita Bradshaw,dem,475
+Moore,Robert Jones,ind,11
+Moore,Tharon Chandler,ind,10
+Moore,Jeremy Hearn,ind,5
+Moore,Catherine Whitson,ind,5
+Moore,Yoshi Matthews,ind,4
+Moore,Andrew Gerena,ind,3
+Moore,David Sutman Jr.,ind,1
+Moore,James Macon III,ind,0
+Morgan,Bill Hagerty,gop,3920
+Morgan,Marquita Bradshaw,dem,923
+Morgan,Robert Jones,ind,23
+Morgan,Tharon Chandler,ind,22
+Morgan,Jeremy Hearn,ind,15
+Morgan,Catherine Whitson,ind,15
+Morgan,Yoshi Matthews,ind,14
+Morgan,Andrew Gerena,ind,9
+Morgan,David Sutman Jr.,ind,9
+Morgan,James Macon III,ind,6
+Obion,Bill Hagerty,gop,6093
+Obion,Marquita Bradshaw,dem,1796
+Obion,Tharon Chandler,ind,30
+Obion,Catherine Whitson,ind,19
+Obion,Jeremy Hearn,ind,16
+Obion,Robert Jones,ind,15
+Obion,David Sutman Jr.,ind,15
+Obion,Andrew Gerena,ind,11
+Obion,James Macon III,ind,11
+Obion,Yoshi Matthews,ind,9
+Overton,Bill Hagerty,gop,4758
+Overton,Marquita Bradshaw,dem,1565
+Overton,Robert Jones,ind,45
+Overton,Tharon Chandler,ind,23
+Overton,Catherine Whitson,ind,16
+Overton,Jeremy Hearn,ind,14
+Overton,Andrew Gerena,ind,13
+Overton,Yoshi Matthews,ind,11
+Overton,James Macon III,ind,9
+Overton,David Sutman Jr.,ind,8
+Perry,Bill Hagerty,gop,1656
+Perry,Marquita Bradshaw,dem,434
+Perry,Tharon Chandler,ind,16
+Perry,Andrew Gerena,ind,6
+Perry,Robert Jones,ind,6
+Perry,James Macon III,ind,5
+Perry,Catherine Whitson,ind,5
+Perry,Jeremy Hearn,ind,3
+Perry,Yoshi Matthews,ind,3
+Perry,David Sutman Jr.,ind,3
+Pickett,Bill Hagerty,gop,1443
+Pickett,Marquita Bradshaw,dem,401
+Pickett,Tharon Chandler,ind,9
+Pickett,Robert Jones,ind,8
+Pickett,Jeremy Hearn,ind,7
+Pickett,Andrew Gerena,ind,4
+Pickett,David Sutman Jr.,ind,4
+Pickett,Catherine Whitson,ind,4
+Pickett,Yoshi Matthews,ind,2
+Pickett,James Macon III,ind,1
+Polk,Bill Hagerty,gop,3943
+Polk,Marquita Bradshaw,dem,1091
+Polk,Andrew Gerena,ind,19
+Polk,Robert Jones,ind,19
+Polk,Tharon Chandler,ind,15
+Polk,Catherine Whitson,ind,15
+Polk,Jeremy Hearn,ind,12
+Polk,Yoshi Matthews,ind,9
+Polk,David Sutman Jr.,ind,8
+Polk,James Macon III,ind,3
+Putnam,Bill Hagerty,gop,14961
+Putnam,Marquita Bradshaw,dem,7721
+Putnam,Robert Jones,ind,83
+Putnam,Tharon Chandler,ind,82
+Putnam,Catherine Whitson,ind,67
+Putnam,Andrew Gerena,ind,65
+Putnam,Jeremy Hearn,ind,41
+Putnam,Yoshi Matthews,ind,38
+Putnam,David Sutman Jr.,ind,29
+Putnam,James Macon III,ind,27
+Rhea,Bill Hagerty,gop,6412
+Rhea,Marquita Bradshaw,dem,1922
+Rhea,Tharon Chandler,ind,39
+Rhea,Andrew Gerena,ind,32
+Rhea,Robert Jones,ind,26
+Rhea,Catherine Whitson,ind,25
+Rhea,Jeremy Hearn,ind,24
+Rhea,Yoshi Matthews,ind,16
+Rhea,David Sutman Jr.,ind,13
+Rhea,James Macon III,ind,8
+Roane,Bill Hagerty,gop,12085
+Roane,Marquita Bradshaw,dem,5018
+Roane,Tharon Chandler,ind,78
+Roane,Robert Jones,ind,76
+Roane,Catherine Whitson,ind,63
+Roane,Andrew Gerena,ind,48
+Roane,Jeremy Hearn,ind,38
+Roane,David Sutman Jr.,ind,30
+Roane,Yoshi Matthews,ind,23
+Roane,James Macon III,ind,16
+Robertson,Bill Hagerty,gop,15005
+Robertson,Marquita Bradshaw,dem,7210
+Robertson,Robert Jones,ind,130
+Robertson,Tharon Chandler,ind,83
+Robertson,Andrew Gerena,ind,76
+Robertson,Catherine Whitson,ind,59
+Robertson,Jeremy Hearn,ind,42
+Robertson,Yoshi Matthews,ind,41
+Robertson,David Sutman Jr.,ind,32
+Robertson,James Macon III,ind,30
+Rutherford,Marquita Bradshaw,dem,49225
+Rutherford,Bill Hagerty,gop,48997
+Rutherford,Robert Jones,ind,586
+Rutherford,Tharon Chandler,ind,348
+Rutherford,Andrew Gerena,ind,319
+Rutherford,Catherine Whitson,ind,257
+Rutherford,Jeremy Hearn,ind,199
+Rutherford,Yoshi Matthews,ind,161
+Rutherford,David Sutman Jr.,ind,132
+Rutherford,James Macon III,ind,120
+Scott,Bill Hagerty,gop,3466
+Scott,Marquita Bradshaw,dem,735
+Scott,Tharon Chandler,ind,24
+Scott,Catherine Whitson,ind,18
+Scott,Robert Jones,ind,14
+Scott,Andrew Gerena,ind,12
+Scott,Yoshi Matthews,ind,11
+Scott,Jeremy Hearn,ind,9
+Scott,David Sutman Jr.,ind,9
+Scott,James Macon III,ind,5
+Sequatchie,Bill Hagerty,gop,3688
+Sequatchie,Marquita Bradshaw,dem,1015
+Sequatchie,Robert Jones,ind,33
+Sequatchie,Tharon Chandler,ind,16
+Sequatchie,Jeremy Hearn,ind,15
+Sequatchie,Andrew Gerena,ind,12
+Sequatchie,James Macon III,ind,8
+Sequatchie,Yoshi Matthews,ind,8
+Sequatchie,David Sutman Jr.,ind,7
+Sequatchie,Catherine Whitson,ind,7
+Sevier,Bill Hagerty,gop,18601
+Sevier,Marquita Bradshaw,dem,6924
+Sevier,Tharon Chandler,ind,102
+Sevier,Robert Jones,ind,93
+Sevier,Andrew Gerena,ind,81
+Sevier,Catherine Whitson,ind,72
+Sevier,David Sutman Jr.,ind,54
+Sevier,Jeremy Hearn,ind,43
+Sevier,Yoshi Matthews,ind,29
+Sevier,James Macon III,ind,27
+Shelby,Marquita Bradshaw,dem,167623
+Shelby,Bill Hagerty,gop,75272
+Shelby,Robert Jones,ind,1181
+Shelby,Tharon Chandler,ind,931
+Shelby,Jeremy Hearn,ind,793
+Shelby,Andrew Gerena,ind,612
+Shelby,Catherine Whitson,ind,551
+Shelby,James Macon III,ind,548
+Shelby,Yoshi Matthews,ind,491
+Shelby,David Sutman Jr.,ind,484
+Smith,Bill Hagerty,gop,4254
+Smith,Marquita Bradshaw,dem,1213
+Smith,Tharon Chandler,ind,32
+Smith,Jeremy Hearn,ind,23
+Smith,Andrew Gerena,ind,21
+Smith,Robert Jones,ind,21
+Smith,Catherine Whitson,ind,15
+Smith,David Sutman Jr.,ind,12
+Smith,Yoshi Matthews,ind,8
+Smith,James Macon III,ind,4
+Stewart,Bill Hagerty,gop,3323
+Stewart,Marquita Bradshaw,dem,968
+Stewart,Robert Jones,ind,20
+Stewart,Tharon Chandler,ind,14
+Stewart,Jeremy Hearn,ind,14
+Stewart,Catherine Whitson,ind,14
+Stewart,Andrew Gerena,ind,10
+Stewart,David Sutman Jr.,ind,7
+Stewart,James Macon III,ind,2
+Stewart,Yoshi Matthews,ind,2
+Sullivan,Bill Hagerty,gop,31817
+Sullivan,Marquita Bradshaw,dem,13111
+Sullivan,Robert Jones,ind,219
+Sullivan,Tharon Chandler,ind,175
+Sullivan,Catherine Whitson,ind,143
+Sullivan,Andrew Gerena,ind,133
+Sullivan,Jeremy Hearn,ind,120
+Sullivan,David Sutman Jr.,ind,92
+Sullivan,Yoshi Matthews,ind,76
+Sullivan,James Macon III,ind,36
+Sumner,Bill Hagerty,gop,39673
+Sumner,Marquita Bradshaw,dem,23655
+Sumner,Robert Jones,ind,268
+Sumner,Tharon Chandler,ind,248
+Sumner,Andrew Gerena,ind,206
+Sumner,Catherine Whitson,ind,148
+Sumner,Jeremy Hearn,ind,127
+Sumner,David Sutman Jr.,ind,91
+Sumner,Yoshi Matthews,ind,79
+Sumner,James Macon III,ind,60
+Tipton,Bill Hagerty,gop,11069
+Tipton,Marquita Bradshaw,dem,4770
+Tipton,Robert Jones,ind,95
+Tipton,Tharon Chandler,ind,61
+Tipton,Andrew Gerena,ind,50
+Tipton,Catherine Whitson,ind,49
+Tipton,Jeremy Hearn,ind,44
+Tipton,Yoshi Matthews,ind,27
+Tipton,David Sutman Jr.,ind,26
+Tipton,James Macon III,ind,21
+Trousdale,Bill Hagerty,gop,1872
+Trousdale,Marquita Bradshaw,dem,723
+Trousdale,Tharon Chandler,ind,15
+Trousdale,Andrew Gerena,ind,10
+Trousdale,Robert Jones,ind,9
+Trousdale,Yoshi Matthews,ind,5
+Trousdale,Jeremy Hearn,ind,4
+Trousdale,David Sutman Jr.,ind,4
+Trousdale,James Macon III,ind,3
+Trousdale,Catherine Whitson,ind,3
+Unicoi,Bill Hagerty,gop,3902
+Unicoi,Marquita Bradshaw,dem,1282
+Unicoi,Robert Jones,ind,41
+Unicoi,Catherine Whitson,ind,29
+Unicoi,Tharon Chandler,ind,21
+Unicoi,Andrew Gerena,ind,18
+Unicoi,Yoshi Matthews,ind,11
+Unicoi,David Sutman Jr.,ind,10
+Unicoi,Jeremy Hearn,ind,8
+Unicoi,James Macon III,ind,7
+Union,Bill Hagerty,gop,3592
+Union,Marquita Bradshaw,dem,950
+Union,Tharon Chandler,ind,17
+Union,Andrew Gerena,ind,14
+Union,Robert Jones,ind,14
+Union,Catherine Whitson,ind,12
+Union,David Sutman Jr.,ind,10
+Union,James Macon III,ind,8
+Union,Jeremy Hearn,ind,7
+Union,Yoshi Matthews,ind,5
+Van Buren,Bill Hagerty,gop,1565
+Van Buren,Marquita Bradshaw,dem,465
+Van Buren,Tharon Chandler,ind,21
+Van Buren,Robert Jones,ind,14
+Van Buren,Andrew Gerena,ind,10
+Van Buren,Jeremy Hearn,ind,9
+Van Buren,Catherine Whitson,ind,9
+Van Buren,Yoshi Matthews,ind,5
+Van Buren,David Sutman Jr.,ind,5
+Van Buren,James Macon III,ind,2
+Warren,Bill Hagerty,gop,6646
+Warren,Marquita Bradshaw,dem,3004
+Warren,Robert Jones,ind,70
+Warren,Tharon Chandler,ind,57
+Warren,Catherine Whitson,ind,39
+Warren,Jeremy Hearn,ind,33
+Warren,David Sutman Jr.,ind,23
+Warren,Andrew Gerena,ind,21
+Warren,Yoshi Matthews,ind,21
+Warren,James Macon III,ind,18
+Washington,Bill Hagerty,gop,25201
+Washington,Marquita Bradshaw,dem,15329
+Washington,Robert Jones,ind,367
+Washington,Catherine Whitson,ind,183
+Washington,Tharon Chandler,ind,178
+Washington,Andrew Gerena,ind,144
+Washington,David Sutman Jr.,ind,91
+Washington,Jeremy Hearn,ind,73
+Washington,Yoshi Matthews,ind,65
+Washington,James Macon III,ind,50
+Wayne,Bill Hagerty,gop,3214
+Wayne,Marquita Bradshaw,dem,578
+Wayne,Robert Jones,ind,19
+Wayne,Andrew Gerena,ind,9
+Wayne,Tharon Chandler,ind,8
+Wayne,Jeremy Hearn,ind,8
+Wayne,James Macon III,ind,8
+Wayne,Yoshi Matthews,ind,5
+Wayne,David Sutman Jr.,ind,5
+Wayne,Catherine Whitson,ind,3
+Weakley,Bill Hagerty,gop,6431
+Weakley,Marquita Bradshaw,dem,2141
+Weakley,Robert Jones,ind,35
+Weakley,Jeremy Hearn,ind,29
+Weakley,Tharon Chandler,ind,28
+Weakley,Andrew Gerena,ind,23
+Weakley,David Sutman Jr.,ind,18
+Weakley,Yoshi Matthews,ind,13
+Weakley,Catherine Whitson,ind,13
+Weakley,James Macon III,ind,12
+White,Bill Hagerty,gop,6085
+White,Marquita Bradshaw,dem,1734
+White,Robert Jones,ind,50
+White,Catherine Whitson,ind,29
+White,Tharon Chandler,ind,26
+White,Jeremy Hearn,ind,25
+White,Andrew Gerena,ind,19
+White,Yoshi Matthews,ind,12
+White,James Macon III,ind,8
+White,David Sutman Jr.,ind,8
+Williamson,Bill Hagerty,gop,63349
+Williamson,Marquita Bradshaw,dem,38783
+Williamson,Tharon Chandler,ind,341
+Williamson,Robert Jones,ind,300
+Williamson,Catherine Whitson,ind,226
+Williamson,Andrew Gerena,ind,214
+Williamson,Jeremy Hearn,ind,170
+Williamson,David Sutman Jr.,ind,108
+Williamson,Yoshi Matthews,ind,91
+Williamson,James Macon III,ind,77
+Wilson,Bill Hagerty,gop,34356
+Wilson,Marquita Bradshaw,dem,21224
+Wilson,Tharon Chandler,ind,237
+Wilson,Robert Jones,ind,211
+Wilson,Jeremy Hearn,ind,146
+Wilson,Catherine Whitson,ind,135
+Wilson,Andrew Gerena,ind,126
+Wilson,David Sutman Jr.,ind,84
+Wilson,Yoshi Matthews,ind,75
+Wilson,James Macon III,ind,58

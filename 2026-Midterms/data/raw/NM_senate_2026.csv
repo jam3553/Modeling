@@ -1,0 +1,67 @@
+county_name,candidate_name,party,votes
+Bernalillo,Ben Ray Lujan,dem,172306
+Bernalillo,Larry Marker,gop,77461
+Catron,Larry Marker,gop,1303
+Catron,Ben Ray Lujan,dem,635
+Chaves,Larry Marker,gop,9755
+Chaves,Ben Ray Lujan,dem,5721
+Cibola,Ben Ray Lujan,dem,4660
+Cibola,Larry Marker,gop,2575
+Colfax,Ben Ray Lujan,dem,2561
+Colfax,Larry Marker,gop,2200
+Curry,Larry Marker,gop,6404
+Curry,Ben Ray Lujan,dem,3925
+De Baca,Larry Marker,gop,513
+De Baca,Ben Ray Lujan,dem,227
+Doña Ana,Ben Ray Lujan,dem,45139
+Doña Ana,Larry Marker,gop,21583
+Eddy,Larry Marker,gop,11195
+Eddy,Ben Ray Lujan,dem,4955
+Grant,Ben Ray Lujan,dem,7237
+Grant,Larry Marker,gop,4309
+Guadalupe,Ben Ray Lujan,dem,1030
+Guadalupe,Larry Marker,gop,468
+Harding,Larry Marker,gop,232
+Harding,Ben Ray Lujan,dem,143
+Hidalgo,Ben Ray Lujan,dem,741
+Hidalgo,Larry Marker,gop,683
+Lea,Larry Marker,gop,9211
+Lea,Ben Ray Lujan,dem,4133
+Lincoln,Larry Marker,gop,4804
+Lincoln,Ben Ray Lujan,dem,2844
+Los Alamos,Ben Ray Lujan,dem,6927
+Los Alamos,Larry Marker,gop,2949
+Luna,Ben Ray Lujan,dem,3385
+Luna,Larry Marker,gop,2558
+McKinley,Ben Ray Lujan,dem,15751
+McKinley,Larry Marker,gop,4268
+Mora,Ben Ray Lujan,dem,1596
+Mora,Larry Marker,gop,599
+Otero,Larry Marker,gop,9726
+Otero,Ben Ray Lujan,dem,8273
+Quay,Larry Marker,gop,1727
+Quay,Ben Ray Lujan,dem,1060
+Rio Arriba,Ben Ray Lujan,dem,9270
+Rio Arriba,Larry Marker,gop,3373
+Roosevelt,Larry Marker,gop,3054
+Roosevelt,Ben Ray Lujan,dem,1733
+Sandoval,Ben Ray Lujan,dem,38766
+Sandoval,Larry Marker,gop,26187
+San Juan,Larry Marker,gop,21219
+San Juan,Ben Ray Lujan,dem,17413
+San Miguel,Ben Ray Lujan,dem,6831
+San Miguel,Larry Marker,gop,2164
+Santa Fe,Ben Ray Lujan,dem,57795
+Santa Fe,Larry Marker,gop,12699
+Sierra,Larry Marker,gop,2433
+Sierra,Ben Ray Lujan,dem,2327
+Socorro,Ben Ray Lujan,dem,3602
+Socorro,Larry Marker,gop,2187
+Taos,Ben Ray Lujan,dem,11236
+Taos,Larry Marker,gop,2238
+Torrance,Larry Marker,gop,3269
+Torrance,Ben Ray Lujan,dem,2203
+Union,Larry Marker,gop,859
+Union,Ben Ray Lujan,dem,410
+Valencia,Ben Ray Lujan,dem,13921
+Valencia,Larry Marker,gop,12229

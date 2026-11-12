@@ -1,0 +1,307 @@
+county_name,candidate_name,party,votes
+Adams,Don Tracy,gop,17934
+Adams,Juliana Stratton,dem,6180
+Adams,Whitfield Harrington Jr.,other,276
+Alexander,Don Tracy,gop,883
+Alexander,Juliana Stratton,dem,715
+Alexander,Whitfield Harrington Jr.,other,20
+Bond,Don Tracy,gop,4196
+Bond,Juliana Stratton,dem,1854
+Bond,Whitfield Harrington Jr.,other,105
+Boone,Don Tracy,gop,8983
+Boone,Juliana Stratton,dem,8447
+Boone,Whitfield Harrington Jr.,other,232
+Brown,Don Tracy,gop,1616
+Brown,Juliana Stratton,dem,294
+Brown,Whitfield Harrington Jr.,other,13
+Bureau,Don Tracy,gop,7057
+Bureau,Juliana Stratton,dem,4741
+Bureau,Whitfield Harrington Jr.,other,208
+Calhoun,Don Tracy,gop,1454
+Calhoun,Juliana Stratton,dem,539
+Calhoun,Whitfield Harrington Jr.,other,45
+Carroll,Don Tracy,gop,3898
+Carroll,Juliana Stratton,dem,2114
+Carroll,Whitfield Harrington Jr.,other,88
+Cass,Don Tracy,gop,2699
+Cass,Juliana Stratton,dem,1331
+Cass,Whitfield Harrington Jr.,other,57
+Champaign,Juliana Stratton,dem,45257
+Champaign,Don Tracy,gop,22851
+Champaign,Whitfield Harrington Jr.,other,1166
+Christian,Don Tracy,gop,7961
+Christian,Juliana Stratton,dem,3403
+Christian,Whitfield Harrington Jr.,other,174
+Clark,Don Tracy,gop,4604
+Clark,Juliana Stratton,dem,1612
+Clark,Whitfield Harrington Jr.,other,83
+Clay,Don Tracy,gop,4442
+Clay,Juliana Stratton,dem,896
+Clay,Whitfield Harrington Jr.,other,83
+Clinton,Don Tracy,gop,10522
+Clinton,Juliana Stratton,dem,3585
+Clinton,Whitfield Harrington Jr.,other,258
+Coles,Don Tracy,gop,10093
+Coles,Juliana Stratton,dem,6360
+Coles,Whitfield Harrington Jr.,other,232
+Cook,Juliana Stratton,dem,1214971
+Cook,Don Tracy,gop,288194
+Cook,Whitfield Harrington Jr.,other,22652
+Crawford,Don Tracy,gop,4853
+Crawford,Juliana Stratton,dem,1635
+Crawford,Whitfield Harrington Jr.,other,92
+Cumberland,Don Tracy,gop,3746
+Cumberland,Juliana Stratton,dem,927
+Cumberland,Whitfield Harrington Jr.,other,61
+De Witt,Don Tracy,gop,3997
+De Witt,Juliana Stratton,dem,1760
+De Witt,Whitfield Harrington Jr.,other,93
+DeKalb,Juliana Stratton,dem,20603
+DeKalb,Don Tracy,gop,14902
+DeKalb,Whitfield Harrington Jr.,other,704
+Douglas,Don Tracy,gop,4378
+Douglas,Juliana Stratton,dem,1820
+Douglas,Whitfield Harrington Jr.,other,111
+DuPage,Juliana Stratton,dem,215234
+DuPage,Don Tracy,gop,117326
+DuPage,Whitfield Harrington Jr.,other,6381
+Edgar,Don Tracy,gop,4181
+Edgar,Juliana Stratton,dem,1496
+Edgar,Whitfield Harrington Jr.,other,81
+Edwards,Don Tracy,gop,2150
+Edwards,Juliana Stratton,dem,402
+Edwards,Whitfield Harrington Jr.,other,35
+Effingham,Don Tracy,gop,12140
+Effingham,Juliana Stratton,dem,3098
+Effingham,Whitfield Harrington Jr.,other,227
+Fayette,Don Tracy,gop,6137
+Fayette,Juliana Stratton,dem,1394
+Fayette,Whitfield Harrington Jr.,other,114
+Ford,Don Tracy,gop,3393
+Ford,Juliana Stratton,dem,1316
+Ford,Whitfield Harrington Jr.,other,82
+Franklin,Don Tracy,gop,9094
+Franklin,Juliana Stratton,dem,3521
+Franklin,Whitfield Harrington Jr.,other,199
+Fulton,Don Tracy,gop,6841
+Fulton,Juliana Stratton,dem,4876
+Fulton,Whitfield Harrington Jr.,other,246
+Gallatin,Don Tracy,gop,1321
+Gallatin,Juliana Stratton,dem,546
+Gallatin,Whitfield Harrington Jr.,other,45
+Greene,Don Tracy,gop,3477
+Greene,Juliana Stratton,dem,1003
+Greene,Whitfield Harrington Jr.,other,59
+Grundy,Don Tracy,gop,10431
+Grundy,Juliana Stratton,dem,7628
+Grundy,Whitfield Harrington Jr.,other,381
+Hamilton,Don Tracy,gop,2507
+Hamilton,Juliana Stratton,dem,656
+Hamilton,Whitfield Harrington Jr.,other,54
+Hancock,Don Tracy,gop,4187
+Hancock,Juliana Stratton,dem,1057
+Hancock,Whitfield Harrington Jr.,other,93
+Hardin,Don Tracy,gop,1046
+Hardin,Juliana Stratton,dem,307
+Hardin,Whitfield Harrington Jr.,other,15
+Henderson,Don Tracy,gop,1738
+Henderson,Juliana Stratton,dem,885
+Henderson,Whitfield Harrington Jr.,other,50
+Henry,Don Tracy,gop,11199
+Henry,Juliana Stratton,dem,7768
+Henry,Whitfield Harrington Jr.,other,331
+Iroquois,Don Tracy,gop,7407
+Iroquois,Juliana Stratton,dem,2284
+Iroquois,Whitfield Harrington Jr.,other,151
+Jackson,Juliana Stratton,dem,9988
+Jackson,Don Tracy,gop,7537
+Jackson,Whitfield Harrington Jr.,other,309
+Jasper,Don Tracy,gop,3571
+Jasper,Juliana Stratton,dem,770
+Jasper,Whitfield Harrington Jr.,other,63
+Jefferson,Don Tracy,gop,8840
+Jefferson,Juliana Stratton,dem,3482
+Jefferson,Whitfield Harrington Jr.,other,163
+Jersey,Don Tracy,gop,6176
+Jersey,Juliana Stratton,dem,2347
+Jersey,Whitfield Harrington Jr.,other,161
+Jo Daviess,Don Tracy,gop,5612
+Jo Daviess,Juliana Stratton,dem,4430
+Jo Daviess,Whitfield Harrington Jr.,other,173
+Johnson,Don Tracy,gop,3534
+Johnson,Juliana Stratton,dem,1029
+Johnson,Whitfield Harrington Jr.,other,78
+Kane,Juliana Stratton,dem,104444
+Kane,Don Tracy,gop,59647
+Kane,Whitfield Harrington Jr.,other,2432
+Kankakee,Don Tracy,gop,18030
+Kankakee,Juliana Stratton,dem,15760
+Kankakee,Whitfield Harrington Jr.,other,518
+Kendall,Juliana Stratton,dem,29025
+Kendall,Don Tracy,gop,19251
+Kendall,Whitfield Harrington Jr.,other,809
+Knox,Don Tracy,gop,8520
+Knox,Juliana Stratton,dem,7937
+Knox,Whitfield Harrington Jr.,other,290
+Lake,Juliana Stratton,dem,153287
+Lake,Don Tracy,gop,72969
+Lake,Whitfield Harrington Jr.,other,3587
+LaSalle,Don Tracy,gop,19900
+LaSalle,Juliana Stratton,dem,17267
+LaSalle,Whitfield Harrington Jr.,other,573
+Lawrence,Don Tracy,gop,3246
+Lawrence,Juliana Stratton,dem,1116
+Lawrence,Whitfield Harrington Jr.,other,59
+Lee,Don Tracy,gop,6925
+Lee,Juliana Stratton,dem,4987
+Lee,Whitfield Harrington Jr.,other,167
+Livingston,Don Tracy,gop,8723
+Livingston,Juliana Stratton,dem,3457
+Livingston,Whitfield Harrington Jr.,other,157
+Logan,Don Tracy,gop,6465
+Logan,Juliana Stratton,dem,2829
+Logan,Whitfield Harrington Jr.,other,129
+Macon,Don Tracy,gop,18322
+Macon,Juliana Stratton,dem,14672
+Macon,Whitfield Harrington Jr.,other,495
+Macoupin,Don Tracy,gop,11239
+Macoupin,Juliana Stratton,dem,5803
+Macoupin,Whitfield Harrington Jr.,other,291
+Madison,Don Tracy,gop,48644
+Madison,Juliana Stratton,dem,47954
+Madison,Whitfield Harrington Jr.,other,2011
+Marion,Don Tracy,gop,9474
+Marion,Juliana Stratton,dem,3289
+Marion,Whitfield Harrington Jr.,other,238
+Marshall,Don Tracy,gop,3029
+Marshall,Juliana Stratton,dem,1570
+Marshall,Whitfield Harrington Jr.,other,90
+Mason,Don Tracy,gop,3182
+Mason,Juliana Stratton,dem,1577
+Mason,Whitfield Harrington Jr.,other,54
+Massac,Don Tracy,gop,3211
+Massac,Juliana Stratton,dem,1318
+Massac,Whitfield Harrington Jr.,other,61
+McDonough,Don Tracy,gop,5411
+McDonough,Juliana Stratton,dem,3755
+McDonough,Whitfield Harrington Jr.,other,137
+McHenry,Juliana Stratton,dem,62717
+McHenry,Don Tracy,gop,50147
+McHenry,Whitfield Harrington Jr.,other,1803
+McLean,Juliana Stratton,dem,37942
+McLean,Don Tracy,gop,27779
+McLean,Whitfield Harrington Jr.,other,1061
+Menard,Don Tracy,gop,3381
+Menard,Juliana Stratton,dem,1584
+Menard,Whitfield Harrington Jr.,other,55
+Mercer,Don Tracy,gop,3734
+Mercer,Juliana Stratton,dem,2403
+Mercer,Whitfield Harrington Jr.,other,99
+Monroe,Don Tracy,gop,9794
+Monroe,Juliana Stratton,dem,5370
+Monroe,Whitfield Harrington Jr.,other,229
+Montgomery,Don Tracy,gop,6720
+Montgomery,Juliana Stratton,dem,3149
+Montgomery,Whitfield Harrington Jr.,other,186
+Morgan,Don Tracy,gop,7166
+Morgan,Juliana Stratton,dem,3700
+Morgan,Whitfield Harrington Jr.,other,161
+Moultrie,Don Tracy,gop,3599
+Moultrie,Juliana Stratton,dem,1315
+Moultrie,Whitfield Harrington Jr.,other,77
+Ogle,Don Tracy,gop,11699
+Ogle,Juliana Stratton,dem,7471
+Ogle,Whitfield Harrington Jr.,other,282
+Peoria,Juliana Stratton,dem,33468
+Peoria,Don Tracy,gop,24711
+Peoria,Whitfield Harrington Jr.,other,757
+Perry,Don Tracy,gop,4862
+Perry,Juliana Stratton,dem,1449
+Perry,Whitfield Harrington Jr.,other,102
+Piatt,Don Tracy,gop,4456
+Piatt,Juliana Stratton,dem,2776
+Piatt,Whitfield Harrington Jr.,other,133
+Pike,Don Tracy,gop,4593
+Pike,Juliana Stratton,dem,1053
+Pike,Whitfield Harrington Jr.,other,98
+Pope,Don Tracy,gop,1213
+Pope,Juliana Stratton,dem,354
+Pope,Whitfield Harrington Jr.,other,21
+Pulaski,Don Tracy,gop,1378
+Pulaski,Juliana Stratton,dem,711
+Pulaski,Whitfield Harrington Jr.,other,35
+Putnam,Don Tracy,gop,1295
+Putnam,Juliana Stratton,dem,1079
+Putnam,Whitfield Harrington Jr.,other,36
+Randolph,Don Tracy,gop,7495
+Randolph,Juliana Stratton,dem,2896
+Randolph,Whitfield Harrington Jr.,other,148
+Richland,Don Tracy,gop,4149
+Richland,Juliana Stratton,dem,1447
+Richland,Whitfield Harrington Jr.,other,89
+Rock Island,Juliana Stratton,dem,29593
+Rock Island,Don Tracy,gop,17415
+Rock Island,Whitfield Harrington Jr.,other,811
+Saline,Don Tracy,gop,5418
+Saline,Juliana Stratton,dem,2032
+Saline,Whitfield Harrington Jr.,other,125
+Sangamon,Juliana Stratton,dem,39186
+Sangamon,Don Tracy,gop,38395
+Sangamon,Whitfield Harrington Jr.,other,1254
+Schuyler,Don Tracy,gop,1630
+Schuyler,Juliana Stratton,dem,366
+Schuyler,Whitfield Harrington Jr.,other,29
+Scott,Don Tracy,gop,1733
+Scott,Juliana Stratton,dem,403
+Scott,Whitfield Harrington Jr.,other,15
+Shelby,Don Tracy,gop,7058
+Shelby,Juliana Stratton,dem,1889
+Shelby,Whitfield Harrington Jr.,other,146
+St. Clair,Juliana Stratton,dem,53119
+St. Clair,Don Tracy,gop,36814
+St. Clair,Whitfield Harrington Jr.,other,1801
+Stark,Don Tracy,gop,1438
+Stark,Juliana Stratton,dem,564
+Stark,Whitfield Harrington Jr.,other,44
+Stephenson,Don Tracy,gop,8929
+Stephenson,Juliana Stratton,dem,6598
+Stephenson,Whitfield Harrington Jr.,other,223
+Tazewell,Don Tracy,gop,29722
+Tazewell,Juliana Stratton,dem,20011
+Tazewell,Whitfield Harrington Jr.,other,872
+Union,Don Tracy,gop,3885
+Union,Juliana Stratton,dem,1603
+Union,Whitfield Harrington Jr.,other,87
+Vermilion,Don Tracy,gop,13779
+Vermilion,Juliana Stratton,dem,7874
+Vermilion,Whitfield Harrington Jr.,other,320
+Wabash,Don Tracy,gop,2861
+Wabash,Juliana Stratton,dem,983
+Wabash,Whitfield Harrington Jr.,other,57
+Warren,Don Tracy,gop,3507
+Warren,Juliana Stratton,dem,2176
+Warren,Whitfield Harrington Jr.,other,91
+Washington,Don Tracy,gop,4300
+Washington,Juliana Stratton,dem,1354
+Washington,Whitfield Harrington Jr.,other,98
+Wayne,Don Tracy,gop,5399
+Wayne,Juliana Stratton,dem,998
+Wayne,Whitfield Harrington Jr.,other,91
+White,Don Tracy,gop,3891
+White,Juliana Stratton,dem,1163
+White,Whitfield Harrington Jr.,other,116
+Whiteside,Don Tracy,gop,10044
+Whiteside,Juliana Stratton,dem,8888
+Whiteside,Whitfield Harrington Jr.,other,298
+Will,Juliana Stratton,dem,134797
+Will,Don Tracy,gop,90564
+Will,Whitfield Harrington Jr.,other,3828
+Williamson,Don Tracy,gop,15493
+Williamson,Juliana Stratton,dem,8230
+Williamson,Whitfield Harrington Jr.,other,349
+Winnebago,Juliana Stratton,dem,49906
+Winnebago,Don Tracy,gop,38376
+Winnebago,Whitfield Harrington Jr.,other,1435
+Woodford,Don Tracy,gop,11210
+Woodford,Juliana Stratton,dem,4738
+Woodford,Whitfield Harrington Jr.,other,228

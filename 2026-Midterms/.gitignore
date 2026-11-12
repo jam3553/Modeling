@@ -1,0 +1,23 @@
+# Python virtual environment
+.venv/
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+
+# Secrets / API keys
+.census_api_key
+.env
+
+# Generated/disposable artifacts (toy_data.py's __main__ block writes this)
+toy_counties.csv
+
+# OS junk
+.DS_Store
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/

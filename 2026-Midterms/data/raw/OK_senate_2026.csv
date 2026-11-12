@@ -1,0 +1,386 @@
+county_name,candidate_name,party,votes
+Adair,Kevin Hern,gop,3426
+Adair,N'Kiyla Jasmine Thomas,dem,1225
+Adair,Curtis Stinnett,ind,71
+Adair,Ron Meinhardt,ind,52
+Adair,Sevier White,lib,38
+Alfalfa,Kevin Hern,gop,1305
+Alfalfa,N'Kiyla Jasmine Thomas,dem,209
+Alfalfa,Curtis Stinnett,ind,28
+Alfalfa,Ron Meinhardt,ind,17
+Alfalfa,Sevier White,lib,15
+Atoka,Kevin Hern,gop,2568
+Atoka,N'Kiyla Jasmine Thomas,dem,637
+Atoka,Curtis Stinnett,ind,38
+Atoka,Ron Meinhardt,ind,35
+Atoka,Sevier White,lib,19
+Beaver,Kevin Hern,gop,1200
+Beaver,N'Kiyla Jasmine Thomas,dem,177
+Beaver,Curtis Stinnett,ind,28
+Beaver,Ron Meinhardt,ind,22
+Beaver,Sevier White,lib,9
+Beckham,Kevin Hern,gop,3714
+Beckham,N'Kiyla Jasmine Thomas,dem,926
+Beckham,Ron Meinhardt,ind,56
+Beckham,Sevier White,lib,44
+Beckham,Curtis Stinnett,ind,39
+Blaine,Kevin Hern,gop,1899
+Blaine,N'Kiyla Jasmine Thomas,dem,605
+Blaine,Ron Meinhardt,ind,28
+Blaine,Curtis Stinnett,ind,26
+Blaine,Sevier White,lib,15
+Bryan,Kevin Hern,gop,7958
+Bryan,N'Kiyla Jasmine Thomas,dem,3207
+Bryan,Curtis Stinnett,ind,127
+Bryan,Sevier White,lib,113
+Bryan,Ron Meinhardt,ind,103
+Caddo,Kevin Hern,gop,4018
+Caddo,N'Kiyla Jasmine Thomas,dem,2192
+Caddo,Curtis Stinnett,ind,106
+Caddo,Ron Meinhardt,ind,75
+Caddo,Sevier White,lib,53
+Canadian,Kevin Hern,gop,31515
+Canadian,N'Kiyla Jasmine Thomas,dem,20746
+Canadian,Ron Meinhardt,ind,713
+Canadian,Curtis Stinnett,ind,702
+Canadian,Sevier White,lib,570
+Carter,Kevin Hern,gop,8147
+Carter,N'Kiyla Jasmine Thomas,dem,3693
+Carter,Curtis Stinnett,ind,118
+Carter,Ron Meinhardt,ind,96
+Carter,Sevier White,lib,74
+Cherokee,Kevin Hern,gop,6864
+Cherokee,N'Kiyla Jasmine Thomas,dem,5209
+Cherokee,Curtis Stinnett,ind,191
+Cherokee,Ron Meinhardt,ind,138
+Cherokee,Sevier White,lib,130
+Choctaw,Kevin Hern,gop,2630
+Choctaw,N'Kiyla Jasmine Thomas,dem,808
+Choctaw,Ron Meinhardt,ind,35
+Choctaw,Curtis Stinnett,ind,28
+Choctaw,Sevier White,lib,20
+Cimarron,Kevin Hern,gop,552
+Cimarron,N'Kiyla Jasmine Thomas,dem,62
+Cimarron,Curtis Stinnett,ind,14
+Cimarron,Ron Meinhardt,ind,13
+Cimarron,Sevier White,lib,2
+Cleveland,N'Kiyla Jasmine Thomas,dem,43755
+Cleveland,Kevin Hern,gop,42744
+Cleveland,Curtis Stinnett,ind,1231
+Cleveland,Ron Meinhardt,ind,1179
+Cleveland,Sevier White,lib,958
+Coal,Kevin Hern,gop,1166
+Coal,N'Kiyla Jasmine Thomas,dem,279
+Coal,Curtis Stinnett,ind,18
+Coal,Ron Meinhardt,ind,14
+Coal,Sevier White,lib,10
+Comanche,Kevin Hern,gop,12686
+Comanche,N'Kiyla Jasmine Thomas,dem,10346
+Comanche,Curtis Stinnett,ind,411
+Comanche,Ron Meinhardt,ind,317
+Comanche,Sevier White,lib,215
+Cotton,Kevin Hern,gop,1173
+Cotton,N'Kiyla Jasmine Thomas,dem,304
+Cotton,Ron Meinhardt,ind,24
+Cotton,Sevier White,lib,16
+Cotton,Curtis Stinnett,ind,16
+Craig,Kevin Hern,gop,2778
+Craig,N'Kiyla Jasmine Thomas,dem,974
+Craig,Ron Meinhardt,ind,68
+Craig,Curtis Stinnett,ind,58
+Craig,Sevier White,lib,30
+Creek,Kevin Hern,gop,14361
+Creek,N'Kiyla Jasmine Thomas,dem,5640
+Creek,Curtis Stinnett,ind,279
+Creek,Ron Meinhardt,ind,252
+Creek,Sevier White,lib,193
+Custer,Kevin Hern,gop,4917
+Custer,N'Kiyla Jasmine Thomas,dem,2059
+Custer,Curtis Stinnett,ind,77
+Custer,Ron Meinhardt,ind,74
+Custer,Sevier White,lib,66
+Delaware,Kevin Hern,gop,8659
+Delaware,N'Kiyla Jasmine Thomas,dem,2761
+Delaware,Curtis Stinnett,ind,164
+Delaware,Ron Meinhardt,ind,110
+Delaware,Sevier White,lib,83
+Dewey,Kevin Hern,gop,1214
+Dewey,N'Kiyla Jasmine Thomas,dem,162
+Dewey,Curtis Stinnett,ind,16
+Dewey,Ron Meinhardt,ind,16
+Dewey,Sevier White,lib,9
+Ellis,Kevin Hern,gop,1046
+Ellis,N'Kiyla Jasmine Thomas,dem,174
+Ellis,Ron Meinhardt,ind,21
+Ellis,Curtis Stinnett,ind,12
+Ellis,Sevier White,lib,9
+Garfield,Kevin Hern,gop,10209
+Garfield,N'Kiyla Jasmine Thomas,dem,4032
+Garfield,Curtis Stinnett,ind,220
+Garfield,Ron Meinhardt,ind,197
+Garfield,Sevier White,lib,136
+Garvin,Kevin Hern,gop,5101
+Garvin,N'Kiyla Jasmine Thomas,dem,1651
+Garvin,Curtis Stinnett,ind,107
+Garvin,Ron Meinhardt,ind,72
+Garvin,Sevier White,lib,50
+Grady,Kevin Hern,gop,12127
+Grady,N'Kiyla Jasmine Thomas,dem,4137
+Grady,Curtis Stinnett,ind,231
+Grady,Ron Meinhardt,ind,195
+Grady,Sevier White,lib,164
+Grant,Kevin Hern,gop,1133
+Grant,N'Kiyla Jasmine Thomas,dem,234
+Grant,Sevier White,lib,16
+Grant,Ron Meinhardt,ind,16
+Grant,Curtis Stinnett,ind,12
+Greer,Kevin Hern,gop,980
+Greer,N'Kiyla Jasmine Thomas,dem,288
+Greer,Curtis Stinnett,ind,15
+Greer,Ron Meinhardt,ind,8
+Greer,Sevier White,lib,7
+Harmon,Kevin Hern,gop,388
+Harmon,N'Kiyla Jasmine Thomas,dem,149
+Harmon,Curtis Stinnett,ind,6
+Harmon,Sevier White,lib,5
+Harmon,Ron Meinhardt,ind,2
+Harper,Kevin Hern,gop,847
+Harper,N'Kiyla Jasmine Thomas,dem,139
+Harper,Ron Meinhardt,ind,18
+Harper,Curtis Stinnett,ind,14
+Harper,Sevier White,lib,9
+Haskell,Kevin Hern,gop,2243
+Haskell,N'Kiyla Jasmine Thomas,dem,640
+Haskell,Curtis Stinnett,ind,20
+Haskell,Ron Meinhardt,ind,20
+Haskell,Sevier White,lib,17
+Hughes,Kevin Hern,gop,2110
+Hughes,N'Kiyla Jasmine Thomas,dem,716
+Hughes,Curtis Stinnett,ind,33
+Hughes,Ron Meinhardt,ind,25
+Hughes,Sevier White,lib,15
+Jackson,Kevin Hern,gop,3619
+Jackson,N'Kiyla Jasmine Thomas,dem,1227
+Jackson,Curtis Stinnett,ind,64
+Jackson,Sevier White,lib,54
+Jackson,Ron Meinhardt,ind,51
+Jefferson,Kevin Hern,gop,1098
+Jefferson,N'Kiyla Jasmine Thomas,dem,256
+Jefferson,Sevier White,lib,16
+Jefferson,Curtis Stinnett,ind,16
+Jefferson,Ron Meinhardt,ind,14
+Johnston,Kevin Hern,gop,1937
+Johnston,N'Kiyla Jasmine Thomas,dem,591
+Johnston,Ron Meinhardt,ind,28
+Johnston,Curtis Stinnett,ind,23
+Johnston,Sevier White,lib,18
+Kay,Kevin Hern,gop,7879
+Kay,N'Kiyla Jasmine Thomas,dem,3430
+Kay,Ron Meinhardt,ind,191
+Kay,Curtis Stinnett,ind,179
+Kay,Sevier White,lib,95
+Kingfisher,Kevin Hern,gop,3502
+Kingfisher,N'Kiyla Jasmine Thomas,dem,804
+Kingfisher,Curtis Stinnett,ind,64
+Kingfisher,Ron Meinhardt,ind,57
+Kingfisher,Sevier White,lib,38
+Kiowa,Kevin Hern,gop,1629
+Kiowa,N'Kiyla Jasmine Thomas,dem,533
+Kiowa,Curtis Stinnett,ind,31
+Kiowa,Ron Meinhardt,ind,30
+Kiowa,Sevier White,lib,17
+Latimer,Kevin Hern,gop,1812
+Latimer,N'Kiyla Jasmine Thomas,dem,572
+Latimer,Ron Meinhardt,ind,38
+Latimer,Sevier White,lib,24
+Latimer,Curtis Stinnett,ind,18
+Le Flore,Kevin Hern,gop,8425
+Le Flore,N'Kiyla Jasmine Thomas,dem,2609
+Le Flore,Ron Meinhardt,ind,145
+Le Flore,Curtis Stinnett,ind,106
+Le Flore,Sevier White,lib,94
+Lincoln,Kevin Hern,gop,7663
+Lincoln,N'Kiyla Jasmine Thomas,dem,2308
+Lincoln,Curtis Stinnett,ind,143
+Lincoln,Ron Meinhardt,ind,129
+Lincoln,Sevier White,lib,95
+Logan,Kevin Hern,gop,11845
+Logan,N'Kiyla Jasmine Thomas,dem,5311
+Logan,Ron Meinhardt,ind,248
+Logan,Curtis Stinnett,ind,215
+Logan,Sevier White,lib,206
+Love,Kevin Hern,gop,1790
+Love,N'Kiyla Jasmine Thomas,dem,639
+Love,Ron Meinhardt,ind,23
+Love,Curtis Stinnett,ind,21
+Love,Sevier White,lib,16
+Major,Kevin Hern,gop,1998
+Major,N'Kiyla Jasmine Thomas,dem,289
+Major,Sevier White,lib,25
+Major,Curtis Stinnett,ind,25
+Major,Ron Meinhardt,ind,23
+Marshall,Kevin Hern,gop,3293
+Marshall,N'Kiyla Jasmine Thomas,dem,1077
+Marshall,Curtis Stinnett,ind,64
+Marshall,Ron Meinhardt,ind,42
+Marshall,Sevier White,lib,25
+Mayes,Kevin Hern,gop,7985
+Mayes,N'Kiyla Jasmine Thomas,dem,3006
+Mayes,Ron Meinhardt,ind,225
+Mayes,Curtis Stinnett,ind,166
+Mayes,Sevier White,lib,108
+McClain,Kevin Hern,gop,10576
+McClain,N'Kiyla Jasmine Thomas,dem,3748
+McClain,Curtis Stinnett,ind,199
+McClain,Sevier White,lib,175
+McClain,Ron Meinhardt,ind,169
+McCurtain,Kevin Hern,gop,5178
+McCurtain,N'Kiyla Jasmine Thomas,dem,1397
+McCurtain,Curtis Stinnett,ind,64
+McCurtain,Sevier White,lib,58
+McCurtain,Ron Meinhardt,ind,47
+McIntosh,Kevin Hern,gop,3979
+McIntosh,N'Kiyla Jasmine Thomas,dem,1581
+McIntosh,Curtis Stinnett,ind,76
+McIntosh,Ron Meinhardt,ind,69
+McIntosh,Sevier White,lib,36
+Murray,Kevin Hern,gop,2735
+Murray,N'Kiyla Jasmine Thomas,dem,971
+Murray,Ron Meinhardt,ind,48
+Murray,Curtis Stinnett,ind,41
+Murray,Sevier White,lib,34
+Muskogee,Kevin Hern,gop,9504
+Muskogee,N'Kiyla Jasmine Thomas,dem,6261
+Muskogee,Ron Meinhardt,ind,195
+Muskogee,Curtis Stinnett,ind,175
+Muskogee,Sevier White,lib,156
+Noble,Kevin Hern,gop,2561
+Noble,N'Kiyla Jasmine Thomas,dem,879
+Noble,Ron Meinhardt,ind,58
+Noble,Curtis Stinnett,ind,45
+Noble,Sevier White,lib,40
+Nowata,Kevin Hern,gop,2326
+Nowata,N'Kiyla Jasmine Thomas,dem,623
+Nowata,Curtis Stinnett,ind,50
+Nowata,Ron Meinhardt,ind,48
+Nowata,Sevier White,lib,30
+Okfuskee,Kevin Hern,gop,1801
+Okfuskee,N'Kiyla Jasmine Thomas,dem,739
+Okfuskee,Ron Meinhardt,ind,33
+Okfuskee,Curtis Stinnett,ind,28
+Okfuskee,Sevier White,lib,16
+Oklahoma,N'Kiyla Jasmine Thomas,dem,125915
+Oklahoma,Kevin Hern,gop,94877
+Oklahoma,Curtis Stinnett,ind,2946
+Oklahoma,Ron Meinhardt,ind,2781
+Oklahoma,Sevier White,lib,2000
+Okmulgee,Kevin Hern,gop,5938
+Okmulgee,N'Kiyla Jasmine Thomas,dem,3347
+Okmulgee,Curtis Stinnett,ind,120
+Okmulgee,Ron Meinhardt,ind,115
+Okmulgee,Sevier White,lib,83
+Osage,Kevin Hern,gop,8854
+Osage,N'Kiyla Jasmine Thomas,dem,4959
+Osage,Ron Meinhardt,ind,177
+Osage,Curtis Stinnett,ind,174
+Osage,Sevier White,lib,135
+Ottawa,Kevin Hern,gop,4607
+Ottawa,N'Kiyla Jasmine Thomas,dem,2098
+Ottawa,Curtis Stinnett,ind,86
+Ottawa,Ron Meinhardt,ind,73
+Ottawa,Sevier White,lib,63
+Pawnee,Kevin Hern,gop,3213
+Pawnee,N'Kiyla Jasmine Thomas,dem,1176
+Pawnee,Curtis Stinnett,ind,63
+Pawnee,Ron Meinhardt,ind,63
+Pawnee,Sevier White,lib,51
+Payne,Kevin Hern,gop,11232
+Payne,N'Kiyla Jasmine Thomas,dem,8579
+Payne,Ron Meinhardt,ind,297
+Payne,Curtis Stinnett,ind,292
+Payne,Sevier White,lib,207
+Pittsburg,Kevin Hern,gop,8363
+Pittsburg,N'Kiyla Jasmine Thomas,dem,2964
+Pittsburg,Curtis Stinnett,ind,188
+Pittsburg,Ron Meinhardt,ind,129
+Pittsburg,Sevier White,lib,123
+Pontotoc,Kevin Hern,gop,6574
+Pontotoc,N'Kiyla Jasmine Thomas,dem,3613
+Pontotoc,Curtis Stinnett,ind,157
+Pontotoc,Sevier White,lib,105
+Pontotoc,Ron Meinhardt,ind,103
+Pottawatomie,Kevin Hern,gop,13096
+Pottawatomie,N'Kiyla Jasmine Thomas,dem,6312
+Pottawatomie,Curtis Stinnett,ind,291
+Pottawatomie,Ron Meinhardt,ind,284
+Pottawatomie,Sevier White,lib,229
+Pushmataha,Kevin Hern,gop,2394
+Pushmataha,N'Kiyla Jasmine Thomas,dem,556
+Pushmataha,Curtis Stinnett,ind,31
+Pushmataha,Sevier White,lib,21
+Pushmataha,Ron Meinhardt,ind,21
+Roger Mills,Kevin Hern,gop,924
+Roger Mills,N'Kiyla Jasmine Thomas,dem,141
+Roger Mills,Ron Meinhardt,ind,12
+Roger Mills,Sevier White,lib,9
+Roger Mills,Curtis Stinnett,ind,9
+Rogers,Kevin Hern,gop,21857
+Rogers,N'Kiyla Jasmine Thomas,dem,8681
+Rogers,Ron Meinhardt,ind,967
+Rogers,Curtis Stinnett,ind,449
+Rogers,Sevier White,lib,313
+Seminole,Kevin Hern,gop,3562
+Seminole,N'Kiyla Jasmine Thomas,dem,1600
+Seminole,Curtis Stinnett,ind,76
+Seminole,Ron Meinhardt,ind,52
+Seminole,Sevier White,lib,44
+Sequoyah,Kevin Hern,gop,6582
+Sequoyah,N'Kiyla Jasmine Thomas,dem,2383
+Sequoyah,Curtis Stinnett,ind,110
+Sequoyah,Ron Meinhardt,ind,86
+Sequoyah,Sevier White,lib,72
+Stephens,Kevin Hern,gop,8994
+Stephens,N'Kiyla Jasmine Thomas,dem,2644
+Stephens,Curtis Stinnett,ind,141
+Stephens,Ron Meinhardt,ind,140
+Stephens,Sevier White,lib,115
+Texas,Kevin Hern,gop,2570
+Texas,N'Kiyla Jasmine Thomas,dem,935
+Texas,Curtis Stinnett,ind,49
+Texas,Ron Meinhardt,ind,42
+Texas,Sevier White,lib,33
+Tillman,Kevin Hern,gop,1145
+Tillman,N'Kiyla Jasmine Thomas,dem,391
+Tillman,Ron Meinhardt,ind,27
+Tillman,Curtis Stinnett,ind,26
+Tillman,Sevier White,lib,10
+Tulsa,Kevin Hern,gop,93868
+Tulsa,N'Kiyla Jasmine Thomas,dem,91449
+Tulsa,Curtis Stinnett,ind,2504
+Tulsa,Ron Meinhardt,ind,2437
+Tulsa,Sevier White,lib,1654
+Wagoner,Kevin Hern,gop,17598
+Wagoner,N'Kiyla Jasmine Thomas,dem,8270
+Wagoner,Ron Meinhardt,ind,413
+Wagoner,Curtis Stinnett,ind,306
+Wagoner,Sevier White,lib,209
+Washington,Kevin Hern,gop,10851
+Washington,N'Kiyla Jasmine Thomas,dem,4615
+Washington,Ron Meinhardt,ind,245
+Washington,Curtis Stinnett,ind,204
+Washington,Sevier White,lib,152
+Washita,Kevin Hern,gop,2351
+Washita,N'Kiyla Jasmine Thomas,dem,528
+Washita,Curtis Stinnett,ind,36
+Washita,Ron Meinhardt,ind,28
+Washita,Sevier White,lib,25
+Woods,Kevin Hern,gop,1883
+Woods,N'Kiyla Jasmine Thomas,dem,511
+Woods,Curtis Stinnett,ind,48
+Woods,Ron Meinhardt,ind,34
+Woods,Sevier White,lib,27
+Woodward,Kevin Hern,gop,3714
+Woodward,N'Kiyla Jasmine Thomas,dem,868
+Woodward,Curtis Stinnett,ind,60
+Woodward,Ron Meinhardt,ind,56
+Woodward,Sevier White,lib,43

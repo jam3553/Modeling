@@ -1,0 +1,225 @@
+county_name,candidate_name,party,votes
+Beaverhead,Kurt Alme,gop,2805
+Beaverhead,Seth Bodnar,ind,1277
+Beaverhead,Alani Bankhead,dem,377
+Beaverhead,Kyle Austin,lib,72
+Big Horn,Kurt Alme,gop,1296
+Big Horn,Seth Bodnar,ind,1109
+Big Horn,Alani Bankhead,dem,997
+Big Horn,Kyle Austin,lib,87
+Blaine,Kurt Alme,gop,979
+Blaine,Seth Bodnar,ind,687
+Blaine,Alani Bankhead,dem,514
+Blaine,Kyle Austin,lib,49
+Broadwater,Kurt Alme,gop,2530
+Broadwater,Seth Bodnar,ind,881
+Broadwater,Alani Bankhead,dem,226
+Broadwater,Kyle Austin,lib,99
+Carbon,Kurt Alme,gop,3349
+Carbon,Seth Bodnar,ind,2043
+Carbon,Alani Bankhead,dem,622
+Carbon,Kyle Austin,lib,141
+Carter,Kurt Alme,gop,565
+Carter,Seth Bodnar,ind,84
+Carter,Alani Bankhead,dem,23
+Carter,Kyle Austin,lib,21
+Cascade,Kurt Alme,gop,14188
+Cascade,Seth Bodnar,ind,10647
+Cascade,Alani Bankhead,dem,4158
+Cascade,Kyle Austin,lib,514
+Chouteau,Kurt Alme,gop,1262
+Chouteau,Seth Bodnar,ind,689
+Chouteau,Alani Bankhead,dem,268
+Chouteau,Kyle Austin,lib,59
+Custer,Kurt Alme,gop,2766
+Custer,Seth Bodnar,ind,1062
+Custer,Alani Bankhead,dem,398
+Custer,Kyle Austin,lib,94
+Daniels,Kurt Alme,gop,593
+Daniels,Seth Bodnar,ind,141
+Daniels,Alani Bankhead,dem,50
+Daniels,Kyle Austin,lib,24
+Dawson,Kurt Alme,gop,2285
+Dawson,Seth Bodnar,ind,686
+Dawson,Alani Bankhead,dem,297
+Dawson,Kyle Austin,lib,82
+Deer Lodge,Seth Bodnar,ind,1824
+Deer Lodge,Kurt Alme,gop,1458
+Deer Lodge,Alani Bankhead,dem,650
+Deer Lodge,Kyle Austin,lib,77
+Fallon,Kurt Alme,gop,931
+Fallon,Seth Bodnar,ind,163
+Fallon,Alani Bankhead,dem,67
+Fallon,Kyle Austin,lib,18
+Fergus,Kurt Alme,gop,3414
+Fergus,Seth Bodnar,ind,1408
+Fergus,Alani Bankhead,dem,461
+Fergus,Kyle Austin,lib,120
+Flathead,Kurt Alme,gop,30359
+Flathead,Seth Bodnar,ind,15558
+Flathead,Alani Bankhead,dem,6108
+Flathead,Kyle Austin,lib,824
+Gallatin,Seth Bodnar,ind,27886
+Gallatin,Kurt Alme,gop,20817
+Gallatin,Alani Bankhead,dem,8206
+Gallatin,Kyle Austin,lib,843
+Garfield,Kurt Alme,gop,549
+Garfield,Seth Bodnar,ind,64
+Garfield,Alani Bankhead,dem,25
+Garfield,Kyle Austin,lib,15
+Glacier,Seth Bodnar,ind,1672
+Glacier,Kurt Alme,gop,1175
+Glacier,Alani Bankhead,dem,1106
+Glacier,Kyle Austin,lib,65
+Golden Valley,Kurt Alme,gop,294
+Golden Valley,Seth Bodnar,ind,53
+Golden Valley,Alani Bankhead,dem,24
+Golden Valley,Kyle Austin,lib,17
+Granite,Kurt Alme,gop,1078
+Granite,Seth Bodnar,ind,539
+Granite,Alani Bankhead,dem,163
+Granite,Kyle Austin,lib,48
+Hill,Kurt Alme,gop,2321
+Hill,Seth Bodnar,ind,1687
+Hill,Alani Bankhead,dem,909
+Hill,Kyle Austin,lib,218
+Jefferson,Kurt Alme,gop,3884
+Jefferson,Seth Bodnar,ind,2218
+Jefferson,Alani Bankhead,dem,581
+Jefferson,Kyle Austin,lib,136
+Judith Basin,Kurt Alme,gop,758
+Judith Basin,Seth Bodnar,ind,304
+Judith Basin,Alani Bankhead,dem,64
+Judith Basin,Kyle Austin,lib,37
+Lake,Kurt Alme,gop,7110
+Lake,Seth Bodnar,ind,4820
+Lake,Alani Bankhead,dem,1905
+Lake,Kyle Austin,lib,195
+Lewis and Clark,Seth Bodnar,ind,16802
+Lewis and Clark,Kurt Alme,gop,14188
+Lewis and Clark,Alani Bankhead,dem,3421
+Lewis and Clark,Kyle Austin,lib,587
+Liberty,Kurt Alme,gop,487
+Liberty,Seth Bodnar,ind,196
+Liberty,Alani Bankhead,dem,72
+Liberty,Kyle Austin,lib,18
+Lincoln,Kurt Alme,gop,6866
+Lincoln,Seth Bodnar,ind,1673
+Lincoln,Alani Bankhead,dem,1162
+Lincoln,Kyle Austin,lib,163
+Madison,Kurt Alme,gop,3221
+Madison,Seth Bodnar,ind,1413
+Madison,Alani Bankhead,dem,529
+Madison,Kyle Austin,lib,98
+McCone,Kurt Alme,gop,663
+McCone,Seth Bodnar,ind,132
+McCone,Alani Bankhead,dem,42
+McCone,Kyle Austin,lib,17
+Meagher,Kurt Alme,gop,622
+Meagher,Seth Bodnar,ind,231
+Meagher,Alani Bankhead,dem,50
+Meagher,Kyle Austin,lib,27
+Mineral,Kurt Alme,gop,1476
+Mineral,Seth Bodnar,ind,631
+Mineral,Alani Bankhead,dem,236
+Mineral,Kyle Austin,lib,67
+Missoula,Seth Bodnar,ind,36544
+Missoula,Kurt Alme,gop,16632
+Missoula,Alani Bankhead,dem,7923
+Missoula,Kyle Austin,lib,718
+Musselshell,Kurt Alme,gop,1819
+Musselshell,Seth Bodnar,ind,395
+Musselshell,Alani Bankhead,dem,140
+Musselshell,Kyle Austin,lib,65
+Park,Seth Bodnar,ind,4245
+Park,Kurt Alme,gop,4050
+Park,Alani Bankhead,dem,1188
+Park,Kyle Austin,lib,127
+Petroleum,Kurt Alme,gop,199
+Petroleum,Seth Bodnar,ind,36
+Petroleum,Kyle Austin,lib,11
+Petroleum,Alani Bankhead,dem,4
+Phillips,Kurt Alme,gop,1231
+Phillips,Seth Bodnar,ind,311
+Phillips,Alani Bankhead,dem,109
+Phillips,Kyle Austin,lib,34
+Pondera,Kurt Alme,gop,1356
+Pondera,Seth Bodnar,ind,595
+Pondera,Alani Bankhead,dem,228
+Pondera,Kyle Austin,lib,57
+Powder River,Kurt Alme,gop,666
+Powder River,Seth Bodnar,ind,151
+Powder River,Alani Bankhead,dem,43
+Powder River,Kyle Austin,lib,23
+Powell,Kurt Alme,gop,1734
+Powell,Seth Bodnar,ind,631
+Powell,Alani Bankhead,dem,197
+Powell,Kyle Austin,lib,55
+Prairie,Kurt Alme,gop,403
+Prairie,Seth Bodnar,ind,117
+Prairie,Alani Bankhead,dem,41
+Prairie,Kyle Austin,lib,21
+Ravalli,Kurt Alme,gop,14499
+Ravalli,Seth Bodnar,ind,7350
+Ravalli,Alani Bankhead,dem,2112
+Ravalli,Kyle Austin,lib,402
+Richland,Kurt Alme,gop,2663
+Richland,Seth Bodnar,ind,571
+Richland,Alani Bankhead,dem,310
+Richland,Kyle Austin,lib,105
+Roosevelt,Kurt Alme,gop,1116
+Roosevelt,Seth Bodnar,ind,704
+Roosevelt,Alani Bankhead,dem,681
+Roosevelt,Kyle Austin,lib,50
+Rosebud,Kurt Alme,gop,1636
+Rosebud,Seth Bodnar,ind,713
+Rosebud,Alani Bankhead,dem,366
+Rosebud,Kyle Austin,lib,76
+Sanders,Kurt Alme,gop,4585
+Sanders,Seth Bodnar,ind,1328
+Sanders,Alani Bankhead,dem,625
+Sanders,Kyle Austin,lib,113
+Sheridan,Kurt Alme,gop,949
+Sheridan,Seth Bodnar,ind,389
+Sheridan,Alani Bankhead,dem,173
+Sheridan,Kyle Austin,lib,38
+Silver Bow,Seth Bodnar,ind,7223
+Silver Bow,Kurt Alme,gop,4772
+Silver Bow,Alani Bankhead,dem,2495
+Silver Bow,Kyle Austin,lib,332
+Stillwater,Kurt Alme,gop,3142
+Stillwater,Seth Bodnar,ind,1017
+Stillwater,Alani Bankhead,dem,260
+Stillwater,Kyle Austin,lib,126
+Sweet Grass,Kurt Alme,gop,1214
+Sweet Grass,Seth Bodnar,ind,524
+Sweet Grass,Alani Bankhead,dem,142
+Sweet Grass,Kyle Austin,lib,49
+Teton,Kurt Alme,gop,1775
+Teton,Seth Bodnar,ind,756
+Teton,Alani Bankhead,dem,265
+Teton,Kyle Austin,lib,66
+Toole,Kurt Alme,gop,1101
+Toole,Seth Bodnar,ind,318
+Toole,Alani Bankhead,dem,146
+Toole,Kyle Austin,lib,35
+Treasure,Kurt Alme,gop,285
+Treasure,Seth Bodnar,ind,53
+Treasure,Alani Bankhead,dem,14
+Treasure,Kyle Austin,lib,9
+Valley,Kurt Alme,gop,1938
+Valley,Seth Bodnar,ind,845
+Valley,Alani Bankhead,dem,241
+Valley,Kyle Austin,lib,78
+Wheatland,Kurt Alme,gop,589
+Wheatland,Seth Bodnar,ind,200
+Wheatland,Alani Bankhead,dem,58
+Wheatland,Kyle Austin,lib,14
+Wibaux,Kurt Alme,gop,349
+Wibaux,Seth Bodnar,ind,61
+Wibaux,Alani Bankhead,dem,27
+Wibaux,Kyle Austin,lib,16
+Yellowstone,Kurt Alme,gop,32557
+Yellowstone,Seth Bodnar,ind,20894
+Yellowstone,Alani Bankhead,dem,8451
+Yellowstone,Kyle Austin,lib,1561

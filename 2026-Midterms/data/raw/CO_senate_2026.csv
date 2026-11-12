@@ -1,0 +1,385 @@
+county_name,candidate_name,party,votes
+Adams,John Hickenlooper,dem,124325
+Adams,Mark Baisley,gop,61768
+Adams,Bob Chew,other,5664
+Adams,Blake Huber,lib,2578
+Adams,Adam Withrow,other,1179
+Adams,Christopher Baum,other,372
+Alamosa,John Hickenlooper,dem,3195
+Alamosa,Mark Baisley,gop,2639
+Alamosa,Bob Chew,other,134
+Alamosa,Blake Huber,lib,68
+Alamosa,Adam Withrow,other,34
+Alamosa,Christopher Baum,other,15
+Arapahoe,John Hickenlooper,dem,177063
+Arapahoe,Mark Baisley,gop,78908
+Arapahoe,Bob Chew,other,8099
+Arapahoe,Blake Huber,lib,3012
+Arapahoe,Adam Withrow,other,1496
+Arapahoe,Christopher Baum,other,424
+Archuleta,Mark Baisley,gop,3679
+Archuleta,John Hickenlooper,dem,3590
+Archuleta,Bob Chew,other,116
+Archuleta,Blake Huber,lib,89
+Archuleta,Adam Withrow,other,33
+Archuleta,Christopher Baum,other,8
+Baca,Mark Baisley,gop,1217
+Baca,John Hickenlooper,dem,269
+Baca,Blake Huber,lib,30
+Baca,Bob Chew,other,21
+Baca,Adam Withrow,other,2
+Baca,Christopher Baum,other,0
+Bent,Mark Baisley,gop,1040
+Bent,John Hickenlooper,dem,534
+Bent,Bob Chew,other,27
+Bent,Blake Huber,lib,18
+Bent,Christopher Baum,other,8
+Bent,Adam Withrow,other,6
+Boulder,John Hickenlooper,dem,135191
+Boulder,Mark Baisley,gop,26373
+Boulder,Bob Chew,other,4058
+Boulder,Blake Huber,lib,1737
+Boulder,Adam Withrow,other,1016
+Boulder,Christopher Baum,other,238
+Broomfield,John Hickenlooper,dem,27412
+Broomfield,Mark Baisley,gop,10945
+Broomfield,Bob Chew,other,1285
+Broomfield,Blake Huber,lib,424
+Broomfield,Adam Withrow,other,184
+Broomfield,Christopher Baum,other,63
+Chaffee,John Hickenlooper,dem,7752
+Chaffee,Mark Baisley,gop,4540
+Chaffee,Bob Chew,other,244
+Chaffee,Blake Huber,lib,169
+Chaffee,Adam Withrow,other,54
+Chaffee,Christopher Baum,other,10
+Cheyenne,Mark Baisley,gop,685
+Cheyenne,John Hickenlooper,dem,112
+Cheyenne,Bob Chew,other,32
+Cheyenne,Blake Huber,lib,4
+Cheyenne,Adam Withrow,other,2
+Cheyenne,Christopher Baum,other,1
+Clear Creek,John Hickenlooper,dem,3141
+Clear Creek,Mark Baisley,gop,1667
+Clear Creek,Bob Chew,other,150
+Clear Creek,Blake Huber,lib,87
+Clear Creek,Adam Withrow,other,18
+Clear Creek,Christopher Baum,other,8
+Conejos,Mark Baisley,gop,1765
+Conejos,John Hickenlooper,dem,1597
+Conejos,Bob Chew,other,44
+Conejos,Blake Huber,lib,22
+Conejos,Adam Withrow,other,22
+Conejos,Christopher Baum,other,8
+Costilla,John Hickenlooper,dem,1223
+Costilla,Mark Baisley,gop,557
+Costilla,Bob Chew,other,25
+Costilla,Blake Huber,lib,23
+Costilla,Christopher Baum,other,12
+Costilla,Adam Withrow,other,0
+Crowley,Mark Baisley,gop,888
+Crowley,John Hickenlooper,dem,363
+Crowley,Bob Chew,other,33
+Crowley,Blake Huber,lib,22
+Crowley,Christopher Baum,other,6
+Crowley,Adam Withrow,other,6
+Custer,Mark Baisley,gop,2015
+Custer,John Hickenlooper,dem,1038
+Custer,Bob Chew,other,52
+Custer,Blake Huber,lib,39
+Custer,Adam Withrow,other,6
+Custer,Christopher Baum,other,1
+Delta,Mark Baisley,gop,9802
+Delta,John Hickenlooper,dem,5786
+Delta,Bob Chew,other,297
+Delta,Blake Huber,lib,217
+Delta,Adam Withrow,other,77
+Delta,Christopher Baum,other,35
+Denver,John Hickenlooper,dem,254474
+Denver,Mark Baisley,gop,39286
+Denver,Bob Chew,other,6702
+Denver,Blake Huber,lib,2915
+Denver,Adam Withrow,other,1818
+Denver,Christopher Baum,other,460
+Dolores,Mark Baisley,gop,866
+Dolores,John Hickenlooper,dem,298
+Dolores,Bob Chew,other,17
+Dolores,Blake Huber,lib,13
+Dolores,Adam Withrow,other,7
+Dolores,Christopher Baum,other,1
+Douglas,John Hickenlooper,dem,102585
+Douglas,Mark Baisley,gop,94118
+Douglas,Bob Chew,other,6169
+Douglas,Blake Huber,lib,2349
+Douglas,Adam Withrow,other,616
+Douglas,Christopher Baum,other,193
+Eagle,John Hickenlooper,dem,15549
+Eagle,Mark Baisley,gop,6772
+Eagle,Bob Chew,other,470
+Eagle,Blake Huber,lib,272
+Eagle,Adam Withrow,other,76
+Eagle,Christopher Baum,other,22
+El Paso,John Hickenlooper,dem,155453
+El Paso,Mark Baisley,gop,143607
+El Paso,Bob Chew,other,7229
+El Paso,Blake Huber,lib,4685
+El Paso,Adam Withrow,other,1613
+El Paso,Christopher Baum,other,579
+Elbert,Mark Baisley,gop,11710
+Elbert,John Hickenlooper,dem,4443
+Elbert,Bob Chew,other,602
+Elbert,Blake Huber,lib,276
+Elbert,Adam Withrow,other,64
+Elbert,Christopher Baum,other,33
+Fremont,Mark Baisley,gop,12335
+Fremont,John Hickenlooper,dem,6725
+Fremont,Bob Chew,other,417
+Fremont,Blake Huber,lib,241
+Fremont,Adam Withrow,other,86
+Fremont,Christopher Baum,other,36
+Garfield,John Hickenlooper,dem,14189
+Garfield,Mark Baisley,gop,9864
+Garfield,Bob Chew,other,523
+Garfield,Blake Huber,lib,326
+Garfield,Adam Withrow,other,98
+Garfield,Christopher Baum,other,47
+Gilpin,John Hickenlooper,dem,1939
+Gilpin,Mark Baisley,gop,1252
+Gilpin,Bob Chew,other,95
+Gilpin,Blake Huber,lib,82
+Gilpin,Christopher Baum,other,12
+Gilpin,Adam Withrow,other,10
+Grand,John Hickenlooper,dem,4558
+Grand,Mark Baisley,gop,3721
+Grand,Bob Chew,other,257
+Grand,Blake Huber,lib,167
+Grand,Adam Withrow,other,37
+Grand,Christopher Baum,other,11
+Gunnison,John Hickenlooper,dem,6462
+Gunnison,Mark Baisley,gop,2534
+Gunnison,Bob Chew,other,178
+Gunnison,Blake Huber,lib,146
+Gunnison,Adam Withrow,other,47
+Gunnison,Christopher Baum,other,10
+Hinsdale,Mark Baisley,gop,252
+Hinsdale,John Hickenlooper,dem,228
+Hinsdale,Blake Huber,lib,13
+Hinsdale,Bob Chew,other,5
+Hinsdale,Christopher Baum,other,2
+Hinsdale,Adam Withrow,other,0
+Huerfano,John Hickenlooper,dem,1889
+Huerfano,Mark Baisley,gop,1698
+Huerfano,Bob Chew,other,74
+Huerfano,Adam Withrow,other,43
+Huerfano,Blake Huber,lib,35
+Huerfano,Christopher Baum,other,9
+Jackson,Mark Baisley,gop,455
+Jackson,John Hickenlooper,dem,158
+Jackson,Bob Chew,other,20
+Jackson,Blake Huber,lib,11
+Jackson,Adam Withrow,other,1
+Jackson,Christopher Baum,other,0
+Jefferson,John Hickenlooper,dem,196104
+Jefferson,Mark Baisley,gop,96235
+Jefferson,Bob Chew,other,10328
+Jefferson,Blake Huber,lib,3826
+Jefferson,Adam Withrow,other,1578
+Jefferson,Christopher Baum,other,444
+Kiowa,Mark Baisley,gop,593
+Kiowa,John Hickenlooper,dem,88
+Kiowa,Bob Chew,other,10
+Kiowa,Blake Huber,lib,6
+Kiowa,Adam Withrow,other,4
+Kiowa,Christopher Baum,other,1
+Kit Carson,Mark Baisley,gop,2269
+Kit Carson,John Hickenlooper,dem,533
+Kit Carson,Bob Chew,other,71
+Kit Carson,Blake Huber,lib,34
+Kit Carson,Adam Withrow,other,8
+Kit Carson,Christopher Baum,other,3
+La Plata,John Hickenlooper,dem,19273
+La Plata,Mark Baisley,gop,9917
+La Plata,Blake Huber,lib,383
+La Plata,Bob Chew,other,363
+La Plata,Adam Withrow,other,139
+La Plata,Christopher Baum,other,38
+Lake,John Hickenlooper,dem,2120
+Lake,Mark Baisley,gop,1029
+Lake,Bob Chew,other,90
+Lake,Blake Huber,lib,75
+Lake,Adam Withrow,other,15
+Lake,Christopher Baum,other,11
+Larimer,John Hickenlooper,dem,121724
+Larimer,Mark Baisley,gop,62768
+Larimer,Bob Chew,other,5412
+Larimer,Blake Huber,lib,2388
+Larimer,Adam Withrow,other,1024
+Larimer,Christopher Baum,other,266
+Las Animas,John Hickenlooper,dem,3166
+Las Animas,Mark Baisley,gop,3099
+Las Animas,Bob Chew,other,125
+Las Animas,Blake Huber,lib,69
+Las Animas,Adam Withrow,other,34
+Las Animas,Christopher Baum,other,11
+Lincoln,Mark Baisley,gop,1416
+Lincoln,John Hickenlooper,dem,392
+Lincoln,Bob Chew,other,88
+Lincoln,Blake Huber,lib,30
+Lincoln,Christopher Baum,other,5
+Lincoln,Adam Withrow,other,3
+Logan,Mark Baisley,gop,5493
+Logan,John Hickenlooper,dem,1935
+Logan,Bob Chew,other,218
+Logan,Blake Huber,lib,99
+Logan,Adam Withrow,other,30
+Logan,Christopher Baum,other,20
+Mesa,Mark Baisley,gop,40744
+Mesa,John Hickenlooper,dem,32220
+Mesa,Bob Chew,other,1537
+Mesa,Blake Huber,lib,1002
+Mesa,Adam Withrow,other,370
+Mesa,Christopher Baum,other,126
+Mineral,Mark Baisley,gop,311
+Mineral,John Hickenlooper,dem,299
+Mineral,Bob Chew,other,18
+Mineral,Blake Huber,lib,8
+Mineral,Christopher Baum,other,3
+Mineral,Adam Withrow,other,3
+Moffat,Mark Baisley,gop,3616
+Moffat,John Hickenlooper,dem,1117
+Moffat,Bob Chew,other,135
+Moffat,Blake Huber,lib,83
+Moffat,Adam Withrow,other,19
+Moffat,Christopher Baum,other,7
+Montezuma,Mark Baisley,gop,6685
+Montezuma,John Hickenlooper,dem,5447
+Montezuma,Bob Chew,other,165
+Montezuma,Blake Huber,lib,159
+Montezuma,Adam Withrow,other,67
+Montezuma,Christopher Baum,other,36
+Montrose,Mark Baisley,gop,12584
+Montrose,John Hickenlooper,dem,8080
+Montrose,Bob Chew,other,304
+Montrose,Blake Huber,lib,256
+Montrose,Adam Withrow,other,82
+Montrose,Christopher Baum,other,36
+Morgan,Mark Baisley,gop,6422
+Morgan,John Hickenlooper,dem,3346
+Morgan,Bob Chew,other,300
+Morgan,Blake Huber,lib,104
+Morgan,Adam Withrow,other,41
+Morgan,Christopher Baum,other,18
+Otero,Mark Baisley,gop,3964
+Otero,John Hickenlooper,dem,2808
+Otero,Bob Chew,other,135
+Otero,Blake Huber,lib,67
+Otero,Christopher Baum,other,30
+Otero,Adam Withrow,other,29
+Ouray,John Hickenlooper,dem,2224
+Ouray,Mark Baisley,gop,1210
+Ouray,Bob Chew,other,47
+Ouray,Blake Huber,lib,34
+Ouray,Adam Withrow,other,17
+Ouray,Christopher Baum,other,6
+Park,Mark Baisley,gop,4823
+Park,John Hickenlooper,dem,4215
+Park,Bob Chew,other,258
+Park,Blake Huber,lib,139
+Park,Adam Withrow,other,34
+Park,Christopher Baum,other,15
+Phillips,Mark Baisley,gop,1376
+Phillips,John Hickenlooper,dem,435
+Phillips,Bob Chew,other,58
+Phillips,Blake Huber,lib,20
+Phillips,Christopher Baum,other,6
+Phillips,Adam Withrow,other,5
+Pitkin,John Hickenlooper,dem,7012
+Pitkin,Mark Baisley,gop,1850
+Pitkin,Bob Chew,other,107
+Pitkin,Blake Huber,lib,76
+Pitkin,Adam Withrow,other,25
+Pitkin,Christopher Baum,other,10
+Prowers,Mark Baisley,gop,2649
+Prowers,John Hickenlooper,dem,1181
+Prowers,Bob Chew,other,82
+Prowers,Blake Huber,lib,31
+Prowers,Adam Withrow,other,15
+Prowers,Christopher Baum,other,8
+Pueblo,John Hickenlooper,dem,36434
+Pueblo,Mark Baisley,gop,29001
+Pueblo,Bob Chew,other,1332
+Pueblo,Blake Huber,lib,756
+Pueblo,Adam Withrow,other,394
+Pueblo,Christopher Baum,other,175
+Rio Blanco,Mark Baisley,gop,2284
+Rio Blanco,John Hickenlooper,dem,562
+Rio Blanco,Bob Chew,other,70
+Rio Blanco,Blake Huber,lib,23
+Rio Blanco,Adam Withrow,other,13
+Rio Blanco,Christopher Baum,other,2
+Rio Grande,Mark Baisley,gop,2517
+Rio Grande,John Hickenlooper,dem,2136
+Rio Grande,Bob Chew,other,127
+Rio Grande,Blake Huber,lib,50
+Rio Grande,Adam Withrow,other,20
+Rio Grande,Christopher Baum,other,6
+Routt,John Hickenlooper,dem,9250
+Routt,Mark Baisley,gop,3889
+Routt,Bob Chew,other,317
+Routt,Blake Huber,lib,175
+Routt,Adam Withrow,other,43
+Routt,Christopher Baum,other,16
+Saguache,John Hickenlooper,dem,1617
+Saguache,Mark Baisley,gop,1013
+Saguache,Bob Chew,other,53
+Saguache,Blake Huber,lib,38
+Saguache,Adam Withrow,other,15
+Saguache,Christopher Baum,other,7
+San Juan,John Hickenlooper,dem,392
+San Juan,Mark Baisley,gop,150
+San Juan,Bob Chew,other,12
+San Juan,Blake Huber,lib,11
+San Juan,Christopher Baum,other,2
+San Juan,Adam Withrow,other,1
+San Miguel,John Hickenlooper,dem,3110
+San Miguel,Mark Baisley,gop,811
+San Miguel,Bob Chew,other,65
+San Miguel,Blake Huber,lib,57
+San Miguel,Adam Withrow,other,18
+San Miguel,Christopher Baum,other,1
+Sedgwick,Mark Baisley,gop,744
+Sedgwick,John Hickenlooper,dem,267
+Sedgwick,Bob Chew,other,38
+Sedgwick,Blake Huber,lib,9
+Sedgwick,Adam Withrow,other,5
+Sedgwick,Christopher Baum,other,2
+Summit,John Hickenlooper,dem,10671
+Summit,Mark Baisley,gop,3271
+Summit,Bob Chew,other,357
+Summit,Blake Huber,lib,193
+Summit,Adam Withrow,other,68
+Summit,Christopher Baum,other,14
+Teller,Mark Baisley,gop,8407
+Teller,John Hickenlooper,dem,4766
+Teller,Bob Chew,other,244
+Teller,Blake Huber,lib,199
+Teller,Adam Withrow,other,45
+Teller,Christopher Baum,other,16
+Washington,Mark Baisley,gop,1794
+Washington,John Hickenlooper,dem,342
+Washington,Bob Chew,other,54
+Washington,Blake Huber,lib,29
+Washington,Adam Withrow,other,3
+Washington,Christopher Baum,other,1
+Weld,Mark Baisley,gop,72479
+Weld,John Hickenlooper,dem,68040
+Weld,Bob Chew,other,4524
+Weld,Blake Huber,lib,2106
+Weld,Adam Withrow,other,653
+Weld,Christopher Baum,other,239
+Yuma,Mark Baisley,gop,2788
+Yuma,John Hickenlooper,dem,768
+Yuma,Bob Chew,other,105
+Yuma,Blake Huber,lib,51
+Yuma,Adam Withrow,other,5
+Yuma,Christopher Baum,other,4
