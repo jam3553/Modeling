@@ -42,6 +42,7 @@ from statsmodels.nonparametric.smoothers_lowess import lowess
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from baseline_model import BASE_PREDICTORS, fit_baseline_model
+from chart_watermark import add_provenance_stamp
 from real_counties import load_real_swing_table
 
 BASE = Path(__file__).resolve().parent.parent
@@ -141,6 +142,7 @@ def plot_partial_residual(fit_df, results, predictor: str, out_dir: Path) -> Pat
     fig.text(0.01, 0.01, caption, color=MUTED, fontsize=9.5, ha="left", va="bottom")
 
     plt.tight_layout(rect=(0, 0.06, 1, 1))
+    add_provenance_stamp(fig)
     out_path = out_dir / f"{predictor}.png"
     plt.savefig(out_path, dpi=150, facecolor=SURFACE)
     plt.close(fig)

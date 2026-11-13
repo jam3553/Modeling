@@ -32,6 +32,7 @@ import matplotlib.pyplot as plt
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from baseline_model import BASE_PREDICTORS, fit_baseline_model
+from chart_watermark import add_provenance_stamp
 from real_counties import load_real_swing_table
 
 BASE = Path(__file__).resolve().parent.parent
@@ -149,6 +150,7 @@ if __name__ == "__main__":
     )
     ax.text(0.0, margin_in / fig_height, caption, color=MUTED, fontsize=9, ha="left", va="bottom", linespacing=1.6)
 
+    add_provenance_stamp(fig)
     out_path = BASE / "coefficients_table.png"
     plt.savefig(out_path, dpi=150, facecolor=SURFACE)
     print(f"Saved table -> {out_path}")

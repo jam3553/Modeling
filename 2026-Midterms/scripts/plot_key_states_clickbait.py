@@ -20,7 +20,7 @@ from matplotlib.legend_handler import HandlerBase
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from baseline_model import BASE_PREDICTORS, fit_baseline_model
-from chart_watermark import add_watermark
+from chart_watermark import add_provenance_stamp, add_watermark
 from real_counties import load_real_swing_table
 
 BASE = Path(__file__).resolve().parent.parent
@@ -161,6 +161,7 @@ if __name__ == "__main__":
     bottom_frac = 1.0 / fig.get_size_inches()[1]
     plt.tight_layout(rect=(0, bottom_frac, 1, 1))
     add_watermark(fig)
+    add_provenance_stamp(fig)
     out_path = BASE / "key_states_clickbait.png"
     plt.savefig(out_path, dpi=150, facecolor=SURFACE)
     print(f"Saved plot -> {out_path}")
