@@ -41,9 +41,16 @@ agent dispatch — this was deliberately built as deterministic code instead of
 research-agent exploration specifically to keep token cost low).
 
 Variables: `pct_college` (B15003, bachelor's+), `pct_black`/`pct_hispanic`/
-`pct_asian` (B03002, mutually exclusive with white as the implicit omitted
-category), `median_age` (B01002), `median_income_k` (B19013), plus
-`total_population` (B03002 total, used later as a turnout-proxy input).
+`pct_white` (B03002; the implicit omitted category left over is now
+everyone NOT explicitly broken out as black/hispanic/white -- `pct_black`
+and `pct_white` are "alone, not Hispanic" single-race counts and
+`pct_hispanic` is Hispanic-or-Latino of any race, so the leftover is Asian
+alone-non-Hispanic PLUS American Indian/Alaska Native, Native
+Hawaiian/Pacific Islander, Some Other Race, and Two-or-more-races, all
+non-Hispanic -- see conversation history for why pct_white was added in
+place of pct_asian, and fetch_census_demographics.py's docstring for the
+exact B03002 line items), `median_age` (B01002), `median_income_k` (B19013),
+plus `total_population` (B03002 total, used later as a turnout-proxy input).
 
 County-name cleanup has to handle non-uniform county-equivalent naming
 across states. Louisiana parishes and Alaska boroughs/census
@@ -226,11 +233,12 @@ columns sometimes not being there.
 
 ### Specification
 
-`dem_swing ~ pct_college + pct_black + pct_hispanic + pct_asian + median_age
+`dem_swing ~ pct_college + pct_black + pct_hispanic + pct_white + median_age
 + median_income_k`, fit by WLS, **no state fixed effect and no religiosity
 term by default** (`include_state_fe=False, include_religiosity=False`).
-`pct_black`/`pct_hispanic`/`pct_asian` are county race/ethnicity shares with
-white (+ other) as the implicit omitted reference category — including all
+`pct_black`/`pct_hispanic`/`pct_white` are county race/ethnicity shares with
+Asian + AIAN + NHPI + some-other-race + two-or-more-races (all
+non-Hispanic) as the implicit omitted reference category — including all
 race shares plus an intercept would be the dummy-variable trap (perfect
 multicollinearity, since the shares sum to ~1).
 

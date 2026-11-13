@@ -357,7 +357,7 @@ class CensusDemographicsRow:
     pct_college: float
     pct_black: float
     pct_hispanic: float
-    pct_asian: float
+    pct_white: float
     median_age: float
     median_income_k: float
     total_population: int
@@ -391,7 +391,7 @@ class CombinedCountyRow:
     pct_college: float
     pct_black: float
     pct_hispanic: float
-    pct_asian: float
+    pct_white: float
     median_age: float
     median_income_k: float
     # state-level broadcast

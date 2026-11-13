@@ -52,7 +52,7 @@ swing_weight              : float, compute_swing_weight(n_2024, n_2026)
 pct_college               : float in [0, 1]
 pct_black                 : float in [0, 1]
 pct_hispanic              : float in [0, 1]
-pct_asian                 : float in [0, 1]
+pct_white                 : float in [0, 1]
 median_age                : float, years
 median_income_k           : float, median household income in $1,000s
 state                      : str, two-letter state abbreviation
@@ -74,24 +74,73 @@ from statsmodels.stats.outliers_influence import variance_inflation_factor
 #
 # THEORY -- the "dummy variable trap":
 # Race/ethnicity shares in a county sum to ~1 (white + black + hispanic +
-# asian + other = 1). If you put all five shares into a regression
-# alongside an intercept, the columns are perfectly linearly dependent
-# (any one share = 1 - sum of the rest), so the design matrix is singular
-# and OLS/WLS can't even be computed (statsmodels will usually drop one
-# automatically and warn, but better to make the choice explicitly). The
-# fix is to always omit one category -- here, "white" (folded together
-# with "other") -- and interpret every race coefficient as "relative to a
-# county that is 100% white/other." The same logic applies to any set of
-# shares that sum to 1 (e.g. age buckets), which is why median_age is used
-# here as a single continuous variable instead of a full set of age-bucket
-# shares -- no omission needed for a single continuous regressor.
+# asian + AIAN + NHPI + some-other-race + two-or-more-races = 1, per the
+# Census's own B03002 breakdown -- see fetch_census_demographics.py). If
+# you put every one of those shares into a regression alongside an
+# intercept, the columns are perfectly linearly dependent (any one share
+# = 1 - sum of the rest), so the design matrix is singular and OLS/WLS
+# can't even be computed (statsmodels will usually drop one automatically
+# and warn, but better to make the choice explicitly). The fix is to
+# always omit at least one category and interpret every included race
+# coefficient as "relative to" whatever's omitted.
+#
+# Here pct_black, pct_hispanic, and pct_white are explicit, so the omitted
+#/reference category is everyone else: Asian alone, American Indian/Alaska
+# Native alone, Native Hawaiian/Pacific Islander alone, some-other-race
+# alone, and two-or-more-races, all non-Hispanic. That is NOT "Asian" on
+# its own -- it's a multi-group leftover bucket, same caveat as the one
+# that used to apply to "white" before pct_white was added explicitly (see
+# fetch_census_demographics.py's docstring for county-level examples of
+# how large and non-uniform this kind of leftover bucket can get). The
+# same omit-one-category logic applies to any set of shares that sum to 1
+# (e.g. age buckets), which is why median_age is used here as a single
+# continuous variable instead of a full set of age-bucket shares -- no
+# omission needed for a single continuous regressor.
 BASE_PREDICTORS = [
     "pct_college",
     "pct_black",
     "pct_hispanic",
-    "pct_asian",
+    "pct_white",
     "median_age",
     "median_income_k",
+]
+
+# EXTENDED_PREDICTORS -- BASE_PREDICTORS plus two more hypotheses:
+#
+#   dem_share_2024: the county's own 2024 presidential Dem two-party share,
+#       as a CONTINUOUS predictor of dem_swing (2026 minus 2024). Tests
+#       "redder places swung more D this time" -- i.e. a negative
+#       coefficient here.
+#
+#       CAVEAT, worth internalizing before reading anything into that
+#       coefficient's sign: dem_swing is LITERALLY share_2026 -
+#       share_2024, so Cov(dem_swing, share_2024) =
+#       Cov(share_2026, share_2024) - Var(share_2024). That difference is
+#       negative whenever share_2024 isn't a PERFECT predictor of
+#       share_2026 (Cov(share_2026, share_2024) <= sqrt(Var(share_2026) *
+#       Var(share_2024)) <= Var(share_2024) unless the two variances are
+#       equal and the correlation is exactly 1) -- which it never will be,
+#       since candidates, turnout, and the national environment all differ
+#       between a presidential year and a midterm. So a negative
+#       coefficient on dem_share_2024 is the MECHANICALLY EXPECTED sign
+#       here, not evidence of some real "overcorrection"/mean-reversion
+#       behavioral effect. Don't oversell it.
+#
+#   incumbent_status: a 3-level categorical (D_incumbent / R_incumbent /
+#       no_incumbent), entered via C(..., Treatment(reference=...)) with
+#       "no_incumbent" as the explicit reference category (patsy's default
+#       alphabetical-first reference would otherwise pick "D_incumbent",
+#       since uppercase D/R sort before lowercase "no_incumbent" in ASCII
+#       -- Treatment(reference=...) overrides that). See
+#       data/raw/incumbency_2026.csv and real_counties.py's
+#       load_real_swing_table_with_incumbency() for how this column is
+#       built and merged in; "no_incumbent" covers both genuinely open
+#       seats and sitting senators who were APPOINTED rather than elected
+#       to that seat (and so lack the electoral incumbency advantage the
+#       other two levels are meant to capture).
+EXTENDED_PREDICTORS = BASE_PREDICTORS + [
+    "dem_share_2024",
+    "C(incumbent_status, Treatment(reference='no_incumbent'))",
 ]
 
 

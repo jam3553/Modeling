@@ -5,13 +5,23 @@ of MEDSL's official countypres data -- the official Harvard Dataverse copy
 is gated behind a guestbook form, this mirror isn't) into the canonical
 format used elsewhere in this project.
 
+NAME_TO_ABBR below is NOT "every state the source file has" -- the source
+covers all 50 states + DC, but this script only maps (and therefore keeps)
+the states this project actually needs: the 33 Class-2 states plus FL and
+OH (the two 2026 Class 3 specials). Any state not in this dict maps to NaN
+via .map() and gets dropped by the dropna() right after -- that's how the
+restriction is actually enforced, not a separate filter step. Add a state
+here if it's added to the real-data pipeline elsewhere (see
+fetch_census_demographics.py's SENATE_2026_STATE_FIPS, which this dict
+should stay in sync with).
+
 Alaska is DROPPED: this source reports Alaska's 2024 results by STATE HOUSE
 DISTRICT (40 of them), not by borough/census area (the ~30 county-equivalents
 Census demographics are keyed on). These are genuinely different
 geographies with no clean one-to-one crosswalk, not just a naming
 mismatch -- confirmed by comparing row counts against the Census pull (40
-vs 30) before assuming anything. Every other one of the 33 Class-2 states
-matched Census's county count exactly.
+vs 30) before assuming anything. Every other state below matched Census's
+county count exactly.
 """
 
 from pathlib import Path
@@ -22,11 +32,11 @@ from county_utils import county_key, strip_county_suffix
 
 NAME_TO_ABBR = {
     "Alabama": "AL", "Alaska": "AK", "Arkansas": "AR", "Colorado": "CO", "Delaware": "DE",
-    "Georgia": "GA", "Idaho": "ID", "Illinois": "IL", "Iowa": "IA", "Kansas": "KS",
+    "Florida": "FL", "Georgia": "GA", "Idaho": "ID", "Illinois": "IL", "Iowa": "IA", "Kansas": "KS",
     "Kentucky": "KY", "Louisiana": "LA", "Maine": "ME", "Massachusetts": "MA", "Michigan": "MI",
     "Minnesota": "MN", "Mississippi": "MS", "Montana": "MT", "Nebraska": "NE",
     "New Hampshire": "NH", "New Jersey": "NJ", "New Mexico": "NM", "North Carolina": "NC",
-    "Oklahoma": "OK", "Oregon": "OR", "Rhode Island": "RI", "South Carolina": "SC",
+    "Ohio": "OH", "Oklahoma": "OK", "Oregon": "OR", "Rhode Island": "RI", "South Carolina": "SC",
     "South Dakota": "SD", "Tennessee": "TN", "Texas": "TX", "Virginia": "VA",
     "West Virginia": "WV", "Wyoming": "WY",
 }

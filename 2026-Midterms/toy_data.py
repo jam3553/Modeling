@@ -56,7 +56,7 @@ TRUE_COEFS = {
     "pct_college": 0.06,
     "pct_black": 0.05,
     "pct_hispanic": 0.03,
-    "pct_asian": 0.02,
+    "pct_white": 0.02,
     "median_age": -0.0008,    # per year of age
     "median_income_k": 0.0003,  # per $1,000 of median household income
     # Same "diploma divide" interaction as before, rescaled: college's
@@ -185,24 +185,32 @@ def _draw_fake_demographics() -> dict:
         35 + 120 * pct_college + 0.3 * (median_age - 39) + RNG.normal(0, 10), 15, 160
     )
 
-    # Race/ethnicity shares. Real ACS data has pct_white + pct_black
-    # + pct_hispanic + pct_asian + pct_other = 1. We only model
-    # black/hispanic/asian explicitly and treat white+other as the
-    # OMITTED REFERENCE CATEGORY (see baseline_model.py for why this
-    # matters -- including all categories plus an intercept gives
-    # perfect multicollinearity, the "dummy variable trap").
+    # Race/ethnicity shares. Real ACS data has pct_white + pct_black +
+    # pct_hispanic + pct_asian + pct_AIAN + pct_NHPI + pct_other +
+    # pct_two_or_more = 1 (see fetch_census_demographics.py's docstring
+    # for the exact Census B03002 breakdown). We model black/hispanic/
+    # white explicitly and treat everything else -- Asian alone, AIAN
+    # alone, NHPI alone, some-other-race alone, two-or-more-races, all
+    # non-Hispanic -- as the OMITTED REFERENCE CATEGORY (see
+    # baseline_model.py for why this matters -- including all categories
+    # plus an intercept gives perfect multicollinearity, the "dummy
+    # variable trap"). pct_white is drawn as MOST of what's left after
+    # black/hispanic are subtracted (Beta(8, 2) skews high), since in
+    # real county data white is typically the majority of any county's
+    # non-black non-hispanic population, with Asian/AIAN/other making up
+    # a smaller remainder that stays implicit here.
     remaining = 1.0
     pct_black = np.clip(RNG.beta(1.5, 6) * remaining, 0, remaining)
     remaining -= pct_black
     pct_hispanic = np.clip(RNG.beta(1.5, 6) * remaining, 0, remaining)
     remaining -= pct_hispanic
-    pct_asian = np.clip(RNG.beta(1.2, 10) * remaining, 0, remaining)
+    pct_white = np.clip(RNG.beta(8, 2) * remaining, 0, remaining)
 
     return {
         "pct_college": pct_college,
         "pct_black": pct_black,
         "pct_hispanic": pct_hispanic,
-        "pct_asian": pct_asian,
+        "pct_white": pct_white,
         "median_age": median_age,
         "median_income_k": median_income_k,
     }
@@ -228,7 +236,7 @@ def _simulate_outcome(state_swing_deviation: float, religiosity: float, demograp
         + TRUE_COEFS["pct_college"] * demographics["pct_college"]
         + TRUE_COEFS["pct_black"] * demographics["pct_black"]
         + TRUE_COEFS["pct_hispanic"] * demographics["pct_hispanic"]
-        + TRUE_COEFS["pct_asian"] * demographics["pct_asian"]
+        + TRUE_COEFS["pct_white"] * demographics["pct_white"]
         + TRUE_COEFS["median_age"] * demographics["median_age"]
         + TRUE_COEFS["median_income_k"] * demographics["median_income_k"]
         # THE interaction term (as opposed to everything in
@@ -346,7 +354,7 @@ def simulate_counties(n_states: int = 50, reference_votes: int = 10_000) -> pd.D
     return df
 
 
-DEMOGRAPHIC_COLUMNS = ["pct_college", "pct_black", "pct_hispanic", "pct_asian", "median_age", "median_income_k"]
+DEMOGRAPHIC_COLUMNS = ["pct_college", "pct_black", "pct_hispanic", "pct_white", "median_age", "median_income_k"]
 
 
 def simulate_demographics_for_real_counties(real_counties_with_census: pd.DataFrame, reference_votes: int = 10_000) -> pd.DataFrame:

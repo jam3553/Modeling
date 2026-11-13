@@ -1,6 +1,13 @@
 """
-Pulls real ACS demographics -- both county-level and state-level -- for the
-33 states with a 2026 Class 2 U.S. Senate race (the scope decided on: House
+Pulls real ACS demographics -- both county-level and state-level -- for
+every state with a real 2026 U.S. Senate race this project covers: the 33
+states with a regularly-scheduled Class 2 race, PLUS Florida and Ohio, the
+two 2026 Class 3 SPECIAL elections (seats vacated when Rubio became
+Secretary of State and Vance became Vice President; their appointed
+successors, Ashley Moody and Jon Husted, are on the 2026 ballot to fill the
+remainder of the term). FL/OH aren't part of the Class 2 cycle, but there's
+no structural reason they can't be pulled the same way -- they're ordinary
+Senate races with county-level results like every other state here (House
 races have unopposed-seat issues and Governor races don't exist in every
 state, so for now the project is standardized on Senate as the one outcome
 that's consistently defined across states; see conversation history).
@@ -16,13 +23,28 @@ API's own variable metadata before use -- see conversation history):
       Educational Attainment for the Population 25 Years and Over:
       total, bachelor's, master's, professional school, doctorate.
       pct_college = (022+023+024+025) / 001
-  B03002_001E, _003E, _004E, _006E, _012E
+  B03002_001E, _003E, _004E, _012E
       Hispanic or Latino Origin by Race:
       total; White alone, not Hispanic; Black alone, not Hispanic;
-      Asian alone, not Hispanic; Hispanic or Latino (any race).
-      White-alone-not-Hispanic is the OMITTED REFERENCE CATEGORY in the
-      regression (see baseline_model.py) -- not pulled as its own column
-      here because we never use it directly, only implicitly.
+      Hispanic or Latino (any race).
+      These three shares do NOT exhaust the population. B03002_003E/_004E
+      are "alone, not Hispanic" (single-race-only) counts, and
+      B03002_012E is Hispanic-or-Latino of any race. Whatever's left
+      over after subtracting all three from the total is everyone NOT
+      explicitly broken out as white/black/hispanic here -- Asian alone-
+      not-Hispanic (B03002_006E) PLUS American Indian/Alaska Native
+      alone-not-Hispanic (B03002_005E) PLUS Native Hawaiian/Pacific
+      Islander alone-not-Hispanic (B03002_007E) PLUS Some Other Race
+      alone-not-Hispanic (B03002_008E) PLUS Two-or-more-races-not-
+      Hispanic (B03002_009E). It's the OMITTED REFERENCE CATEGORY in the
+      regression (see baseline_model.py) -- not pulled as its own set of
+      columns here because we never use any of it directly, only
+      implicitly. (This project used to pull pct_asian instead of
+      pct_white, which made White alone part of THIS leftover bucket
+      instead -- see conversation history for why that was swapped, and
+      the county-level check, e.g. Oglala Lakota County SD / McKinley
+      County NM, showing how non-uniform an omitted race/ethnicity
+      bucket's composition can get.)
   B01002_001E   Median age, total population.
   B19013_001E   Median household income (inflation-adjusted dollars).
 
@@ -43,21 +65,28 @@ from county_utils import county_key, strip_county_suffix
 KEY = Path(__file__).parent.joinpath(".census_api_key").read_text().strip()
 ACS_YEAR = 2023
 
-# The 33 states with a 2026 Class 2 U.S. Senate race (confirmed via web
-# search earlier in this project -- Wikipedia/Green Papers agree on this
-# list and it matches the known Class 2 seat count).
-CLASS2_SENATE_STATE_FIPS = {
-    "AL": "01", "AK": "02", "AR": "05", "CO": "08", "DE": "10", "GA": "13",
-    "ID": "16", "IL": "17", "IA": "19", "KS": "20", "KY": "21", "LA": "22",
-    "ME": "23", "MA": "25", "MI": "26", "MN": "27", "MS": "28", "MT": "30",
-    "NE": "31", "NH": "33", "NJ": "34", "NM": "35", "NC": "37", "OK": "40",
-    "OR": "41", "RI": "44", "SC": "45", "SD": "46", "TN": "47", "TX": "48",
-    "VA": "51", "WV": "54", "WY": "56",
+# Every state with a real 2026 U.S. Senate race this project covers: the 33
+# states with a regularly-scheduled Class 2 race (confirmed via web search
+# earlier in this project -- Wikipedia/Green Papers agree on this list and
+# it matches the known Class 2 seat count), PLUS FL and OH -- the two 2026
+# Class 3 SPECIAL elections (Rubio -> Secretary of State, Vance -> Vice
+# President; their appointed successors Moody and Husted are on the 2026
+# ballot). Not part of the Class 2 cycle, but structurally identical to
+# every other state here (an ordinary Senate race with county-level
+# results), so there's no reason not to pull their demographics the same
+# way.
+SENATE_2026_STATE_FIPS = {
+    "AL": "01", "AK": "02", "AR": "05", "CO": "08", "DE": "10", "FL": "12",
+    "GA": "13", "ID": "16", "IL": "17", "IA": "19", "KS": "20", "KY": "21",
+    "LA": "22", "ME": "23", "MA": "25", "MI": "26", "MN": "27", "MS": "28",
+    "MT": "30", "NE": "31", "NH": "33", "NJ": "34", "NM": "35", "NC": "37",
+    "OH": "39", "OK": "40", "OR": "41", "RI": "44", "SC": "45", "SD": "46",
+    "TN": "47", "TX": "48", "VA": "51", "WV": "54", "WY": "56",
 }
 
 VARIABLES = [
     "B15003_001E", "B15003_022E", "B15003_023E", "B15003_024E", "B15003_025E",
-    "B03002_001E", "B03002_004E", "B03002_006E", "B03002_012E",
+    "B03002_001E", "B03002_003E", "B03002_004E", "B03002_012E",
     "B01002_001E", "B19013_001E",
 ]
 
@@ -90,7 +119,7 @@ def _derive_demographics(df: pd.DataFrame) -> pd.DataFrame:
             "pct_college": bachelors_plus / pop_25plus,
             "pct_black": df["B03002_004E"] / total_pop,
             "pct_hispanic": df["B03002_012E"] / total_pop,
-            "pct_asian": df["B03002_006E"] / total_pop,
+            "pct_white": df["B03002_003E"] / total_pop,
             "median_age": df["B01002_001E"],
             "median_income_k": df["B19013_001E"] / 1000.0,
             "total_population": total_pop,
@@ -137,18 +166,18 @@ if __name__ == "__main__":
     # for, abbreviation case aside.
     STATE_FULL_NAMES = {
         "AL": "Alabama", "AK": "Alaska", "AR": "Arkansas", "CO": "Colorado", "DE": "Delaware",
-        "GA": "Georgia", "ID": "Idaho", "IL": "Illinois", "IA": "Iowa", "KS": "Kansas",
+        "FL": "Florida", "GA": "Georgia", "ID": "Idaho", "IL": "Illinois", "IA": "Iowa", "KS": "Kansas",
         "KY": "Kentucky", "LA": "Louisiana", "ME": "Maine", "MA": "Massachusetts", "MI": "Michigan",
         "MN": "Minnesota", "MS": "Mississippi", "MT": "Montana", "NE": "Nebraska",
         "NH": "New Hampshire", "NJ": "New Jersey", "NM": "New Mexico", "NC": "North Carolina",
-        "OK": "Oklahoma", "OR": "Oregon", "RI": "Rhode Island", "SC": "South Carolina",
+        "OH": "Ohio", "OK": "Oklahoma", "OR": "Oregon", "RI": "Rhode Island", "SC": "South Carolina",
         "SD": "South Dakota", "TN": "Tennessee", "TX": "Texas", "VA": "Virginia",
         "WV": "West Virginia", "WY": "Wyoming",
     }
 
     county_frames, state_frames = [], []
-    for i, (abbr, fips) in enumerate(CLASS2_SENATE_STATE_FIPS.items(), 1):
-        print(f"[{i}/{len(CLASS2_SENATE_STATE_FIPS)}] Fetching {abbr} (FIPS {fips})...")
+    for i, (abbr, fips) in enumerate(SENATE_2026_STATE_FIPS.items(), 1):
+        print(f"[{i}/{len(SENATE_2026_STATE_FIPS)}] Fetching {abbr} (FIPS {fips})...")
 
         county_df = fetch_county_level(abbr, fips)
         raw_names = requests.get(

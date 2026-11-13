@@ -125,11 +125,16 @@ def load_real_county_skeleton(data_dir: Path = DATA_DIR) -> pd.DataFrame:
     return pivoted
 
 
-# States whose 2026 Senate results are reported by town/city, not county --
-# Census demographics are county-keyed, so these can't merge yet (see
-# pipeline_walkthrough.md and class_architecture.md Section 10 for the fix:
-# a Census county-subdivision crosswalk, not yet implemented).
-TOWN_BASED_STATES = {"ME", "MA", "NH", "RI"}
+# ME/MA/NH/RI report 2026 Senate results by town/city, not county -- they
+# don't use counties as functional government units. That used to make
+# this a structural, not-yet-fixed mismatch against Census's county-keyed
+# demographics (see pipeline_walkthrough.md and class_architecture.md
+# Section 10), so those 4 states were excluded here. They're no longer
+# excluded: build_town_county_senate_2026.py rolls their raw files up from
+# town level to county level (backing up the original town-level files to
+# data/raw/town_level_backup/) using a Census county-subdivision crosswalk,
+# so data/raw/{ME,MA,NH,RI}_senate_2026.csv are now county-level like every
+# other state's file, and need no special-casing here at all.
 
 
 def load_real_counties_with_census(data_dir: Path = DATA_DIR) -> pd.DataFrame:
@@ -139,11 +144,9 @@ def load_real_counties_with_census(data_dir: Path = DATA_DIR) -> pd.DataFrame:
     "county_key"] rather than county_name (see the capitalization note
     above). Raises if any county fails to match -- silently dropping
     unmatched counties would quietly shrink the sample without anyone
-    noticing. Excludes TOWN_BASED_STATES before merging, since those
-    would always fail to match for a structural reason, not a data bug.
+    noticing.
     """
     skeleton = load_real_county_skeleton(data_dir)
-    skeleton = skeleton[~skeleton["state"].isin(TOWN_BASED_STATES)]
     census = pd.read_csv(data_dir / "census_demographics.csv")
 
     merged = skeleton.merge(census.drop(columns=["county_name"]), on=["state", "county_key"], how="left")
@@ -164,9 +167,9 @@ def load_real_swing_table(data_dir: Path = DATA_DIR) -> pd.DataFrame:
     real rather than drawn from TRUE_COEFS (see pipeline_walkthrough.md
     Section 5, which noted this had never happened yet). Only covers the
     states where real 2026 results are on file AND county-level 2024 data
-    exists -- currently the states with a *_senate_2026.csv minus
-    TOWN_BASED_STATES (Alaska was never fetched for 2026 in the first
-    place, so it's absent here without needing a separate exclusion).
+    exists -- currently every state with a *_senate_2026.csv (Alaska was
+    never fetched for 2026 in the first place, so it's absent here without
+    needing a separate exclusion).
     """
     from baseline_model import compute_swing_weight
 
@@ -197,7 +200,7 @@ def load_real_swing_table(data_dir: Path = DATA_DIR) -> pd.DataFrame:
     # cluster-robust SEs need `groups` to be the same length as the
     # fitted design matrix -- a silent patsy-level drop desyncs the two
     # and fails with an opaque numpy error, not a clear one.
-    demographic_cols = ["pct_college", "pct_black", "pct_hispanic", "pct_asian", "median_age", "median_income_k"]
+    demographic_cols = ["pct_college", "pct_black", "pct_hispanic", "pct_white", "median_age", "median_income_k"]
     before = len(merged)
     merged = merged.dropna(subset=demographic_cols)
     dropped = before - len(merged)
@@ -238,7 +241,7 @@ def load_all_class2_states_county_frame(data_dir: Path = DATA_DIR, rng=None) -> 
 
     census = pd.read_csv(data_dir / "census_demographics.csv")
     before = len(census)
-    census = census.dropna(subset=["pct_college", "pct_black", "pct_hispanic", "pct_asian", "median_age", "median_income_k"])
+    census = census.dropna(subset=["pct_college", "pct_black", "pct_hispanic", "pct_white", "median_age", "median_income_k"])
     dropped = before - len(census)
     if dropped:
         print(f"Dropped {dropped} county row(s) with missing Census estimates (expected: tiny-population counties like Kenedy, TX, pop. 52)")
@@ -259,6 +262,52 @@ def load_all_class2_states_county_frame(data_dir: Path = DATA_DIR, rng=None) -> 
         raise ValueError(f"{len(unmatched)} counties had no 2024 presidential match:\n{unmatched[['state', 'county_name']]}")
     merged["total_two_party_votes_2024"] = merged["total_two_party_votes_2024"].astype(int)
 
+    return merged
+
+
+def load_real_swing_table_with_incumbency(data_dir: Path = DATA_DIR) -> pd.DataFrame:
+    """
+    load_real_swing_table() merged with data/raw/incumbency_2026.csv
+    (columns: state, incumbent_party, is_appointed, incumbent_status),
+    joined on "state" alone (incumbency is a state-level fact, not a
+    county-level one). See baseline_model.py's EXTENDED_PREDICTORS for how
+    incumbent_status gets used as a categorical regressor.
+
+    Added as a SEPARATE function rather than folded into
+    load_real_swing_table() itself, on purpose: every existing caller of
+    load_real_swing_table() (scripts/plot_residuals.py, the original
+    6-variable baseline comparison, etc.) keeps getting the exact same
+    table it always has, untouched.
+
+    incumbent_status has three levels:
+      D_incumbent / R_incumbent -- a Democrat/Republican who was ELECTED
+          to that seat in a prior election and is running again.
+      no_incumbent -- either an open seat (prior holder retired, lost
+          renomination, or otherwise isn't on the 2026 general-election
+          ballot), OR a sitting senator who was APPOINTED to fill a
+          vacancy rather than elected to that seat (e.g. SC's Darline
+          Graham Nordone, OK's Alan Armstrong) -- an appointee counts as
+          no_incumbent even though they're technically the sitting
+          senator, because they haven't banked the electoral incumbency
+          advantage (prior campaigns, name recognition from winning that
+          specific seat) the other two levels are meant to capture. A
+          senator who was ORIGINALLY appointed but has SINCE won an
+          election to that same seat (e.g. NE's Pete Ricketts, appointed
+          2023 then won the 2024 special) is treated as a normal elected
+          incumbent instead, per the same logic -- see
+          data/raw/incumbency_2026.csv's is_appointed column, and the
+          research notes behind it, for the full per-state reasoning.
+    """
+    swing = load_real_swing_table(data_dir)
+    incumbency = pd.read_csv(data_dir / "incumbency_2026.csv")
+
+    merged = swing.merge(incumbency, on="state", how="left")
+    unmatched = merged[merged["incumbent_status"].isna()]
+    if len(unmatched):
+        raise ValueError(
+            f"{len(unmatched)} counties had no incumbency match (state missing from "
+            f"incumbency_2026.csv):\n{unmatched[['state', 'county_name']]}"
+        )
     return merged
 
 

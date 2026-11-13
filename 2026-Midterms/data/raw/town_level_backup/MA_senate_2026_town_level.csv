@@ -1,0 +1,1405 @@
+county_name,candidate_name,party,votes
+Abington,Ed Markey,dem,3823
+Abington,John Deaton,gop,3119
+Abington,Shiva Ayyadurai,ind,155
+Abington,Joe Tache,other,132
+Acton,Ed Markey,dem,8083
+Acton,John Deaton,gop,1860
+Acton,Shiva Ayyadurai,ind,221
+Acton,Joe Tache,other,171
+Acushnet,John Deaton,gop,2557
+Acushnet,Ed Markey,dem,1888
+Acushnet,Shiva Ayyadurai,ind,114
+Acushnet,Joe Tache,other,40
+Adams,Ed Markey,dem,2139
+Adams,John Deaton,gop,987
+Adams,Shiva Ayyadurai,ind,104
+Adams,Joe Tache,other,72
+Agawam Town,John Deaton,gop,5592
+Agawam Town,Ed Markey,dem,5512
+Agawam Town,Shiva Ayyadurai,ind,351
+Agawam Town,Joe Tache,other,209
+Alford,Ed Markey,dem,250
+Alford,John Deaton,gop,30
+Alford,Shiva Ayyadurai,ind,7
+Alford,Joe Tache,other,6
+Amesbury,Ed Markey,dem,5350
+Amesbury,John Deaton,gop,2464
+Amesbury,Shiva Ayyadurai,ind,224
+Amesbury,Joe Tache,other,186
+Amherst Town,Ed Markey,dem,7055
+Amherst Town,John Deaton,gop,549
+Amherst Town,Joe Tache,other,336
+Amherst Town,Shiva Ayyadurai,ind,104
+Andover,Ed Markey,dem,9663
+Andover,John Deaton,gop,4946
+Andover,Shiva Ayyadurai,ind,369
+Andover,Joe Tache,other,204
+Aquinnah,Ed Markey,dem,232
+Aquinnah,John Deaton,gop,25
+Aquinnah,Shiva Ayyadurai,ind,4
+Aquinnah,Joe Tache,other,3
+Arlington,Ed Markey,dem,18570
+Arlington,John Deaton,gop,3070
+Arlington,Joe Tache,other,624
+Arlington,Shiva Ayyadurai,ind,463
+Ashburnham,Ed Markey,dem,1586
+Ashburnham,John Deaton,gop,1323
+Ashburnham,Shiva Ayyadurai,ind,74
+Ashburnham,Joe Tache,other,57
+Ashby,John Deaton,gop,752
+Ashby,Ed Markey,dem,745
+Ashby,Shiva Ayyadurai,ind,34
+Ashby,Joe Tache,other,20
+Ashfield,Ed Markey,dem,806
+Ashfield,John Deaton,gop,190
+Ashfield,Shiva Ayyadurai,ind,29
+Ashfield,Joe Tache,other,24
+Ashland,Ed Markey,dem,5420
+Ashland,John Deaton,gop,2074
+Ashland,Shiva Ayyadurai,ind,199
+Ashland,Joe Tache,other,110
+Athol,Ed Markey,dem,2113
+Athol,John Deaton,gop,1852
+Athol,Shiva Ayyadurai,ind,168
+Athol,Joe Tache,other,67
+Attleboro,Ed Markey,dem,9714
+Attleboro,John Deaton,gop,6248
+Attleboro,Shiva Ayyadurai,ind,481
+Attleboro,Joe Tache,other,427
+Auburn,Ed Markey,dem,4246
+Auburn,John Deaton,gop,3171
+Auburn,Shiva Ayyadurai,ind,182
+Auburn,Joe Tache,other,133
+Avon,Ed Markey,dem,1107
+Avon,John Deaton,gop,707
+Avon,Shiva Ayyadurai,ind,54
+Avon,Joe Tache,other,39
+Ayer,Ed Markey,dem,2277
+Ayer,John Deaton,gop,1158
+Ayer,Shiva Ayyadurai,ind,110
+Ayer,Joe Tache,other,95
+Barnstable Town,Ed Markey,dem,12117
+Barnstable Town,John Deaton,gop,9012
+Barnstable Town,Shiva Ayyadurai,ind,458
+Barnstable Town,Joe Tache,other,315
+Barre,John Deaton,gop,1201
+Barre,Ed Markey,dem,1168
+Barre,Shiva Ayyadurai,ind,86
+Barre,Joe Tache,other,45
+Becket,Ed Markey,dem,658
+Becket,John Deaton,gop,340
+Becket,Joe Tache,other,74
+Becket,Shiva Ayyadurai,ind,36
+Bedford,Ed Markey,dem,4543
+Bedford,John Deaton,gop,1725
+Bedford,Shiva Ayyadurai,ind,168
+Bedford,Joe Tache,other,104
+Belchertown,Ed Markey,dem,4483
+Belchertown,John Deaton,gop,2680
+Belchertown,Shiva Ayyadurai,ind,223
+Belchertown,Joe Tache,other,148
+Bellingham,Ed Markey,dem,3864
+Bellingham,John Deaton,gop,3361
+Bellingham,Shiva Ayyadurai,ind,196
+Bellingham,Joe Tache,other,136
+Belmont,Ed Markey,dem,8548
+Belmont,John Deaton,gop,2101
+Belmont,Shiva Ayyadurai,ind,332
+Belmont,Joe Tache,other,254
+Berkley,John Deaton,gop,1713
+Berkley,Ed Markey,dem,1283
+Berkley,Shiva Ayyadurai,ind,89
+Berkley,Joe Tache,other,48
+Berlin,Ed Markey,dem,1113
+Berlin,John Deaton,gop,769
+Berlin,Joe Tache,other,38
+Berlin,Shiva Ayyadurai,ind,34
+Bernardston,Ed Markey,dem,696
+Bernardston,John Deaton,gop,362
+Bernardston,Shiva Ayyadurai,ind,35
+Bernardston,Joe Tache,other,29
+Beverly,Ed Markey,dem,12626
+Beverly,John Deaton,gop,5268
+Beverly,Shiva Ayyadurai,ind,442
+Beverly,Joe Tache,other,357
+Billerica,Ed Markey,dem,9621
+Billerica,John Deaton,gop,7510
+Billerica,Shiva Ayyadurai,ind,511
+Billerica,Joe Tache,other,281
+Blackstone,John Deaton,gop,1803
+Blackstone,Ed Markey,dem,1720
+Blackstone,Shiva Ayyadurai,ind,80
+Blackstone,Joe Tache,other,70
+Blandford,John Deaton,gop,399
+Blandford,Ed Markey,dem,242
+Blandford,Shiva Ayyadurai,ind,18
+Blandford,Joe Tache,other,13
+Bolton,Ed Markey,dem,1909
+Bolton,John Deaton,gop,979
+Bolton,Shiva Ayyadurai,ind,54
+Bolton,Joe Tache,other,34
+Boston,Ed Markey,dem,142178
+Boston,John Deaton,gop,28471
+Boston,Joe Tache,other,7727
+Boston,Shiva Ayyadurai,ind,2958
+Bourne,Ed Markey,dem,4882
+Bourne,John Deaton,gop,4042
+Bourne,Shiva Ayyadurai,ind,201
+Bourne,Joe Tache,other,106
+Boxborough,Ed Markey,dem,1855
+Boxborough,John Deaton,gop,588
+Boxborough,Shiva Ayyadurai,ind,55
+Boxborough,Joe Tache,other,48
+Boxford,Ed Markey,dem,2362
+Boxford,John Deaton,gop,1745
+Boxford,Shiva Ayyadurai,ind,97
+Boxford,Joe Tache,other,42
+Boylston,Ed Markey,dem,1588
+Boylston,John Deaton,gop,1110
+Boylston,Shiva Ayyadurai,ind,57
+Boylston,Joe Tache,other,43
+Braintree Town,Ed Markey,dem,8270
+Braintree Town,John Deaton,gop,6154
+Braintree Town,Shiva Ayyadurai,ind,298
+Braintree Town,Joe Tache,other,253
+Brewster,Ed Markey,dem,3924
+Brewster,John Deaton,gop,1965
+Brewster,Shiva Ayyadurai,ind,125
+Brewster,Joe Tache,other,89
+Bridgewater Town,Ed Markey,dem,5563
+Bridgewater Town,John Deaton,gop,4958
+Bridgewater Town,Shiva Ayyadurai,ind,257
+Bridgewater Town,Joe Tache,other,157
+Brimfield,John Deaton,gop,942
+Brimfield,Ed Markey,dem,849
+Brimfield,Shiva Ayyadurai,ind,55
+Brimfield,Joe Tache,other,31
+Brockton,Ed Markey,dem,19220
+Brockton,John Deaton,gop,4829
+Brockton,Shiva Ayyadurai,ind,525
+Brockton,Joe Tache,other,482
+Brookfield,John Deaton,gop,818
+Brookfield,Ed Markey,dem,763
+Brookfield,Shiva Ayyadurai,ind,49
+Brookfield,Joe Tache,other,34
+Brookline,Ed Markey,dem,18408
+Brookline,John Deaton,gop,2933
+Brookline,Joe Tache,other,587
+Brookline,Shiva Ayyadurai,ind,347
+Buckland,Ed Markey,dem,709
+Buckland,John Deaton,gop,192
+Buckland,Shiva Ayyadurai,ind,33
+Buckland,Joe Tache,other,24
+Burlington,Ed Markey,dem,6444
+Burlington,John Deaton,gop,3810
+Burlington,Shiva Ayyadurai,ind,275
+Burlington,Joe Tache,other,156
+Cambridge,Ed Markey,dem,33544
+Cambridge,John Deaton,gop,2610
+Cambridge,Joe Tache,other,1819
+Cambridge,Shiva Ayyadurai,ind,529
+Canton,Ed Markey,dem,6521
+Canton,John Deaton,gop,3672
+Canton,Shiva Ayyadurai,ind,213
+Canton,Joe Tache,other,161
+Carlisle,Ed Markey,dem,2023
+Carlisle,John Deaton,gop,586
+Carlisle,Shiva Ayyadurai,ind,46
+Carlisle,Joe Tache,other,35
+Carver,John Deaton,gop,2783
+Carver,Ed Markey,dem,2459
+Carver,Shiva Ayyadurai,ind,165
+Carver,Joe Tache,other,61
+Charlemont,Ed Markey,dem,399
+Charlemont,John Deaton,gop,167
+Charlemont,Shiva Ayyadurai,ind,19
+Charlemont,Joe Tache,other,19
+Charlton,John Deaton,gop,3236
+Charlton,Ed Markey,dem,2772
+Charlton,Shiva Ayyadurai,ind,153
+Charlton,Joe Tache,other,75
+Chatham,Ed Markey,dem,2399
+Chatham,John Deaton,gop,1516
+Chatham,Shiva Ayyadurai,ind,71
+Chatham,Joe Tache,other,37
+Chelmsford,Ed Markey,dem,10685
+Chelmsford,John Deaton,gop,5510
+Chelmsford,Shiva Ayyadurai,ind,478
+Chelmsford,Joe Tache,other,322
+Chelsea,Ed Markey,dem,4849
+Chelsea,John Deaton,gop,1077
+Chelsea,Joe Tache,other,248
+Chelsea,Shiva Ayyadurai,ind,99
+Cheshire,Ed Markey,dem,879
+Cheshire,John Deaton,gop,568
+Cheshire,Shiva Ayyadurai,ind,50
+Cheshire,Joe Tache,other,19
+Chester,John Deaton,gop,319
+Chester,Ed Markey,dem,233
+Chester,Shiva Ayyadurai,ind,22
+Chester,Joe Tache,other,14
+Chesterfield,Ed Markey,dem,443
+Chesterfield,John Deaton,gop,242
+Chesterfield,Shiva Ayyadurai,ind,22
+Chesterfield,Joe Tache,other,17
+Chicopee,Ed Markey,dem,10167
+Chicopee,John Deaton,gop,7194
+Chicopee,Shiva Ayyadurai,ind,604
+Chicopee,Joe Tache,other,380
+Chilmark,Ed Markey,dem,647
+Chilmark,John Deaton,gop,93
+Chilmark,Joe Tache,other,20
+Chilmark,Shiva Ayyadurai,ind,16
+Clarksburg,Ed Markey,dem,474
+Clarksburg,John Deaton,gop,265
+Clarksburg,Shiva Ayyadurai,ind,23
+Clarksburg,Joe Tache,other,10
+Clinton,Ed Markey,dem,3492
+Clinton,John Deaton,gop,2137
+Clinton,Shiva Ayyadurai,ind,134
+Clinton,Joe Tache,other,114
+Cohasset,Ed Markey,dem,2653
+Cohasset,John Deaton,gop,1513
+Cohasset,Shiva Ayyadurai,ind,76
+Cohasset,Joe Tache,other,39
+Colrain,Ed Markey,dem,537
+Colrain,John Deaton,gop,251
+Colrain,Shiva Ayyadurai,ind,28
+Colrain,Joe Tache,other,23
+Concord,Ed Markey,dem,7598
+Concord,John Deaton,gop,1767
+Concord,Shiva Ayyadurai,ind,180
+Concord,Joe Tache,other,158
+Conway,Ed Markey,dem,850
+Conway,John Deaton,gop,249
+Conway,Joe Tache,other,27
+Conway,Shiva Ayyadurai,ind,26
+Cummington,Ed Markey,dem,367
+Cummington,John Deaton,gop,131
+Cummington,Joe Tache,other,113
+Cummington,Shiva Ayyadurai,ind,23
+Dalton,Ed Markey,dem,928
+Dalton,John Deaton,gop,369
+Dalton,Shiva Ayyadurai,ind,63
+Dalton,Joe Tache,other,27
+Danvers,Ed Markey,dem,6809
+Danvers,John Deaton,gop,5067
+Danvers,Shiva Ayyadurai,ind,254
+Danvers,Joe Tache,other,170
+Dartmouth,Ed Markey,dem,7618
+Dartmouth,John Deaton,gop,5991
+Dartmouth,Shiva Ayyadurai,ind,284
+Dartmouth,Joe Tache,other,197
+Dedham,Ed Markey,dem,7595
+Dedham,John Deaton,gop,3525
+Dedham,Shiva Ayyadurai,ind,285
+Dedham,Joe Tache,other,224
+Deerfield,Ed Markey,dem,1966
+Deerfield,John Deaton,gop,693
+Deerfield,Joe Tache,other,71
+Deerfield,Shiva Ayyadurai,ind,63
+Dennis,Ed Markey,dem,4702
+Dennis,John Deaton,gop,3382
+Dennis,Shiva Ayyadurai,ind,182
+Dennis,Joe Tache,other,105
+Dighton,John Deaton,gop,1914
+Dighton,Ed Markey,dem,1580
+Dighton,Shiva Ayyadurai,ind,90
+Dighton,Joe Tache,other,44
+Douglas,John Deaton,gop,2375
+Douglas,Ed Markey,dem,1953
+Douglas,Shiva Ayyadurai,ind,107
+Douglas,Joe Tache,other,61
+Dover,Ed Markey,dem,1757
+Dover,John Deaton,gop,1002
+Dover,Shiva Ayyadurai,ind,62
+Dover,Joe Tache,other,19
+Dracut,Ed Markey,dem,6188
+Dracut,John Deaton,gop,5781
+Dracut,Shiva Ayyadurai,ind,325
+Dracut,Joe Tache,other,235
+Dudley,John Deaton,gop,2393
+Dudley,Ed Markey,dem,2093
+Dudley,Shiva Ayyadurai,ind,111
+Dudley,Joe Tache,other,74
+Dunstable,Ed Markey,dem,898
+Dunstable,John Deaton,gop,719
+Dunstable,Shiva Ayyadurai,ind,59
+Dunstable,Joe Tache,other,21
+Duxbury,Ed Markey,dem,4611
+Duxbury,John Deaton,gop,3381
+Duxbury,Shiva Ayyadurai,ind,167
+Duxbury,Joe Tache,other,72
+East Bridgewater,John Deaton,gop,3241
+East Bridgewater,Ed Markey,dem,2889
+East Bridgewater,Shiva Ayyadurai,ind,169
+East Bridgewater,Joe Tache,other,87
+East Brookfield,John Deaton,gop,563
+East Brookfield,Ed Markey,dem,482
+East Brookfield,Shiva Ayyadurai,ind,31
+East Brookfield,Joe Tache,other,17
+East Longmeadow,Ed Markey,dem,3880
+East Longmeadow,John Deaton,gop,3254
+East Longmeadow,Shiva Ayyadurai,ind,207
+East Longmeadow,Joe Tache,other,111
+Eastham,Ed Markey,dem,2459
+Eastham,John Deaton,gop,980
+Eastham,Shiva Ayyadurai,ind,69
+Eastham,Joe Tache,other,50
+Easthampton,Ed Markey,dem,6302
+Easthampton,John Deaton,gop,1837
+Easthampton,Joe Tache,other,288
+Easthampton,Shiva Ayyadurai,ind,215
+Easton,Ed Markey,dem,6035
+Easton,John Deaton,gop,4129
+Easton,Shiva Ayyadurai,ind,245
+Easton,Joe Tache,other,161
+Edgartown,Ed Markey,dem,1564
+Edgartown,John Deaton,gop,587
+Edgartown,Shiva Ayyadurai,ind,45
+Edgartown,Joe Tache,other,41
+Egremont,Ed Markey,dem,637
+Egremont,John Deaton,gop,100
+Egremont,Shiva Ayyadurai,ind,19
+Egremont,Joe Tache,other,19
+Erving,Ed Markey,dem,437
+Erving,John Deaton,gop,330
+Erving,Shiva Ayyadurai,ind,34
+Erving,Joe Tache,other,19
+Essex,Ed Markey,dem,1240
+Essex,John Deaton,gop,647
+Essex,Shiva Ayyadurai,ind,45
+Essex,Joe Tache,other,24
+Everett,Ed Markey,dem,6971
+Everett,John Deaton,gop,2135
+Everett,Joe Tache,other,258
+Everett,Shiva Ayyadurai,ind,177
+Fairhaven,Ed Markey,dem,3958
+Fairhaven,John Deaton,gop,3148
+Fairhaven,Shiva Ayyadurai,ind,160
+Fairhaven,Joe Tache,other,105
+Fall River,Ed Markey,dem,11378
+Fall River,John Deaton,gop,7939
+Fall River,Shiva Ayyadurai,ind,593
+Fall River,Joe Tache,other,500
+Falmouth,Ed Markey,dem,11233
+Falmouth,John Deaton,gop,6141
+Falmouth,Shiva Ayyadurai,ind,363
+Falmouth,Joe Tache,other,267
+Fitchburg,Ed Markey,dem,6568
+Fitchburg,John Deaton,gop,4041
+Fitchburg,Joe Tache,other,305
+Fitchburg,Shiva Ayyadurai,ind,290
+Florida,Ed Markey,dem,161
+Florida,John Deaton,gop,156
+Florida,Shiva Ayyadurai,ind,11
+Florida,Joe Tache,other,5
+Foxborough,Ed Markey,dem,4626
+Foxborough,John Deaton,gop,3376
+Foxborough,Shiva Ayyadurai,ind,206
+Foxborough,Joe Tache,other,127
+Framingham,Ed Markey,dem,16112
+Framingham,John Deaton,gop,5365
+Framingham,Shiva Ayyadurai,ind,518
+Framingham,Joe Tache,other,442
+Franklin Town,Ed Markey,dem,8993
+Franklin Town,John Deaton,gop,5648
+Franklin Town,Shiva Ayyadurai,ind,353
+Franklin Town,Joe Tache,other,232
+Freetown,John Deaton,gop,2235
+Freetown,Ed Markey,dem,1855
+Freetown,Shiva Ayyadurai,ind,109
+Freetown,Joe Tache,other,70
+Gardner,Ed Markey,dem,3776
+Gardner,John Deaton,gop,2864
+Gardner,Shiva Ayyadurai,ind,223
+Gardner,Joe Tache,other,166
+Georgetown,Ed Markey,dem,2269
+Georgetown,John Deaton,gop,1875
+Georgetown,Shiva Ayyadurai,ind,106
+Georgetown,Joe Tache,other,56
+Gill,Ed Markey,dem,582
+Gill,John Deaton,gop,239
+Gill,Joe Tache,other,29
+Gill,Shiva Ayyadurai,ind,27
+Gloucester,Ed Markey,dem,8962
+Gloucester,John Deaton,gop,4374
+Gloucester,Shiva Ayyadurai,ind,293
+Gloucester,Joe Tache,other,253
+Goshen,Ed Markey,dem,337
+Goshen,John Deaton,gop,202
+Goshen,Shiva Ayyadurai,ind,15
+Goshen,Joe Tache,other,6
+Gosnold,Ed Markey,dem,39
+Gosnold,John Deaton,gop,11
+Gosnold,Shiva Ayyadurai,ind,1
+Gosnold,Joe Tache,other,0
+Grafton,Ed Markey,dem,5106
+Grafton,John Deaton,gop,2945
+Grafton,Shiva Ayyadurai,ind,211
+Grafton,Joe Tache,other,149
+Granby,Ed Markey,dem,1540
+Granby,John Deaton,gop,1437
+Granby,Shiva Ayyadurai,ind,83
+Granby,Joe Tache,other,44
+Granville,John Deaton,gop,449
+Granville,Ed Markey,dem,289
+Granville,Shiva Ayyadurai,ind,29
+Granville,Joe Tache,other,12
+Great Barrington,Ed Markey,dem,2520
+Great Barrington,John Deaton,gop,437
+Great Barrington,Joe Tache,other,95
+Great Barrington,Shiva Ayyadurai,ind,91
+Greenfield,Ed Markey,dem,5455
+Greenfield,John Deaton,gop,1627
+Greenfield,Joe Tache,other,306
+Greenfield,Shiva Ayyadurai,ind,178
+Groton,Ed Markey,dem,3905
+Groton,John Deaton,gop,1802
+Groton,Shiva Ayyadurai,ind,140
+Groton,Joe Tache,other,107
+Groveland,Ed Markey,dem,1871
+Groveland,John Deaton,gop,1488
+Groveland,Shiva Ayyadurai,ind,101
+Groveland,Joe Tache,other,49
+Hadley,Ed Markey,dem,1886
+Hadley,John Deaton,gop,714
+Hadley,Joe Tache,other,99
+Hadley,Shiva Ayyadurai,ind,63
+Halifax,John Deaton,gop,1909
+Halifax,Ed Markey,dem,1643
+Halifax,Shiva Ayyadurai,ind,85
+Halifax,Joe Tache,other,46
+Hamilton,Ed Markey,dem,2489
+Hamilton,John Deaton,gop,1293
+Hamilton,Shiva Ayyadurai,ind,76
+Hamilton,Joe Tache,other,48
+Hampden,John Deaton,gop,1237
+Hampden,Ed Markey,dem,1122
+Hampden,Shiva Ayyadurai,ind,71
+Hampden,Joe Tache,other,20
+Hancock,Ed Markey,dem,208
+Hancock,John Deaton,gop,165
+Hancock,Shiva Ayyadurai,ind,12
+Hancock,Joe Tache,other,5
+Hanover,John Deaton,gop,3663
+Hanover,Ed Markey,dem,3543
+Hanover,Shiva Ayyadurai,ind,140
+Hanover,Joe Tache,other,52
+Hanson,John Deaton,gop,2810
+Hanson,Ed Markey,dem,2329
+Hanson,Shiva Ayyadurai,ind,139
+Hanson,Joe Tache,other,56
+Hardwick,John Deaton,gop,622
+Hardwick,Ed Markey,dem,601
+Hardwick,Shiva Ayyadurai,ind,37
+Hardwick,Joe Tache,other,19
+Harvard,Ed Markey,dem,2459
+Harvard,John Deaton,gop,752
+Harvard,Shiva Ayyadurai,ind,62
+Harvard,Joe Tache,other,56
+Harwich,Ed Markey,dem,4397
+Harwich,John Deaton,gop,2769
+Harwich,Shiva Ayyadurai,ind,139
+Harwich,Joe Tache,other,68
+Hatfield,Ed Markey,dem,1260
+Hatfield,John Deaton,gop,521
+Hatfield,Shiva Ayyadurai,ind,46
+Hatfield,Joe Tache,other,39
+Haverhill,Ed Markey,dem,13808
+Haverhill,John Deaton,gop,8351
+Haverhill,Shiva Ayyadurai,ind,672
+Haverhill,Joe Tache,other,471
+Hawley,Ed Markey,dem,100
+Hawley,John Deaton,gop,48
+Hawley,Shiva Ayyadurai,ind,9
+Hawley,Joe Tache,other,2
+Heath,Ed Markey,dem,241
+Heath,John Deaton,gop,145
+Heath,Joe Tache,other,14
+Heath,Shiva Ayyadurai,ind,10
+Hingham,Ed Markey,dem,7184
+Hingham,John Deaton,gop,4100
+Hingham,Shiva Ayyadurai,ind,205
+Hingham,Joe Tache,other,86
+Hinsdale,Ed Markey,dem,609
+Hinsdale,John Deaton,gop,299
+Hinsdale,Shiva Ayyadurai,ind,39
+Hinsdale,Joe Tache,other,16
+Holbrook,Ed Markey,dem,2600
+Holbrook,John Deaton,gop,1625
+Holbrook,Shiva Ayyadurai,ind,99
+Holbrook,Joe Tache,other,89
+Holden,Ed Markey,dem,5018
+Holden,John Deaton,gop,3603
+Holden,Shiva Ayyadurai,ind,183
+Holden,Joe Tache,other,183
+Holland,John Deaton,gop,632
+Holland,Ed Markey,dem,579
+Holland,Shiva Ayyadurai,ind,39
+Holland,Joe Tache,other,26
+Holliston,Ed Markey,dem,4521
+Holliston,John Deaton,gop,1945
+Holliston,Shiva Ayyadurai,ind,163
+Holliston,Joe Tache,other,102
+Holyoke,Ed Markey,dem,7383
+Holyoke,John Deaton,gop,2431
+Holyoke,Joe Tache,other,379
+Holyoke,Shiva Ayyadurai,ind,286
+Hopedale,Ed Markey,dem,1558
+Hopedale,John Deaton,gop,924
+Hopedale,Shiva Ayyadurai,ind,60
+Hopedale,Joe Tache,other,27
+Hopkinton,Ed Markey,dem,4298
+Hopkinton,John Deaton,gop,1993
+Hopkinton,Shiva Ayyadurai,ind,181
+Hopkinton,Joe Tache,other,95
+Hubbardston,John Deaton,gop,1241
+Hubbardston,Ed Markey,dem,1058
+Hubbardston,Shiva Ayyadurai,ind,61
+Hubbardston,Joe Tache,other,38
+Hudson,Ed Markey,dem,5615
+Hudson,John Deaton,gop,3112
+Hudson,Shiva Ayyadurai,ind,219
+Hudson,Joe Tache,other,176
+Hull,Ed Markey,dem,3310
+Hull,John Deaton,gop,1903
+Hull,Shiva Ayyadurai,ind,111
+Hull,Joe Tache,other,85
+Huntington,John Deaton,gop,474
+Huntington,Ed Markey,dem,460
+Huntington,Shiva Ayyadurai,ind,35
+Huntington,Joe Tache,other,17
+Ipswich,Ed Markey,dem,4982
+Ipswich,John Deaton,gop,2541
+Ipswich,Shiva Ayyadurai,ind,147
+Ipswich,Joe Tache,other,125
+Kingston,Ed Markey,dem,2891
+Kingston,John Deaton,gop,2815
+Kingston,Shiva Ayyadurai,ind,138
+Kingston,Joe Tache,other,70
+Lakeville,John Deaton,gop,3209
+Lakeville,Ed Markey,dem,2653
+Lakeville,Shiva Ayyadurai,ind,113
+Lakeville,Joe Tache,other,77
+Lancaster,Ed Markey,dem,1815
+Lancaster,John Deaton,gop,1472
+Lancaster,Shiva Ayyadurai,ind,52
+Lancaster,Joe Tache,other,42
+Lanesborough,Ed Markey,dem,910
+Lanesborough,John Deaton,gop,411
+Lanesborough,Shiva Ayyadurai,ind,47
+Lanesborough,Joe Tache,other,30
+Lawrence,Ed Markey,dem,9319
+Lawrence,John Deaton,gop,2525
+Lawrence,Joe Tache,other,399
+Lawrence,Shiva Ayyadurai,ind,287
+Lee,Ed Markey,dem,1781
+Lee,John Deaton,gop,645
+Lee,Shiva Ayyadurai,ind,90
+Lee,Joe Tache,other,57
+Leicester,John Deaton,gop,2416
+Leicester,Ed Markey,dem,2249
+Leicester,Shiva Ayyadurai,ind,110
+Leicester,Joe Tache,other,77
+Lenox,Ed Markey,dem,2084
+Lenox,John Deaton,gop,432
+Lenox,Shiva Ayyadurai,ind,65
+Lenox,Joe Tache,other,53
+Leominster,Ed Markey,dem,7386
+Leominster,John Deaton,gop,5488
+Leominster,Shiva Ayyadurai,ind,335
+Leominster,Joe Tache,other,217
+Leverett,Ed Markey,dem,941
+Leverett,John Deaton,gop,134
+Leverett,Joe Tache,other,42
+Leverett,Shiva Ayyadurai,ind,20
+Lexington,Ed Markey,dem,10898
+Lexington,John Deaton,gop,2459
+Lexington,Shiva Ayyadurai,ind,346
+Lexington,Joe Tache,other,203
+Leyden,Ed Markey,dem,298
+Leyden,John Deaton,gop,120
+Leyden,Shiva Ayyadurai,ind,11
+Leyden,Joe Tache,other,8
+Lincoln,Ed Markey,dem,2616
+Lincoln,John Deaton,gop,492
+Lincoln,Shiva Ayyadurai,ind,76
+Lincoln,Joe Tache,other,50
+Littleton,Ed Markey,dem,3586
+Littleton,John Deaton,gop,1541
+Littleton,Shiva Ayyadurai,ind,147
+Littleton,Joe Tache,other,83
+Longmeadow,Ed Markey,dem,4595
+Longmeadow,John Deaton,gop,2510
+Longmeadow,Shiva Ayyadurai,ind,171
+Longmeadow,Joe Tache,other,110
+Lowell,Ed Markey,dem,15045
+Lowell,John Deaton,gop,5744
+Lowell,Joe Tache,other,814
+Lowell,Shiva Ayyadurai,ind,532
+Ludlow,John Deaton,gop,4096
+Ludlow,Ed Markey,dem,4062
+Ludlow,Shiva Ayyadurai,ind,211
+Ludlow,Joe Tache,other,144
+Lunenburg,Ed Markey,dem,3078
+Lunenburg,John Deaton,gop,2368
+Lunenburg,Shiva Ayyadurai,ind,148
+Lunenburg,Joe Tache,other,81
+Lynn,Ed Markey,dem,15072
+Lynn,John Deaton,gop,5325
+Lynn,Joe Tache,other,497
+Lynn,Shiva Ayyadurai,ind,464
+Lynnfield,Ed Markey,dem,3109
+Lynnfield,John Deaton,gop,2913
+Lynnfield,Shiva Ayyadurai,ind,104
+Lynnfield,Joe Tache,other,52
+Malden,Ed Markey,dem,8462
+Malden,John Deaton,gop,2569
+Malden,Joe Tache,other,342
+Malden,Shiva Ayyadurai,ind,188
+Manchester-by-the-Sea,Ed Markey,dem,1881
+Manchester-by-the-Sea,John Deaton,gop,820
+Manchester-by-the-Sea,Shiva Ayyadurai,ind,54
+Manchester-by-the-Sea,Joe Tache,other,34
+Mansfield,Ed Markey,dem,6448
+Mansfield,John Deaton,gop,3925
+Mansfield,Shiva Ayyadurai,ind,275
+Mansfield,Joe Tache,other,168
+Marblehead,Ed Markey,dem,7084
+Marblehead,John Deaton,gop,3368
+Marblehead,Shiva Ayyadurai,ind,199
+Marblehead,Joe Tache,other,199
+Marion,Ed Markey,dem,1758
+Marion,John Deaton,gop,1045
+Marion,Shiva Ayyadurai,ind,61
+Marion,Joe Tache,other,33
+Marlborough,Ed Markey,dem,8880
+Marlborough,John Deaton,gop,4604
+Marlborough,Shiva Ayyadurai,ind,305
+Marlborough,Joe Tache,other,286
+Marshfield,Ed Markey,dem,7120
+Marshfield,John Deaton,gop,6247
+Marshfield,Shiva Ayyadurai,ind,226
+Marshfield,Joe Tache,other,153
+Mashpee,Ed Markey,dem,4685
+Mashpee,John Deaton,gop,3380
+Mashpee,Shiva Ayyadurai,ind,194
+Mashpee,Joe Tache,other,100
+Mattapoisett,Ed Markey,dem,2272
+Mattapoisett,John Deaton,gop,1680
+Mattapoisett,Shiva Ayyadurai,ind,72
+Mattapoisett,Joe Tache,other,29
+Maynard,Ed Markey,dem,3853
+Maynard,John Deaton,gop,1318
+Maynard,Joe Tache,other,125
+Maynard,Shiva Ayyadurai,ind,115
+Medfield,Ed Markey,dem,4104
+Medfield,John Deaton,gop,2057
+Medfield,Shiva Ayyadurai,ind,158
+Medfield,Joe Tache,other,76
+Medford,Ed Markey,dem,17299
+Medford,John Deaton,gop,4818
+Medford,Joe Tache,other,834
+Medford,Shiva Ayyadurai,ind,426
+Medway,Ed Markey,dem,3878
+Medway,John Deaton,gop,2339
+Medway,Shiva Ayyadurai,ind,149
+Medway,Joe Tache,other,91
+Melrose,Ed Markey,dem,9924
+Melrose,John Deaton,gop,3407
+Melrose,Shiva Ayyadurai,ind,255
+Melrose,Joe Tache,other,239
+Mendon,Ed Markey,dem,1559
+Mendon,John Deaton,gop,1439
+Mendon,Shiva Ayyadurai,ind,65
+Mendon,Joe Tache,other,44
+Merrimac,Ed Markey,dem,1850
+Merrimac,John Deaton,gop,1309
+Merrimac,Shiva Ayyadurai,ind,79
+Merrimac,Joe Tache,other,56
+Methuen,Ed Markey,dem,8507
+Methuen,John Deaton,gop,5909
+Methuen,Shiva Ayyadurai,ind,368
+Methuen,Joe Tache,other,249
+Middleborough,John Deaton,gop,5411
+Middleborough,Ed Markey,dem,4682
+Middleborough,Shiva Ayyadurai,ind,233
+Middleborough,Joe Tache,other,156
+Middlefield,Ed Markey,dem,154
+Middlefield,John Deaton,gop,95
+Middlefield,Shiva Ayyadurai,ind,8
+Middlefield,Joe Tache,other,7
+Middleton,John Deaton,gop,2285
+Middleton,Ed Markey,dem,2082
+Middleton,Shiva Ayyadurai,ind,83
+Middleton,Joe Tache,other,35
+Milford,Ed Markey,dem,3195
+Milford,John Deaton,gop,2668
+Milford,Shiva Ayyadurai,ind,140
+Milford,Joe Tache,other,117
+Millbury,Ed Markey,dem,3145
+Millbury,John Deaton,gop,2703
+Millbury,Shiva Ayyadurai,ind,187
+Millbury,Joe Tache,other,105
+Millis,Ed Markey,dem,2844
+Millis,John Deaton,gop,1740
+Millis,Shiva Ayyadurai,ind,121
+Millis,Joe Tache,other,67
+Millville,John Deaton,gop,686
+Millville,Ed Markey,dem,604
+Millville,Shiva Ayyadurai,ind,39
+Millville,Joe Tache,other,19
+Milton,Ed Markey,dem,8968
+Milton,John Deaton,gop,3694
+Milton,Shiva Ayyadurai,ind,242
+Milton,Joe Tache,other,207
+Monroe,Ed Markey,dem,31
+Monroe,John Deaton,gop,25
+Monroe,Shiva Ayyadurai,ind,3
+Monroe,Joe Tache,other,0
+Monson,John Deaton,gop,2002
+Monson,Ed Markey,dem,1847
+Monson,Shiva Ayyadurai,ind,113
+Monson,Joe Tache,other,49
+Montague,Ed Markey,dem,2799
+Montague,John Deaton,gop,991
+Montague,Shiva Ayyadurai,ind,145
+Montague,Joe Tache,other,137
+Monterey,Ed Markey,dem,402
+Monterey,John Deaton,gop,70
+Monterey,Shiva Ayyadurai,ind,16
+Monterey,Joe Tache,other,14
+Montgomery,John Deaton,gop,242
+Montgomery,Ed Markey,dem,203
+Montgomery,Shiva Ayyadurai,ind,14
+Montgomery,Joe Tache,other,6
+Mount Washington,Ed Markey,dem,85
+Mount Washington,John Deaton,gop,19
+Mount Washington,Shiva Ayyadurai,ind,7
+Mount Washington,Joe Tache,other,2
+Nahant,Ed Markey,dem,1150
+Nahant,John Deaton,gop,654
+Nahant,Shiva Ayyadurai,ind,39
+Nahant,Joe Tache,other,27
+Nantucket,Ed Markey,dem,3556
+Nantucket,John Deaton,gop,1289
+Nantucket,Shiva Ayyadurai,ind,103
+Nantucket,Joe Tache,other,72
+Natick,Ed Markey,dem,12101
+Natick,John Deaton,gop,3967
+Natick,Shiva Ayyadurai,ind,368
+Natick,Joe Tache,other,233
+Needham,Ed Markey,dem,11217
+Needham,John Deaton,gop,3887
+Needham,Shiva Ayyadurai,ind,325
+Needham,Joe Tache,other,196
+New Ashford,Ed Markey,dem,0
+New Ashford,John Deaton,gop,0
+New Ashford,Shiva Ayyadurai,ind,0
+New Ashford,Joe Tache,other,0
+New Bedford,Ed Markey,dem,14887
+New Bedford,John Deaton,gop,8294
+New Bedford,Shiva Ayyadurai,ind,663
+New Bedford,Joe Tache,other,642
+New Braintree,John Deaton,gop,270
+New Braintree,Ed Markey,dem,244
+New Braintree,Shiva Ayyadurai,ind,17
+New Braintree,Joe Tache,other,12
+New Marlborough,Ed Markey,dem,585
+New Marlborough,John Deaton,gop,167
+New Marlborough,Shiva Ayyadurai,ind,30
+New Marlborough,Joe Tache,other,19
+New Salem,Ed Markey,dem,368
+New Salem,John Deaton,gop,202
+New Salem,Shiva Ayyadurai,ind,26
+New Salem,Joe Tache,other,12
+Newbury,Ed Markey,dem,1158
+Newbury,John Deaton,gop,758
+Newbury,Shiva Ayyadurai,ind,94
+Newbury,Joe Tache,other,37
+Newburyport,Ed Markey,dem,7165
+Newburyport,John Deaton,gop,2639
+Newburyport,Shiva Ayyadurai,ind,203
+Newburyport,Joe Tache,other,109
+Newton,Ed Markey,dem,26770
+Newton,John Deaton,gop,6906
+Newton,Shiva Ayyadurai,ind,703
+Newton,Joe Tache,other,588
+Norfolk,Ed Markey,dem,3035
+Norfolk,John Deaton,gop,2259
+Norfolk,Shiva Ayyadurai,ind,103
+Norfolk,Joe Tache,other,56
+North Adams,Ed Markey,dem,3095
+North Adams,John Deaton,gop,1040
+North Adams,Joe Tache,other,146
+North Adams,Shiva Ayyadurai,ind,125
+North Andover,Ed Markey,dem,7779
+North Andover,John Deaton,gop,4550
+North Andover,Shiva Ayyadurai,ind,286
+North Andover,Joe Tache,other,170
+North Attleborough Town,Ed Markey,dem,6760
+North Attleborough Town,John Deaton,gop,4722
+North Attleborough Town,Shiva Ayyadurai,ind,250
+North Attleborough Town,Joe Tache,other,237
+North Brookfield,John Deaton,gop,1136
+North Brookfield,Ed Markey,dem,958
+North Brookfield,Shiva Ayyadurai,ind,69
+North Brookfield,Joe Tache,other,40
+North Reading,Ed Markey,dem,4424
+North Reading,John Deaton,gop,3081
+North Reading,Shiva Ayyadurai,ind,107
+North Reading,Joe Tache,other,88
+Northampton,Ed Markey,dem,12015
+Northampton,John Deaton,gop,1275
+Northampton,Joe Tache,other,677
+Northampton,Shiva Ayyadurai,ind,276
+Northborough,Ed Markey,dem,4510
+Northborough,John Deaton,gop,2197
+Northborough,Shiva Ayyadurai,ind,179
+Northborough,Joe Tache,other,103
+Northbridge,Ed Markey,dem,3471
+Northbridge,John Deaton,gop,3251
+Northbridge,Shiva Ayyadurai,ind,176
+Northbridge,Joe Tache,other,129
+Northfield,Ed Markey,dem,1019
+Northfield,John Deaton,gop,508
+Northfield,Shiva Ayyadurai,ind,70
+Northfield,Joe Tache,other,43
+Norton,Ed Markey,dem,3678
+Norton,John Deaton,gop,3150
+Norton,Shiva Ayyadurai,ind,147
+Norton,Joe Tache,other,89
+Norwell,Ed Markey,dem,3036
+Norwell,John Deaton,gop,2348
+Norwell,Shiva Ayyadurai,ind,107
+Norwell,Joe Tache,other,47
+Norwood,Ed Markey,dem,7458
+Norwood,John Deaton,gop,4188
+Norwood,Shiva Ayyadurai,ind,265
+Norwood,Joe Tache,other,188
+Oak Bluffs,Ed Markey,dem,1642
+Oak Bluffs,John Deaton,gop,498
+Oak Bluffs,Joe Tache,other,50
+Oak Bluffs,Shiva Ayyadurai,ind,45
+Oakham,John Deaton,gop,581
+Oakham,Ed Markey,dem,397
+Oakham,Shiva Ayyadurai,ind,28
+Oakham,Joe Tache,other,17
+Orange,Ed Markey,dem,1500
+Orange,John Deaton,gop,1281
+Orange,Shiva Ayyadurai,ind,70
+Orange,Joe Tache,other,59
+Orleans,Ed Markey,dem,2683
+Orleans,John Deaton,gop,1234
+Orleans,Shiva Ayyadurai,ind,88
+Orleans,Joe Tache,other,72
+Otis,Ed Markey,dem,482
+Otis,John Deaton,gop,346
+Otis,Shiva Ayyadurai,ind,36
+Otis,Joe Tache,other,10
+Oxford,John Deaton,gop,2789
+Oxford,Ed Markey,dem,2697
+Oxford,Shiva Ayyadurai,ind,164
+Oxford,Joe Tache,other,100
+Palmer Town,John Deaton,gop,2298
+Palmer Town,Ed Markey,dem,2221
+Palmer Town,Shiva Ayyadurai,ind,162
+Palmer Town,Joe Tache,other,88
+Paxton,Ed Markey,dem,1243
+Paxton,John Deaton,gop,1029
+Paxton,Shiva Ayyadurai,ind,62
+Paxton,Joe Tache,other,40
+Peabody,Ed Markey,dem,11901
+Peabody,John Deaton,gop,8815
+Peabody,Shiva Ayyadurai,ind,444
+Peabody,Joe Tache,other,298
+Pelham,Ed Markey,dem,639
+Pelham,John Deaton,gop,70
+Pelham,Joe Tache,other,30
+Pelham,Shiva Ayyadurai,ind,24
+Pembroke,Ed Markey,dem,4357
+Pembroke,John Deaton,gop,4299
+Pembroke,Shiva Ayyadurai,ind,198
+Pembroke,Joe Tache,other,111
+Pepperell,Ed Markey,dem,3076
+Pepperell,John Deaton,gop,2359
+Pepperell,Shiva Ayyadurai,ind,147
+Pepperell,Joe Tache,other,113
+Peru,Ed Markey,dem,223
+Peru,John Deaton,gop,152
+Peru,Shiva Ayyadurai,ind,22
+Peru,Joe Tache,other,8
+Petersham,Ed Markey,dem,429
+Petersham,John Deaton,gop,286
+Petersham,Shiva Ayyadurai,ind,24
+Petersham,Joe Tache,other,20
+Phillipston,John Deaton,gop,508
+Phillipston,Ed Markey,dem,407
+Phillipston,Shiva Ayyadurai,ind,30
+Phillipston,Joe Tache,other,19
+Pittsfield,Ed Markey,dem,11382
+Pittsfield,John Deaton,gop,3243
+Pittsfield,Shiva Ayyadurai,ind,551
+Pittsfield,Joe Tache,other,429
+Plainfield,Ed Markey,dem,255
+Plainfield,John Deaton,gop,108
+Plainfield,Joe Tache,other,12
+Plainfield,Shiva Ayyadurai,ind,7
+Plainville,Ed Markey,dem,1823
+Plainville,John Deaton,gop,1791
+Plainville,Shiva Ayyadurai,ind,605
+Plainville,Joe Tache,other,77
+Plymouth,Ed Markey,dem,17314
+Plymouth,John Deaton,gop,13157
+Plymouth,Shiva Ayyadurai,ind,817
+Plymouth,Joe Tache,other,418
+Plympton,John Deaton,gop,800
+Plympton,Ed Markey,dem,731
+Plympton,Shiva Ayyadurai,ind,37
+Plympton,Joe Tache,other,21
+Princeton,Ed Markey,dem,1224
+Princeton,John Deaton,gop,823
+Princeton,Shiva Ayyadurai,ind,56
+Princeton,Joe Tache,other,32
+Provincetown,Ed Markey,dem,2024
+Provincetown,John Deaton,gop,135
+Provincetown,Joe Tache,other,50
+Provincetown,Shiva Ayyadurai,ind,35
+Quincy,Ed Markey,dem,19827
+Quincy,John Deaton,gop,9477
+Quincy,Joe Tache,other,888
+Quincy,Shiva Ayyadurai,ind,629
+Randolph Town,Ed Markey,dem,8792
+Randolph Town,John Deaton,gop,2018
+Randolph Town,Joe Tache,other,217
+Randolph Town,Shiva Ayyadurai,ind,194
+Raynham,Ed Markey,dem,3242
+Raynham,John Deaton,gop,3160
+Raynham,Shiva Ayyadurai,ind,153
+Raynham,Joe Tache,other,92
+Reading,Ed Markey,dem,8108
+Reading,John Deaton,gop,4373
+Reading,Shiva Ayyadurai,ind,271
+Reading,Joe Tache,other,140
+Rehoboth,John Deaton,gop,3014
+Rehoboth,Ed Markey,dem,2724
+Rehoboth,Shiva Ayyadurai,ind,120
+Rehoboth,Joe Tache,other,81
+Revere,Ed Markey,dem,8286
+Revere,John Deaton,gop,3767
+Revere,Joe Tache,other,348
+Revere,Shiva Ayyadurai,ind,227
+Richmond,Ed Markey,dem,646
+Richmond,John Deaton,gop,158
+Richmond,Shiva Ayyadurai,ind,17
+Richmond,Joe Tache,other,16
+Rochester,John Deaton,gop,1785
+Rochester,Ed Markey,dem,1392
+Rochester,Shiva Ayyadurai,ind,66
+Rochester,Joe Tache,other,21
+Rockland,Ed Markey,dem,3856
+Rockland,John Deaton,gop,3218
+Rockland,Shiva Ayyadurai,ind,170
+Rockland,Joe Tache,other,118
+Rockport,Ed Markey,dem,3104
+Rockport,John Deaton,gop,1066
+Rockport,Shiva Ayyadurai,ind,91
+Rockport,Joe Tache,other,65
+Rowe,Ed Markey,dem,117
+Rowe,John Deaton,gop,94
+Rowe,Joe Tache,other,5
+Rowe,Shiva Ayyadurai,ind,3
+Rowley,Ed Markey,dem,1718
+Rowley,John Deaton,gop,1508
+Rowley,Shiva Ayyadurai,ind,67
+Rowley,Joe Tache,other,49
+Royalston,Ed Markey,dem,337
+Royalston,John Deaton,gop,290
+Royalston,Shiva Ayyadurai,ind,21
+Royalston,Joe Tache,other,13
+Russell,John Deaton,gop,382
+Russell,Ed Markey,dem,279
+Russell,Shiva Ayyadurai,ind,20
+Russell,Joe Tache,other,10
+Rutland,John Deaton,gop,2302
+Rutland,Ed Markey,dem,2230
+Rutland,Shiva Ayyadurai,ind,120
+Rutland,Joe Tache,other,53
+Salem,Ed Markey,dem,13695
+Salem,John Deaton,gop,3590
+Salem,Joe Tache,other,664
+Salem,Shiva Ayyadurai,ind,358
+Salisbury,Ed Markey,dem,2153
+Salisbury,John Deaton,gop,1868
+Salisbury,Shiva Ayyadurai,ind,95
+Salisbury,Joe Tache,other,70
+Sandisfield,Ed Markey,dem,253
+Sandisfield,John Deaton,gop,146
+Sandisfield,Shiva Ayyadurai,ind,8
+Sandisfield,Joe Tache,other,1
+Sandwich,Ed Markey,dem,5751
+Sandwich,John Deaton,gop,4633
+Sandwich,Shiva Ayyadurai,ind,232
+Sandwich,Joe Tache,other,146
+Saugus,Ed Markey,dem,5689
+Saugus,John Deaton,gop,4954
+Saugus,Shiva Ayyadurai,ind,231
+Saugus,Joe Tache,other,174
+Savoy,Ed Markey,dem,178
+Savoy,John Deaton,gop,139
+Savoy,Shiva Ayyadurai,ind,17
+Savoy,Joe Tache,other,6
+Scituate,Ed Markey,dem,6456
+Scituate,John Deaton,gop,4074
+Scituate,Shiva Ayyadurai,ind,198
+Scituate,Joe Tache,other,102
+Seekonk,Ed Markey,dem,3594
+Seekonk,John Deaton,gop,2761
+Seekonk,Shiva Ayyadurai,ind,140
+Seekonk,Joe Tache,other,104
+Sharon,Ed Markey,dem,5956
+Sharon,John Deaton,gop,2034
+Sharon,Shiva Ayyadurai,ind,216
+Sharon,Joe Tache,other,122
+Sheffield,Ed Markey,dem,1170
+Sheffield,John Deaton,gop,377
+Sheffield,Shiva Ayyadurai,ind,65
+Sheffield,Joe Tache,other,44
+Shelburne,Ed Markey,dem,835
+Shelburne,John Deaton,gop,200
+Shelburne,Joe Tache,other,31
+Shelburne,Shiva Ayyadurai,ind,19
+Sherborn,Ed Markey,dem,1161
+Sherborn,John Deaton,gop,399
+Sherborn,Shiva Ayyadurai,ind,45
+Sherborn,Joe Tache,other,21
+Shirley,Ed Markey,dem,1613
+Shirley,John Deaton,gop,1078
+Shirley,Shiva Ayyadurai,ind,83
+Shirley,Joe Tache,other,63
+Shrewsbury,Ed Markey,dem,9389
+Shrewsbury,John Deaton,gop,5188
+Shrewsbury,Shiva Ayyadurai,ind,392
+Shrewsbury,Joe Tache,other,276
+Shutesbury,Ed Markey,dem,916
+Shutesbury,John Deaton,gop,134
+Shutesbury,Joe Tache,other,48
+Shutesbury,Shiva Ayyadurai,ind,27
+Somerset,Ed Markey,dem,4397
+Somerset,John Deaton,gop,3671
+Somerset,Shiva Ayyadurai,ind,187
+Somerset,Joe Tache,other,124
+Somerville,Ed Markey,dem,26392
+Somerville,John Deaton,gop,2578
+Somerville,Joe Tache,other,2368
+Somerville,Shiva Ayyadurai,ind,395
+South Hadley,Ed Markey,dem,5111
+South Hadley,John Deaton,gop,2497
+South Hadley,Shiva Ayyadurai,ind,189
+South Hadley,Joe Tache,other,178
+Southampton,Ed Markey,dem,1836
+Southampton,John Deaton,gop,1499
+Southampton,Shiva Ayyadurai,ind,70
+Southampton,Joe Tache,other,56
+Southborough,Ed Markey,dem,3076
+Southborough,John Deaton,gop,1438
+Southborough,Shiva Ayyadurai,ind,116
+Southborough,Joe Tache,other,61
+Southbridge Town,Ed Markey,dem,2895
+Southbridge Town,John Deaton,gop,1768
+Southbridge Town,Shiva Ayyadurai,ind,129
+Southbridge Town,Joe Tache,other,95
+Southwick,John Deaton,gop,2539
+Southwick,Ed Markey,dem,1782
+Southwick,Shiva Ayyadurai,ind,121
+Southwick,Joe Tache,other,50
+Spencer,John Deaton,gop,2427
+Spencer,Ed Markey,dem,2174
+Spencer,Shiva Ayyadurai,ind,126
+Spencer,Joe Tache,other,89
+Springfield,Ed Markey,dem,25448
+Springfield,John Deaton,gop,8065
+Springfield,Shiva Ayyadurai,ind,1022
+Springfield,Joe Tache,other,911
+Sterling,Ed Markey,dem,2202
+Sterling,John Deaton,gop,2045
+Sterling,Shiva Ayyadurai,ind,90
+Sterling,Joe Tache,other,51
+Stockbridge,Ed Markey,dem,889
+Stockbridge,John Deaton,gop,155
+Stockbridge,Shiva Ayyadurai,ind,39
+Stockbridge,Joe Tache,other,11
+Stoneham,Ed Markey,dem,6477
+Stoneham,John Deaton,gop,3903
+Stoneham,Shiva Ayyadurai,ind,216
+Stoneham,Joe Tache,other,163
+Stoughton,Ed Markey,dem,7039
+Stoughton,John Deaton,gop,3405
+Stoughton,Shiva Ayyadurai,ind,228
+Stoughton,Joe Tache,other,186
+Stow,Ed Markey,dem,2874
+Stow,John Deaton,gop,1053
+Stow,Shiva Ayyadurai,ind,84
+Stow,Joe Tache,other,64
+Sturbridge,Ed Markey,dem,2548
+Sturbridge,John Deaton,gop,1984
+Sturbridge,Shiva Ayyadurai,ind,105
+Sturbridge,Joe Tache,other,63
+Sudbury,Ed Markey,dem,6468
+Sudbury,John Deaton,gop,2156
+Sudbury,Shiva Ayyadurai,ind,203
+Sudbury,Joe Tache,other,87
+Sunderland,Ed Markey,dem,1184
+Sunderland,John Deaton,gop,299
+Sunderland,Joe Tache,other,35
+Sunderland,Shiva Ayyadurai,ind,33
+Sutton,John Deaton,gop,2443
+Sutton,Ed Markey,dem,2289
+Sutton,Shiva Ayyadurai,ind,114
+Sutton,Joe Tache,other,79
+Swampscott,Ed Markey,dem,4877
+Swampscott,John Deaton,gop,1932
+Swampscott,Shiva Ayyadurai,ind,220
+Swampscott,Joe Tache,other,207
+Swansea,John Deaton,gop,3719
+Swansea,Ed Markey,dem,3619
+Swansea,Shiva Ayyadurai,ind,193
+Swansea,Joe Tache,other,75
+Taunton,Ed Markey,dem,10437
+Taunton,John Deaton,gop,7728
+Taunton,Shiva Ayyadurai,ind,544
+Taunton,Joe Tache,other,362
+Templeton,John Deaton,gop,1892
+Templeton,Ed Markey,dem,1574
+Templeton,Shiva Ayyadurai,ind,109
+Templeton,Joe Tache,other,59
+Tewksbury,Ed Markey,dem,7054
+Tewksbury,John Deaton,gop,6081
+Tewksbury,Shiva Ayyadurai,ind,357
+Tewksbury,Joe Tache,other,168
+Tisbury,Ed Markey,dem,1632
+Tisbury,John Deaton,gop,388
+Tisbury,Joe Tache,other,47
+Tisbury,Shiva Ayyadurai,ind,45
+Tolland,John Deaton,gop,132
+Tolland,Ed Markey,dem,122
+Tolland,Shiva Ayyadurai,ind,7
+Tolland,Joe Tache,other,3
+Topsfield,Ed Markey,dem,1990
+Topsfield,John Deaton,gop,1412
+Topsfield,Shiva Ayyadurai,ind,66
+Topsfield,Joe Tache,other,36
+Townsend,Ed Markey,dem,2019
+Townsend,John Deaton,gop,2003
+Townsend,Shiva Ayyadurai,ind,118
+Townsend,Joe Tache,other,83
+Truro,Ed Markey,dem,1285
+Truro,John Deaton,gop,286
+Truro,Shiva Ayyadurai,ind,24
+Truro,Joe Tache,other,23
+Tyngsborough,Ed Markey,dem,3017
+Tyngsborough,John Deaton,gop,2274
+Tyngsborough,Shiva Ayyadurai,ind,146
+Tyngsborough,Joe Tache,other,84
+Tyringham,Ed Markey,dem,206
+Tyringham,John Deaton,gop,60
+Tyringham,Shiva Ayyadurai,ind,9
+Tyringham,Joe Tache,other,6
+Upton,Ed Markey,dem,2485
+Upton,John Deaton,gop,1615
+Upton,Shiva Ayyadurai,ind,111
+Upton,Joe Tache,other,66
+Uxbridge,Ed Markey,dem,3325
+Uxbridge,John Deaton,gop,3188
+Uxbridge,Shiva Ayyadurai,ind,165
+Uxbridge,Joe Tache,other,102
+Wakefield,Ed Markey,dem,7864
+Wakefield,John Deaton,gop,4370
+Wakefield,Shiva Ayyadurai,ind,237
+Wakefield,Joe Tache,other,195
+Wales,John Deaton,gop,483
+Wales,Ed Markey,dem,386
+Wales,Shiva Ayyadurai,ind,24
+Wales,Joe Tache,other,10
+Walpole,Ed Markey,dem,6531
+Walpole,John Deaton,gop,4896
+Walpole,Shiva Ayyadurai,ind,308
+Walpole,Joe Tache,other,154
+Waltham,Ed Markey,dem,13908
+Waltham,John Deaton,gop,5089
+Waltham,Joe Tache,other,491
+Waltham,Shiva Ayyadurai,ind,422
+Ware,Ed Markey,dem,1884
+Ware,John Deaton,gop,1790
+Ware,Shiva Ayyadurai,ind,154
+Ware,Joe Tache,other,73
+Wareham,Ed Markey,dem,5324
+Wareham,John Deaton,gop,4350
+Wareham,Shiva Ayyadurai,ind,284
+Wareham,Joe Tache,other,162
+Warren,John Deaton,gop,1022
+Warren,Ed Markey,dem,886
+Warren,Shiva Ayyadurai,ind,67
+Warren,Joe Tache,other,39
+Warwick,Ed Markey,dem,254
+Warwick,John Deaton,gop,133
+Warwick,Shiva Ayyadurai,ind,21
+Warwick,Joe Tache,other,10
+Washington,Ed Markey,dem,192
+Washington,John Deaton,gop,97
+Washington,Shiva Ayyadurai,ind,11
+Washington,Joe Tache,other,1
+Watertown,Ed Markey,dem,11123
+Watertown,John Deaton,gop,2399
+Watertown,Joe Tache,other,455
+Watertown,Shiva Ayyadurai,ind,274
+Wayland,Ed Markey,dem,4966
+Wayland,John Deaton,gop,1375
+Wayland,Shiva Ayyadurai,ind,168
+Wayland,Joe Tache,other,103
+Webster,Ed Markey,dem,2999
+Webster,John Deaton,gop,2694
+Webster,Joe Tache,other,110
+Webster,Shiva Ayyadurai,ind,103
+Wellesley,Ed Markey,dem,8091
+Wellesley,John Deaton,gop,3244
+Wellesley,Shiva Ayyadurai,ind,270
+Wellesley,Joe Tache,other,117
+Wellfleet,Ed Markey,dem,1584
+Wellfleet,John Deaton,gop,413
+Wellfleet,Joe Tache,other,50
+Wellfleet,Shiva Ayyadurai,ind,38
+Wendell,Ed Markey,dem,398
+Wendell,John Deaton,gop,95
+Wendell,Joe Tache,other,21
+Wendell,Shiva Ayyadurai,ind,19
+Wenham,Ed Markey,dem,1365
+Wenham,John Deaton,gop,757
+Wenham,Shiva Ayyadurai,ind,43
+Wenham,Joe Tache,other,28
+West Boylston,Ed Markey,dem,2032
+West Boylston,John Deaton,gop,1366
+West Boylston,Shiva Ayyadurai,ind,88
+West Boylston,Joe Tache,other,73
+West Bridgewater,John Deaton,gop,1732
+West Bridgewater,Ed Markey,dem,1676
+West Bridgewater,Shiva Ayyadurai,ind,85
+West Bridgewater,Joe Tache,other,52
+West Brookfield,Ed Markey,dem,872
+West Brookfield,John Deaton,gop,869
+West Brookfield,Shiva Ayyadurai,ind,53
+West Brookfield,Joe Tache,other,30
+West Newbury,Ed Markey,dem,1652
+West Newbury,John Deaton,gop,887
+West Newbury,Shiva Ayyadurai,ind,51
+West Newbury,Joe Tache,other,30
+West Springfield Town,Ed Markey,dem,4983
+West Springfield Town,John Deaton,gop,3887
+West Springfield Town,Shiva Ayyadurai,ind,296
+West Springfield Town,Joe Tache,other,185
+West Stockbridge,Ed Markey,dem,610
+West Stockbridge,John Deaton,gop,112
+West Stockbridge,Shiva Ayyadurai,ind,26
+West Stockbridge,Joe Tache,other,20
+West Tisbury,Ed Markey,dem,1451
+West Tisbury,John Deaton,gop,269
+West Tisbury,Joe Tache,other,52
+West Tisbury,Shiva Ayyadurai,ind,37
+Westborough,Ed Markey,dem,5795
+Westborough,John Deaton,gop,2157
+Westborough,Shiva Ayyadurai,ind,184
+Westborough,Joe Tache,other,147
+Westfield,Ed Markey,dem,7317
+Westfield,John Deaton,gop,6882
+Westfield,Shiva Ayyadurai,ind,472
+Westfield,Joe Tache,other,263
+Westford,Ed Markey,dem,7390
+Westford,John Deaton,gop,3462
+Westford,Shiva Ayyadurai,ind,304
+Westford,Joe Tache,other,179
+Westhampton,Ed Markey,dem,481
+Westhampton,John Deaton,gop,264
+Westhampton,Joe Tache,other,14
+Westhampton,Shiva Ayyadurai,ind,12
+Westminster,Ed Markey,dem,2078
+Westminster,John Deaton,gop,1984
+Westminster,Shiva Ayyadurai,ind,101
+Westminster,Joe Tache,other,70
+Weston,Ed Markey,dem,2555
+Weston,John Deaton,gop,1208
+Weston,Shiva Ayyadurai,ind,100
+Weston,Joe Tache,other,34
+Westport,Ed Markey,dem,4189
+Westport,John Deaton,gop,3840
+Westport,Shiva Ayyadurai,ind,187
+Westport,Joe Tache,other,108
+Westwood,Ed Markey,dem,4890
+Westwood,John Deaton,gop,2756
+Westwood,Shiva Ayyadurai,ind,185
+Westwood,Joe Tache,other,81
+Weymouth Town,Ed Markey,dem,14212
+Weymouth Town,John Deaton,gop,9335
+Weymouth Town,Shiva Ayyadurai,ind,480
+Weymouth Town,Joe Tache,other,433
+Whately,Ed Markey,dem,601
+Whately,John Deaton,gop,293
+Whately,Joe Tache,other,23
+Whately,Shiva Ayyadurai,ind,22
+Whitman,Ed Markey,dem,3353
+Whitman,John Deaton,gop,2963
+Whitman,Shiva Ayyadurai,ind,178
+Whitman,Joe Tache,other,129
+Wilbraham,Ed Markey,dem,3728
+Wilbraham,John Deaton,gop,3205
+Wilbraham,Shiva Ayyadurai,ind,168
+Wilbraham,Joe Tache,other,113
+Williamsburg,Ed Markey,dem,1224
+Williamsburg,Joe Tache,other,295
+Williamsburg,John Deaton,gop,258
+Williamsburg,Shiva Ayyadurai,ind,33
+Williamstown,Ed Markey,dem,2445
+Williamstown,John Deaton,gop,368
+Williamstown,Joe Tache,other,70
+Williamstown,Shiva Ayyadurai,ind,58
+Wilmington,Ed Markey,dem,5535
+Wilmington,John Deaton,gop,4403
+Wilmington,Shiva Ayyadurai,ind,228
+Wilmington,Joe Tache,other,145
+Winchendon,John Deaton,gop,1981
+Winchendon,Ed Markey,dem,1726
+Winchendon,Shiva Ayyadurai,ind,142
+Winchendon,Joe Tache,other,64
+Winchester,Ed Markey,dem,6946
+Winchester,John Deaton,gop,2959
+Winchester,Shiva Ayyadurai,ind,280
+Winchester,Joe Tache,other,129
+Windsor,Ed Markey,dem,286
+Windsor,John Deaton,gop,147
+Windsor,Shiva Ayyadurai,ind,17
+Windsor,Joe Tache,other,2
+Winthrop Town,Ed Markey,dem,4238
+Winthrop Town,John Deaton,gop,2541
+Winthrop Town,Joe Tache,other,150
+Winthrop Town,Shiva Ayyadurai,ind,131
+Woburn,Ed Markey,dem,10203
+Woburn,John Deaton,gop,5888
+Woburn,Shiva Ayyadurai,ind,428
+Woburn,Joe Tache,other,316
+Worcester,Ed Markey,dem,32189
+Worcester,John Deaton,gop,12568
+Worcester,Joe Tache,other,1545
+Worcester,Shiva Ayyadurai,ind,1105
+Worthington,Ed Markey,dem,429
+Worthington,John Deaton,gop,239
+Worthington,Shiva Ayyadurai,ind,42
+Worthington,Joe Tache,other,23
+Wrentham,Ed Markey,dem,3169
+Wrentham,John Deaton,gop,2840
+Wrentham,Shiva Ayyadurai,ind,130
+Wrentham,Joe Tache,other,69
+Yarmouth,Ed Markey,dem,6980
+Yarmouth,John Deaton,gop,4667
+Yarmouth,Shiva Ayyadurai,ind,271
+Yarmouth,Joe Tache,other,157
